@@ -5,6 +5,8 @@ Full text transcripts of Krishnamurti talks, organized by location and year. Use
 ## By Location & Year
 
 ### Saanen, 1980
+
+
 - [Talk 2: Movement of Thought and Becoming](transcript_Saanen_1980_Talk2_Movement_of_Thought_and_Becoming.txt)
 - [Talk 4: Breaking the Pattern of Conditioning](transcript_Saanen_1980_Talk4_Breaking_the_Pattern_of_Conditioning.txt)
 - [Talk 5: Desire, Will and Love](transcript_Saanen_1980_Talk5_Desire_Will_and_Love.txt)
@@ -34,4 +36,4 @@ Full text transcripts of Krishnamurti talks, organized by location and year. Use
 
 ## Extracting Quotes
 
-When a new transcript is added, quotes are curated and organized into theme files. See `quotes.md` in the root for the master quote list with sources.
+When a new transcript is added, quotes are curated and appended to the corresponding theme files in the `wiki/` directory (e.g., `wiki/becoming.md`, `wiki/desire.md`, etc.).

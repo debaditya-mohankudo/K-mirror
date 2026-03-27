@@ -1,10 +1,10 @@
 ---
 name: k-transcript
-description: Extract a Krishnamurti YouTube transcript from the currently open Safari tab, curate key quotes by theme, and append them to the k-mirror quote pool.
+description: Extract a Krishnamurti YouTube transcript from the currently open Safari tab, curate key quotes by theme, and append them to the wiki theme files.
 user-invocable: true
 ---
 
-Extract a K transcript from the currently open Safari tab and enrich the k-mirror skill.
+Extract a K transcript from the currently open Safari tab and add curated quotes to the wiki theme files.
 
 ## Steps
 
@@ -66,26 +66,21 @@ Organize under these themes (add new themes if the talk introduces new territory
 - **On Love** — not knowledge, not remembrance, not desire
 - **On the Mirror** — K's own framing of his role
 
-### 5 — Append to quotes.md
+### 5 — Append to wiki theme files
 
-Append the curated quotes to `/Users/debaditya/.claude/skills/k-mirror/quotes.md` using this format:
+For each theme with quotes, append to the corresponding file in `wiki/` (e.g., `wiki/becoming.md`, `wiki/desire.md`):
 
 ```markdown
-## On [Theme]
-*(from <Full YouTube Title> — YT:<video_id>)*
-
 > "quote one"
 
 > "quote two"
+
+> "quote three"
 ```
 
-If a theme section already exists in quotes.md, append the new quotes under that existing section with a new source line rather than creating a duplicate heading.
+Append to the end of the theme file, before the closing metadata if present. Each theme file is named after the psychological principle (becoming.md, desire.md, observation.md, etc.).
 
-### 6 — Sync to project
-
-```bash
-cp /Users/debaditya/.claude/skills/k-mirror/quotes.md /Users/debaditya/workspace/K-mirror/quotes.md
-```
+**Important:** Always include source attribution in git commit message: `*(from <Full YouTube Title> — YT:<video_id>)*`
 
 ### 7 — Confirm
 

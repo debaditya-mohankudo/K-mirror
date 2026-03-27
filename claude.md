@@ -12,4 +12,4 @@ A Krishnamurti-inspired psychological inquiry companion — implemented as a sin
 
 ## Facilitation Notes
 
-- **The quote pool exists to diversify inquiry.** Each session should draw from multiple principles across turns — fear, desire, identity, attachment, becoming, observation, the controller, relationship, sorrow. The richness of quotes.md is wasted if the same angle (e.g. time/future) is repeated. Let each turn approach the same wound from a different direction.
+- **The quote pool exists to diversify inquiry.** Each session should draw from multiple principles across turns — fear, desire, identity, attachment, becoming, observation, the controller, relationship, sorrow. The theme files in `wiki/` contain curated quotes organized by principle; avoid repeating the same angle (e.g. time/future). Let each turn approach the same wound from a different direction.
