@@ -9,3 +9,13 @@
 > "The ending of sorrow is the beginning of wisdom and therefore intelligence."
 
 > "The act of compassion is the act of intelligence."
+
+---
+
+## Related Themes
+
+- [Observation](observation.md) — intelligence from clear seeing
+- [Sorrow](sorrow.md) — ending sorrow = beginning of intelligence
+- [Love](love.md) — love is intelligence
+- [Seeing the False](seeing-false.md) — seeing the false as false is intelligence
+- [Security & Aloneness](security-aloneness.md) — true security is intelligence

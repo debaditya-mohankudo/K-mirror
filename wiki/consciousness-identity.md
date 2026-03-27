@@ -35,3 +35,13 @@
 > "We are essentially all humanity; each one of us is all humanity. And if you change, not tomorrow, there is no time — time is the enemy of change."
 
 > "Our consciousness is the rest of humanity. Unless we radically change this narrow pattern of conditioning as an American, Russian, Indian, we are going to have more and more wars."
+
+---
+
+## Related Themes
+
+- [Observation](observation.md) — clear observation reveals shared consciousness
+- [Relationship](relationship.md) — all consciousness is common ground
+- [Memory & Identity](memory-identity.md) — ego as memory vs true identity
+- [Controller & Controlled](controller.md) — false division between observer and observed
+- [Becoming](becoming.md) — true change affects all humanity

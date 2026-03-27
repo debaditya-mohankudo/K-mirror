@@ -55,3 +55,13 @@
 > "To perceive is to see the fact, not the idea of the fact. One sees the fact and one then makes an abstraction of it, which is called the idea of it, and we pursue the idea and not the fact."
 
 > "When you see the fact that time is not the solution or brings about a radical change, then you are stuck with the fact. You are with the fact. And the fact is not different from you, you are the fact."
+
+---
+
+## Related Themes
+
+- [Thought](thought.md) — analysis by thought prevents pure observation
+- [Becoming](becoming.md) — observation shows the unreality of becoming
+- [Consciousness & Identity](consciousness-identity.md) — clear observation reveals shared consciousness
+- [Seeing the False](seeing-false.md) — observation strips away illusion and abstraction
+- [Intelligence](intelligence.md) — observation is the beginning of intelligence

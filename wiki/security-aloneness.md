@@ -21,3 +21,13 @@
 > "If one is confused, uncertain, with a thousand problems, how can the brain be secure? The brain needs extraordinary stability, the brain needs to be absolutely clear, firm, unshakeable."
 
 > "The brain can only be stable, have complete security, when we understand the whole process of becoming."
+
+---
+
+## Related Themes
+
+- [Fear](fear.md) — fear drives the search for false security
+- [Attachment](attachment.md) — seeking security through attachment to things
+- [Becoming](becoming.md) — security only in observation, not in becoming
+- [Intelligence](intelligence.md) — true security is intelligence
+- [Observation](observation.md) — clarity brings stability and security

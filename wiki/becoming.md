@@ -37,3 +37,13 @@
 > "Where there is becoming, there is duality and therefore conflict. And the brain cannot perpetually live in conflict; it then becomes neurotic, psychotic, and pursues every kind of illusion."
 
 > "If you really want to discover for yourself a radical psychological, deep change, that change cannot have time. It must happen now."
+
+---
+
+## Related Themes
+
+- [Thought](thought.md) — becoming is the movement of thought in time
+- [Desire](desire.md) — the desire to become something other than what is
+- [Observation](observation.md) — observation dissolves the movement of becoming
+- [Death & Living](death-living.md) — true change requires dying to the known now
+- [Controller & Controlled](controller.md) — becoming implies a false division

@@ -15,3 +15,13 @@
 > "Attention is like a fire. When that attention is there, that thing which is sorrow, the loneliness, the pain, the anxiety, the tears — when there is that complete attention all that goes, disappears."
 
 > "The ending of sorrow is passion, not lust. And that is part of love. Where there is love there is compassion. Where there is this extraordinary passion of compassion there is intelligence."
+
+---
+
+## Related Themes
+
+- [Attachment](attachment.md) — attachment is the root of sorrow
+- [Death & Living](death-living.md) — ending sorrow through death to the known
+- [Observation](observation.md) — attention dissolves sorrow
+- [Love](love.md) — compassion ends sorrow
+- [Intelligence](intelligence.md) — ending sorrow = beginning of intelligence

@@ -23,3 +23,13 @@
 > "Why have we made death something far away from life, living? We are living now, and death may come when we are ninety, a hundred or later — but knowing that the now contains the future, therefore death is the now."
 
 > "We are frightened of living. What we call living is a fearful turmoil, conflict, struggle, pain, anxiety — the everlasting, constant waking up in the morning and rushing off to the office or to the factory."
+
+---
+
+## Related Themes
+
+- [Becoming](becoming.md) — true change requires dying to the known now
+- [Sorrow](sorrow.md) — ending sorrow through death to attachment and memory
+- [Fear](fear.md) — fear of death prevents living fully
+- [Attachment](attachment.md) — dying to attachment and the known
+- [Memory & Identity](memory-identity.md) — dying to identity constructed from memory

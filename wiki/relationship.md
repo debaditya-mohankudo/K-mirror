@@ -15,3 +15,13 @@
 > "Is that image not preventing the extraordinary flowering of love?"
 
 > "Until we have established right relationship between us — which is order — how can I find that which is supreme order? So I must begin with you, not with that."
+
+---
+
+## Related Themes
+
+- [Consciousness & Identity](consciousness-identity.md) — common ground of all consciousness
+- [Attachment](attachment.md) — attachment through memory and image
+- [Love](love.md) — true relationship is love without image
+- [Observation](observation.md) — seeing without the image of memory
+- [Memory & Identity](memory-identity.md) — clinging to memory of the other

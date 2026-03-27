@@ -13,3 +13,13 @@
 > "Love has no motive. If I have a motive to love you, then I am already corrupt, I am already lost."
 
 > "Then comes love which is imperishable, incorruptible. Because love is not attachment."
+
+---
+
+## Related Themes
+
+- [Desire](desire.md) — love is not desire or the pursuit of pleasure
+- [Observation](observation.md) — love comes from clear seeing without image
+- [Sorrow](sorrow.md) — compassion of love ends sorrow
+- [Intelligence](intelligence.md) — love is intelligence
+- [Relationship](relationship.md) — true relationship is love without image

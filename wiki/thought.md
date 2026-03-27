@@ -39,3 +39,13 @@
 > "All time, the past, the present and the future, is contained in the now. This is not a theory, not a speculative philosophical concept, but an actuality."
 
 > "The future is therefore in the now. So unless there is a radical change now, the future will be what you have been, tomorrow."
+
+---
+
+## Related Themes
+
+- [Becoming](becoming.md) — thought is the movement that creates becoming in time
+- [Desire](desire.md) — thought creates the image that ignites desire
+- [Memory & Identity](memory-identity.md) — thought is the response of memory
+- [Observation](observation.md) — analysis by thought prevents pure observation
+- [Action](desire.md) — action born from knowledge/thought is always partial

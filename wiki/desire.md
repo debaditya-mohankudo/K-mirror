@@ -31,3 +31,13 @@
 > "Is love the action in itself? Not the love that has jealousy, hate, amusement, fun and excitement, sex, pleasure. When there is love there is action without conflict."
 
 > "Love is not a slave to time. If you can understand that, explain and deeply grasp the truth of it, then the brain becomes extraordinarily vital, strong, not confused in any way."
+
+---
+
+## Related Themes
+
+- [Thought](thought.md) — thought creates the image that becomes desire
+- [Becoming](becoming.md) — desire fuels the drive to become something
+- [Fear](fear.md) — desire thwarted creates fear and violence
+- [Action](desire.md) — action based on desire is motivated by reward/punishment
+- [Love](love.md) — love is not desire or the pursuit of pleasure

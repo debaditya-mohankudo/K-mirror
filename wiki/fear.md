@@ -11,3 +11,13 @@
 > "Is fear the movement of thought and time? If I am to die now, immediately, there is no fear. It is finished. But I want to live another ten years — so fear is time."
 
 > "If you once understand time and thought so completely, then fear ceases totally."
+
+---
+
+## Related Themes
+
+- [Attachment](attachment.md) — fear underlies clinging and attachment
+- [Desire](desire.md) — fear of loss intensifies desire for security
+- [Security & Aloneness](security-aloneness.md) — fear drives the search for false security
+- [Death & Living](death-living.md) — fear of death prevents living fully
+- [Thought](thought.md) — fear is born from thought's projections into future
