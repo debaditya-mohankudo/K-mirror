@@ -26,6 +26,10 @@ Full text transcripts of Krishnamurti talks, organized by location and year. Use
 ### Ojai, 1984
 - [Public Talk 3: Attention is like a fire](transcript_J_Krishnamurti_Ojai_1984_Public_Talk_3_Attention_is_like_a_fire.txt)
 
+### Podcast Compilations
+
+- [Ep. 93: Krishnamurti on Conflict](transcript_Podcast_2021_Ep93_Conflict.txt) — *Curated from Ojai 1981 Q&A, Saanen 1977 Talk 5, Brockwood Park 1984 Talk 1, Saanen 1981 Q&A*
+
 ---
 
 ## How to Use
