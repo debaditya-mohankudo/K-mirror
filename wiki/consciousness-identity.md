@@ -29,3 +29,9 @@
 > "Is disorder the very nature of the self? Isn't the self — the me, the ego — isn't that divisive? Isn't that exclusive, isolating process, the self-centred activity, which causes so much disorder in the world?"
 
 > "The very nature of the self must intrinsically bring disorder. No structure of the self can make order."
+
+> "You are the fact that you are violent, brutish, thoughtless, anxious — the whole content of one's consciousness, which is in a turmoil, constantly in conflict, like the consciousness of every human being in the world."
+
+> "We are essentially all humanity; each one of us is all humanity. And if you change, not tomorrow, there is no time — time is the enemy of change."
+
+> "Our consciousness is the rest of humanity. Unless we radically change this narrow pattern of conditioning as an American, Russian, Indian, we are going to have more and more wars."

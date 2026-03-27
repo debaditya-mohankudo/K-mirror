@@ -17,3 +17,9 @@
 > "Is there ever an ending to anything in our life? Or is there a constant continuity of the same thing in different directions? I give up this pattern and take on another pattern."
 
 > "Will you end something which gives you great pleasure, without any motive, without any action of will? End it. You can't argue with death, which is the ending."
+
+> "We are all going to die one day; that is a fact. And we have never gone into the question because most people are afraid of it — what is death, what is it to die?"
+
+> "Why have we made death something far away from life, living? We are living now, and death may come when we are ninety, a hundred or later — but knowing that the now contains the future, therefore death is the now."
+
+> "We are frightened of living. What we call living is a fearful turmoil, conflict, struggle, pain, anxiety — the everlasting, constant waking up in the morning and rushing off to the office or to the factory."

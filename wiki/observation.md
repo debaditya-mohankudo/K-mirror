@@ -45,3 +45,13 @@
 > "Will knowledge transform me? No. Then why do I come to you? You are only concerned with solving individual problems. You are not thinking of human suffering as a whole."
 
 > "When you tell me my depression is my depression — you are helping me to sustain it. You are helping me to be more self-concerned, more self-committed."
+
+> "Analysis implies an analyser, the analyser is the past, and he is examining the present, what is happening now. But the analyser is the analysed, which is the present."
+
+> "When one is violent, when there is violence, and you analyse violence, is violence different from the examiner, the analyser? Is not the analyser also part of that violence?"
+
+> "So the analyser is the analysed, and therefore there is no division between the analysis and the analyser, they are one. When we understand that, conflict exists only when there is division."
+
+> "To perceive is to see the fact, not the idea of the fact. One sees the fact and one then makes an abstraction of it, which is called the idea of it, and we pursue the idea and not the fact."
+
+> "When you see the fact that time is not the solution or brings about a radical change, then you are stuck with the fact. You are with the fact. And the fact is not different from you, you are the fact."

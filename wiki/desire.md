@@ -23,3 +23,11 @@
 > "Pleasure invariably goes with fear."
 
 > "Desire is not love. And pleasure — basically, deeply, the pursuit of pleasure — that pleasure is not love."
+
+> "Our action is based on reward and punishment. All our action has a motive, a direction, selfish generally, self-interest, self-concern, which is reward and punishment."
+
+> "There is never action per se — action for itself, like a good carpenter who will make a marvellous cabinet, the love of it itself, not the reward, the punishment, the gain."
+
+> "Is love the action in itself? Not the love that has jealousy, hate, amusement, fun and excitement, sex, pleasure. When there is love there is action without conflict."
+
+> "Love is not a slave to time. If you can understand that, explain and deeply grasp the truth of it, then the brain becomes extraordinarily vital, strong, not confused in any way."

@@ -15,3 +15,9 @@
 > "Is there a deep abiding security? Not in furniture, not in a house, not in my wife, or in some idea — find deeply if there is such a thing as complete security."
 
 > "Individual can never have that security."
+
+> "The brain to function efficiently, clearly, without any kind of confusion, must understand what is security, what is stability — a sense of firmness so that it is not wishy-washy, wobbling all over the place."
+
+> "If one is confused, uncertain, with a thousand problems, how can the brain be secure? The brain needs extraordinary stability, the brain needs to be absolutely clear, firm, unshakeable."
+
+> "The brain can only be stable, have complete security, when we understand the whole process of becoming."

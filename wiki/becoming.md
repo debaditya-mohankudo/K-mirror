@@ -29,3 +29,11 @@
 > "Man has lived in disorder, and he has looked for somebody else, an outside agency, to clear up this disorder. The moment he does that he has created the division. Where there is division there must be conflict."
 
 > "There is no teacher, nor disciple. That is truth. There is no follower and the leader in the world of mind — there is only learning, not learning what someone has to inform you, but learning in action."
+
+> "Psychologically we are all attempting to become something. One is greedy, or violent, and one is trying not to be — that is to become."
+
+> "Becoming implies duality, and where there is duality there must be conflict — the Arab and the Jew, the Muslim and the Hindu, the Catholic and the Protestant, the perpetual state of conflict human beings live in."
+
+> "Where there is becoming, there is duality and therefore conflict. And the brain cannot perpetually live in conflict; it then becomes neurotic, psychotic, and pursues every kind of illusion."
+
+> "If you really want to discover for yourself a radical psychological, deep change, that change cannot have time. It must happen now."

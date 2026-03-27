@@ -9,3 +9,9 @@
 > "A mind that lives in sorrow can never be free. It is only a mind that is totally free from sorrow that will know what compassion is."
 
 > "The ending of sorrow is the beginning of wisdom and therefore intelligence."
+
+> "Sorrow is not yours or mine, it is sorrow. To understand this requires freedom to observe, to perceive. Sorrow is the lot of all humanity, not just one's own backyard."
+
+> "Attention is like a fire. When that attention is there, that thing which is sorrow, the loneliness, the pain, the anxiety, the tears — when there is that complete attention all that goes, disappears."
+
+> "The ending of sorrow is passion, not lust. And that is part of love. Where there is love there is compassion. Where there is this extraordinary passion of compassion there is intelligence."

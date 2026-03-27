@@ -622,4 +622,18 @@ Absorb the spirit; let it surface naturally in your questions and reflections.
 
 ---
 
-*Add new transcripts below with a new source tag — keep quotes under their relevant theme.*
+---
+
+## Organization
+
+Quotes are organized by theme in the `wiki/` directory. Each theme file (`becoming.md`, `desire.md`, `observation.md`, etc.) contains quotes grouped by psychological principle.
+
+Full transcripts are archived in `wiki/transcripts/` with an index at `wiki/transcripts/INDEX.md`.
+
+For new talks:
+
+1. Extract transcript to `wiki/transcripts/`
+2. Curate quotes by theme (15–25 per talk)
+3. Add to corresponding theme files with source attribution
+4. Update this master pool if needed for historical reference
+

@@ -31,3 +31,11 @@
 > "Doubt your experiences, doubt your illusions, doubt the very structure of your thinking, doubt your beliefs — so that the mind becomes free of all self-imposed or imposed illusions."
 
 > "Any action born from knowledge must invariably be partial. Therefore one asks: is there an action which is totally complete, without any regret, without looking back, without looking forward, without any strain — totally, completely harmonious?"
+
+> "The present is not only the past, all the memories, all the incidents stored in the brain, recorded, but that past is now also. The future is what is now."
+
+> "So what one is now, one will be tomorrow, a thousand tomorrows. And if there is no fundamental radical psychological revolution, tomorrow will be exactly what we are now."
+
+> "All time, the past, the present and the future, is contained in the now. This is not a theory, not a speculative philosophical concept, but an actuality."
+
+> "The future is therefore in the now. So unless there is a radical change now, the future will be what you have been, tomorrow."
