@@ -1,0 +1,15 @@
+# On Love
+
+> "Love is not knowledge. Love is not remembrance. Love is not desire or pleasure."
+
+> "Love has no problems."
+
+> "Where there is that image created by thought there can be no love."
+
+> "How can a man who is aggressive know what love is? How can a man who is ambitious, concerned about himself, his progress, his unhappiness, his fears — how can he love?"
+
+> "The act of compassion is the act of intelligence."
+
+> "Love has no motive. If I have a motive to love you, then I am already corrupt, I am already lost."
+
+> "Then comes love which is imperishable, incorruptible. Because love is not attachment."
