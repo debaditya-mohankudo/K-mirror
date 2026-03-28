@@ -48,6 +48,14 @@
 
 > "The evolution of consciousness is a fallacy as through time. There is no psychological evolution. The evolution of the psyche—since the future of mankind depends on the psyche, it seems the future of mankind is not going to be determined through actions in time." *(from Krishnamurti & David Bohm: The Future of Humanity part 2 of 2 — YT:2Y0pPEgSjMQ)*
 
+> "I don't think there is psychological evolution at all. I deny that I will be something, become better psychologically." *(from Krishnamurti & David Bohm: Brockwood Park 1983, Conversation 1 — YT:CvL4uNA4U-k)*
+
+> "Does transition need time? That cannot be done in time. Transcendence cannot happen in time." *(from Krishnamurti & David Bohm: Brockwood Park 1983, Conversation 1 — YT:CvL4uNA4U-k)*
+
+> "Why are we concerned about the future? In some sense the whole future is now." *(from Krishnamurti & David Bohm: Brockwood Park 1983, Conversation 1 — YT:CvL4uNA4U-k)*
+
+> "To go from here to there needs time. To learn a language needs time. That is not the time we are talking about." *(from Krishnamurti & David Bohm: Brockwood Park 1983, Conversation 1 — YT:CvL4uNA4U-k)*
+
 ---
 
 ## Related Themes

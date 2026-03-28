@@ -46,6 +46,12 @@
 
 > "The notion of separate existence is insanity, because when we extrapolate from the body to the mind, we say my body is separate from yours, but the consciousness is one." *(from Krishnamurti & David Bohm: The Future of Humanity part 1 of 2)*
 
+> "In our consciousness basically we have the same ground on which we stand. All consciousness is one fundamentally." *(from Krishnamurti & David Bohm: Brockwood Park 1983, Conversation 1)*
+
+> "The sense of separateness is an illusion. It is all one. From the very beginning it is all one." *(from Krishnamurti & David Bohm: Brockwood Park 1983, Conversation 1)*
+
+> "The me is a divisive entity because it is separative, it is concerned with itself. We and they, and so on." *(from Krishnamurti & David Bohm: Brockwood Park 1983, Conversation 1)*
+
 ---
 
 ## Related Themes

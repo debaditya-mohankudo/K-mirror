@@ -50,6 +50,14 @@
 
 > "The future is therefore in the now. So unless there is a radical change now, the future will be what you have been, tomorrow."
 
+> "The whole structure of the me is put together by thought. The me is my consciousness, which is my name, form, all the various experiences." *(from Krishnamurti & David Bohm: Brockwood Park 1983, Conversation 1)*
+
+> "What is the me? The me is the whole movement which thought has brought about. It is not independent of my thinking." *(from Krishnamurti & David Bohm: Brockwood Park 1983, Conversation 1)*
+
+> "Thought has put all this together which is my consciousness: the reactions, the responses, memory, experience, knowledge, belief, dogma, ritual." *(from Krishnamurti & David Bohm: Brockwood Park 1983, Conversation 1)*
+
+> "Memory is the remembrance of things past, which is knowledge, and from that comes thought. Thought is time." *(from Krishnamurti & David Bohm: Brockwood Park 1983, Conversation 1)*
+
 ---
 
 ## Related Themes

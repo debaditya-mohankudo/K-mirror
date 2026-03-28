@@ -18,6 +18,8 @@
 
 > "If I say I am greedy, then greed is not different from me. Greeding is me. But the ordinary way of thinking is that I am here, and greed is an attribute I may or may not have." *(from Krishnamurti & David Bohm: The Future of Humanity part 1 of 2)*
 
+> "Anything that is limited must inevitably create conflict. The me is limited, therefore the me creates conflict." *(from Krishnamurti & David Bohm: Brockwood Park 1983, Conversation 1)*
+
 ---
 
 ## Related Themes
