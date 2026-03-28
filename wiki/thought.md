@@ -58,6 +58,10 @@
 
 > "Memory is the remembrance of things past, which is knowledge, and from that comes thought. Thought is time." *(from Krishnamurti & David Bohm: Brockwood Park 1983, Conversation 1)*
 
+> "The brain is conditioned by past generations, by the society, by the newspapers, by the magazines, by all the activities and pressure from the outside." *(from Krishnamurti & David Bohm: Brockwood Park 1983, Conversation 2 — YT:VVTiAw7K-bw)*
+
+> "The constant assertion of the self is the movement, is the conditioning." *(from Krishnamurti & David Bohm: Brockwood Park 1983, Conversation 2 — YT:VVTiAw7K-bw)*
+
 ---
 
 ## Related Themes

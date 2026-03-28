@@ -52,6 +52,12 @@
 
 > "The me is a divisive entity because it is separative, it is concerned with itself. We and they, and so on." *(from Krishnamurti & David Bohm: Brockwood Park 1983, Conversation 1)*
 
+> "The brain is conditioned by past generations, by the society, by the newspapers, by the magazines, by all the activities and pressure from the outside." *(from Krishnamurti & David Bohm: Brockwood Park 1983, Conversation 2 — YT:VVTiAw7K-bw)*
+
+> "The conditioning which determines the self is creating great damage in the world, because it is separative and therefore it is constantly in conflict." *(from Krishnamurti & David Bohm: Brockwood Park 1983, Conversation 2 — YT:VVTiAw7K-bw)*
+
+> "The constant assertion of the self is the movement, is the conditioning." *(from Krishnamurti & David Bohm: Brockwood Park 1983, Conversation 2 — YT:VVTiAw7K-bw)*
+
 ---
 
 ## Related Themes

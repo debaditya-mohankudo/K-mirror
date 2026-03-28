@@ -68,6 +68,16 @@
 
 > "Undirected attention contacts the brain when the brain is silent. In that contact there is space. The brain has no space because it is concerned with itself, self-centered." *(from Krishnamurti & David Bohm: The Future of Humanity part 2 of 2 — YT:2Y0pPEgSjMQ)*
 
+> "Can those cells be changed? We are saying that they can, through insight. Insight being out of time, it is not the result of remembrance, it is not an intuition, or desire, or hope." *(from Krishnamurti & David Bohm: Brockwood Park 1983, Conversation 2 — YT:VVTiAw7K-bw)*
+
+> "Insight is nothing to do with any time and thought. It is of the nature of mind, activity of mind." *(from Krishnamurti & David Bohm: Brockwood Park 1983, Conversation 2 — YT:VVTiAw7K-bw)*
+
+> "To approach the problem, or to have perception of the problem without any past memories and thoughts interfering or projecting in perception of the problem." *(from Krishnamurti & David Bohm: Brockwood Park 1983, Conversation 2 — YT:VVTiAw7K-bw)*
+
+> "It is only in freedom there is deep insight. If you are not free to enquire, if you are biased, then you are limited." *(from Krishnamurti & David Bohm: Brockwood Park 1983, Conversation 2 — YT:VVTiAw7K-bw)*
+
+> "As long as the brain is conditioned its relationship to the mind is limited. But the mind being free has a relationship to the brain." *(from Krishnamurti & David Bohm: Brockwood Park 1983, Conversation 2 — YT:VVTiAw7K-bw)*
+
 ---
 
 ## Related Themes

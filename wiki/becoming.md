@@ -56,6 +56,18 @@
 
 > "To go from here to there needs time. To learn a language needs time. That is not the time we are talking about." *(from Krishnamurti & David Bohm: Brockwood Park 1983, Conversation 1 — YT:CvL4uNA4U-k)*
 
+> "Can the consciousness of mankind be changed through time? That is one of the questions we should discuss this evening." *(from Krishnamurti & David Bohm: Brockwood Park 1983, Conversation 2 — YT:VVTiAw7K-bw)*
+
+> "The evolution of consciousness is a fallacy. There is no psychological evolution, or the evolution of the psyche." *(from Krishnamurti & David Bohm: Brockwood Park 1983, Conversation 2 — YT:VVTiAw7K-bw)*
+
+> "Since the future of mankind depends on the psyche, it seems then that the future of mankind is not going to be determined through actions in time." *(from Krishnamurti & David Bohm: Brockwood Park 1983, Conversation 2 — YT:VVTiAw7K-bw)*
+
+> "Any form of becoming is an illusion, and the becoming implies time. Time for the psyche to change – we are saying time is not necessary." *(from Krishnamurti & David Bohm: Brockwood Park 1983, Conversation 2 — YT:VVTiAw7K-bw)*
+
+> "The very structure and the nature of the psyche is the movement of thought in time. But movement is in some way illusory." *(from Krishnamurti & David Bohm: Brockwood Park 1983, Conversation 2 — YT:VVTiAw7K-bw)*
+
+> "All are trying to become something. Both the experimentalists and the psychologists and ourselves, they are all trying to become something." *(from Krishnamurti & David Bohm: Brockwood Park 1983, Conversation 2 — YT:VVTiAw7K-bw)*
+
 ---
 
 ## Related Themes
