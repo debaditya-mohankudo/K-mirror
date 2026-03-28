@@ -36,6 +36,16 @@
 
 > "Our consciousness is the rest of humanity. Unless we radically change this narrow pattern of conditioning as an American, Russian, Indian, we are going to have more and more wars."
 
+> "The consciousness which is me is similar to the rest of mankind—they all suffer, they all have fears, they are all insecure." *(from Krishnamurti & David Bohm: The Future of Humanity part 1 of 2)*
+
+> "The whole of humanity, of mankind, is one. And therefore to create division between me and the rest is where the chaos begins." *(from Krishnamurti & David Bohm: The Future of Humanity part 1 of 2)*
+
+> "We are saying that the consciousness is not an entity which is individual. It's all one. And the sense of separateness is an illusion." *(from Krishnamurti & David Bohm: The Future of Humanity part 1 of 2)*
+
+> "If we think we are separate when we are not separate, then clearly there will be a colossal mess happening." *(from Krishnamurti & David Bohm: The Future of Humanity part 1 of 2)*
+
+> "The notion of separate existence is insanity, because when we extrapolate from the body to the mind, we say my body is separate from yours, but the consciousness is one." *(from Krishnamurti & David Bohm: The Future of Humanity part 1 of 2)*
+
 ---
 
 ## Related Themes

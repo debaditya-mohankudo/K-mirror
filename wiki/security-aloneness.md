@@ -22,6 +22,12 @@
 
 > "The brain can only be stable, have complete security, when we understand the whole process of becoming."
 
+> "We thought there was security in the family, security in the tribe, security in nationalism. So we divided the world into these parts thinking that would bring security. But the very division creates insecurity." *(from Krishnamurti & David Bohm: The Future of Humanity part 1 of 2)*
+
+> "I define myself in the interest of security—to know what I am as opposed to what you are. And I protect myself. But in the very act of doing that, I create division and insecurity." *(from Krishnamurti & David Bohm: The Future of Humanity part 1 of 2)*
+
+> "If I define myself as limited, I am concerned with myself—that creates conflict. But the me is divisible and separative; it is concerned with itself." *(from Krishnamurti & David Bohm: The Future of Humanity part 1 of 2)*
+
 ---
 
 ## Related Themes

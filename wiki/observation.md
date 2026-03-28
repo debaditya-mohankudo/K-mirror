@@ -56,6 +56,12 @@
 
 > "When you see the fact that time is not the solution or brings about a radical change, then you are stuck with the fact. You are with the fact. And the fact is not different from you, you are the fact."
 
+> "Can man live, can humanity live without conflict? This really comes down to the fact that the activity of thought cannot bring about peace. It inherently brings about conflict psychologically." *(from Krishnamurti & David Bohm: The Future of Humanity part 1 of 2)*
+
+> "If we once really see that the source of conflict is thought, or knowledge, or the past, then our whole activity will be totally different." *(from Krishnamurti & David Bohm: The Future of Humanity part 1 of 2)*
+
+> "Conflict exists whether you like it or not. It's not possible to escape from conflict by not resolving it. The resolution requires a totally different approach." *(from Krishnamurti & David Bohm: The Future of Humanity part 1 of 2)*
+
 ---
 
 ## Related Themes

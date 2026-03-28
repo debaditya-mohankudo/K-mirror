@@ -17,6 +17,16 @@ Absorb the spirit; let it surface naturally in your questions and reflections.
 
 > "Knowledge is never complete. Knowledge about anything is still incomplete, will always be incomplete. Therefore knowledge always goes with ignorance — knowledge always lives within the shadow of ignorance."
 
+> "Thought is limited because knowledge is limited; if you admit that knowledge will always be limited, then thought will not be able to handle everything." *(from Krishnamurti & David Bohm: The Future of Humanity part 1 of 2 — YT:0hgdDvkBs4U)*
+
+> "The whole sense of the me and what it is doing is coming out of thought. The me is the whole movement which thought has brought about." *(from Krishnamurti & David Bohm: The Future of Humanity part 1 of 2 — YT:0hgdDvkBs4U)*
+
+> "Whatever action is born of limited thought must bring conflict inevitable—dividing humanity into geographically, internationally, religiously." *(from Krishnamurti & David Bohm: The Future of Humanity part 1 of 2 — YT:0hgdDvkBs4U)*
+
+> "Thought in itself is limited. Whatever it does, it's limited. And it's limited in a very serious way." *(from Krishnamurti & David Bohm: The Future of Humanity part 1 of 2 — YT:0hgdDvkBs4U)*
+
+> "The source of thought is memory, which is knowledge, which is the outcome of experience. And the experiences are all limited." *(from Krishnamurti & David Bohm: The Future of Humanity part 1 of 2 — YT:0hgdDvkBs4U)*
+
 ---
 
 ## On Relationship
@@ -76,6 +86,16 @@ Absorb the spirit; let it surface naturally in your questions and reflections.
 > "Each one of us is actually the rest of humankind."
 
 > "Inwardly we are the same, more or less: unhappy, uncertain, lonely, carrying the burden of sorrow endlessly."
+
+> "The consciousness which is me is similar to the rest of mankind—they all suffer, they all have fears, they are all insecure." *(from Krishnamurti & David Bohm: The Future of Humanity part 1 of 2 — YT:0hgdDvkBs4U)*
+
+> "The whole of humanity, of mankind, is one. And therefore to create division between me and the rest is where the chaos begins." *(from Krishnamurti & David Bohm: The Future of Humanity part 1 of 2 — YT:0hgdDvkBs4U)*
+
+> "We are saying that the consciousness is not an entity which is individual. It's all one. And the sense of separateness is an illusion." *(from Krishnamurti & David Bohm: The Future of Humanity part 1 of 2 — YT:0hgdDvkBs4U)*
+
+> "If we think we are separate when we are not separate, then clearly there will be a colossal mess happening." *(from Krishnamurti & David Bohm: The Future of Humanity part 1 of 2 — YT:0hgdDvkBs4U)*
+
+> "The notion of separate existence is insanity, because when we extrapolate from the body to the mind, we say my body is separate from yours, but the consciousness is one." *(from Krishnamurti & David Bohm: The Future of Humanity part 1 of 2 — YT:0hgdDvkBs4U)*
 
 ---
 
@@ -804,4 +824,63 @@ Absorb the spirit; let it surface naturally in your questions and reflections.
 > "Why have we made death something far away from life, living? We are living now, and death may come when we are ninety, a hundred or later — but knowing that the now contains the future, therefore death is the now."
 
 > "We are frightened of living. What we call living is a fearful turmoil, conflict, struggle, pain, anxiety — the everlasting, constant waking up in the morning and rushing off to the office or to the factory."
+
+---
+
+## On Division & Security
+*(from Krishnamurti & David Bohm: The Future of Humanity part 1 of 2 — YT:0hgdDvkBs4U)*
+
+> "We thought there was security in the family, security in the tribe, security in nationalism. So we divided the world into these parts thinking that would bring security. But the very division creates insecurity."
+
+> "I define myself in the interest of security—to know what I am as opposed to what you are. And I protect myself. But in the very act of doing that, I create division and insecurity."
+
+> "If I define myself as limited, I am concerned with myself—that creates conflict. But the me is divisible and separative; it is concerned with itself."
+
+---
+
+## On Time & Becoming
+*(from Krishnamurti & David Bohm: The Future of Humanity part 1 of 2 — YT:0hgdDvkBs4U)*
+
+> "In some sense, the whole future is now. The future is not only the present generation and the coming generation—it's already entering now."
+
+> "There is a psychological time—tomorrow, becoming, achieving. But this is a fantasy. We want to become non-violent, but we are violent. And non-violence cannot exist while there is violence."
+
+> "The movement of thought as time creates the illusion of becoming. I need time to become good, I need time to be enlightened. But that creates a conflict, a division between the observer and the observed."
+
+> "Time is movement. Thought is movement. And psychologically, thought is time. But this kind of time only creates psychological conflict."
+
+---
+
+## On The Observer & The Observed
+*(from Krishnamurti & David Bohm: The Future of Humanity part 1 of 2 — YT:0hgdDvkBs4U)*
+
+> "The observer is the observed. The thinker is the thought. There is no division. And therefore there's no time psychologically between them."
+
+> "The attributes, the qualities, the virtues—all the judgments and conclusions—they constitute the me. So I am my attributes, my thought creates the sense of me."
+
+> "If I say I am greedy, then greed is not different from me. Greeding is me. But the ordinary way of thinking is that I am here, and greed is an attribute I may or may not have."
+
+---
+
+## On Living Without Conflict
+*(from Krishnamurti & David Bohm: The Future of Humanity part 1 of 2 — YT:0hgdDvkBs4U)*
+
+> "Can man live, can humanity live without conflict? This really comes down to the fact that the activity of thought cannot bring about peace. It inherently brings about conflict psychologically."
+
+> "If we once really see that the source of conflict is thought, or knowledge, or the past, then our whole activity will be totally different."
+
+> "Conflict exists whether you like it or not. It's not possible to escape from conflict by not resolving it. The resolution requires a totally different approach."
+
+---
+
+## On Intelligence Beyond Thought
+*(from Krishnamurti & David Bohm: The Future of Humanity part 1 of 2 — YT:0hgdDvkBs4U)*
+
+> "There is an activity which is beyond thought, and which does not require the cooperation of thought. And that activity is the highest form of intelligence."
+
+> "Intelligence is not the activity of cunning thought. Intelligence can use thought, but intelligence itself is free from memory and knowledge."
+
+> "We are all programmed—programmed as Hindu for 5,000 years, or as British, or as Catholic. But there is an intelligence which is free of the program."
+
+> "Thought can be the action of intelligence, but it can also be the action of memory. When action is born of memory, it brings about conflict."
 

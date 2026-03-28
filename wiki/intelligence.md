@@ -10,6 +10,14 @@
 
 > "The act of compassion is the act of intelligence."
 
+> "There is an activity which is beyond thought, and which does not require the cooperation of thought. And that activity is the highest form of intelligence." *(from Krishnamurti & David Bohm: The Future of Humanity part 1 of 2)*
+
+> "Intelligence is not the activity of cunning thought. Intelligence can use thought, but intelligence itself is free from memory and knowledge." *(from Krishnamurti & David Bohm: The Future of Humanity part 1 of 2)*
+
+> "We are all programmed—programmed as Hindu for 5,000 years, or as British, or as Catholic. But there is an intelligence which is free of the program." *(from Krishnamurti & David Bohm: The Future of Humanity part 1 of 2)*
+
+> "Thought can be the action of intelligence, but it can also be the action of memory. When action is born of memory, it brings about conflict." *(from Krishnamurti & David Bohm: The Future of Humanity part 1 of 2)*
+
 ---
 
 ## Related Themes

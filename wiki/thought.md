@@ -34,6 +34,16 @@
 
 > "The present is not only the past, all the memories, all the incidents stored in the brain, recorded, but that past is now also. The future is what is now."
 
+> "Thought is limited because knowledge is limited; if you admit that knowledge will always be limited, then thought will not be able to handle everything." *(from Krishnamurti & David Bohm: The Future of Humanity part 1 of 2)*
+
+> "The whole sense of the me and what it is doing is coming out of thought. The me is the whole movement which thought has brought about." *(from Krishnamurti & David Bohm: The Future of Humanity part 1 of 2)*
+
+> "Whatever action is born of limited thought must bring conflict inevitable—dividing humanity into geographically, internationally, religiously." *(from Krishnamurti & David Bohm: The Future of Humanity part 1 of 2)*
+
+> "Thought in itself is limited. Whatever it does, it's limited. And it's limited in a very serious way." *(from Krishnamurti & David Bohm: The Future of Humanity part 1 of 2)*
+
+> "The source of thought is memory, which is knowledge, which is the outcome of experience. And the experiences are all limited." *(from Krishnamurti & David Bohm: The Future of Humanity part 1 of 2)*
+
 > "So what one is now, one will be tomorrow, a thousand tomorrows. And if there is no fundamental radical psychological revolution, tomorrow will be exactly what we are now."
 
 > "All time, the past, the present and the future, is contained in the now. This is not a theory, not a speculative philosophical concept, but an actuality."

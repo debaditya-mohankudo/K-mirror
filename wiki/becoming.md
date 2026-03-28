@@ -38,6 +38,14 @@
 
 > "If you really want to discover for yourself a radical psychological, deep change, that change cannot have time. It must happen now."
 
+> "In some sense, the whole future is now. The future is not only the present generation and the coming generation—it's already entering now." *(from Krishnamurti & David Bohm: The Future of Humanity part 1 of 2)*
+
+> "There is a psychological time—tomorrow, becoming, achieving. But this is a fantasy. We want to become non-violent, but we are violent. And non-violence cannot exist while there is violence." *(from Krishnamurti & David Bohm: The Future of Humanity part 1 of 2)*
+
+> "The movement of thought as time creates the illusion of becoming. I need time to become good, I need time to be enlightened. But that creates a conflict, a division between the observer and the observed." *(from Krishnamurti & David Bohm: The Future of Humanity part 1 of 2)*
+
+> "Time is movement. Thought is movement. And psychologically, thought is time. But this kind of time only creates psychological conflict." *(from Krishnamurti & David Bohm: The Future of Humanity part 1 of 2)*
+
 ---
 
 ## Related Themes
