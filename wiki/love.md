@@ -14,6 +14,8 @@
 
 > "Then comes love which is imperishable, incorruptible. Because love is not attachment."
 
+> "Love is not jealousy. Love is not personal. Love is not my country, your country, my god, your god. Love is from the universal mind." *(from Krishnamurti & David Bohm: The Future of Humanity part 2 of 2 — YT:2Y0pPEgSjMQ)*
+
 ---
 
 ## Related Themes

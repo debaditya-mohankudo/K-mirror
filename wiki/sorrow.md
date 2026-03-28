@@ -16,6 +16,12 @@
 
 > "The ending of sorrow is passion, not lust. And that is part of love. Where there is love there is compassion. Where there is this extraordinary passion of compassion there is intelligence."
 
+> "Thought cannot end suffering. Thought has created the walls, the misery, the confusion. Thought cannot get hold of suffering because suffering is in the physical and chemical conditioning of the brain." *(from Krishnamurti & David Bohm: The Future of Humanity part 2 of 2 — YT:2Y0pPEgSjMQ)*
+
+> "When there is insight into the problem—intelligence, compassion—that insight will dissolve it. There is a mutation in the brain cells. That mutation wipes out the whole structure that makes you suffer." *(from Krishnamurti & David Bohm: The Future of Humanity part 2 of 2 — YT:2Y0pPEgSjMQ)*
+
+> "The solution comes through intelligence, which is born of compassion and love. But thought has always been the instrument. The instrument is worn out except in certain areas." *(from Krishnamurti & David Bohm: The Future of Humanity part 2 of 2 — YT:2Y0pPEgSjMQ)*
+
 ---
 
 ## Related Themes

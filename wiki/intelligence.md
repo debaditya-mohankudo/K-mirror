@@ -18,6 +18,12 @@
 
 > "Thought can be the action of intelligence, but it can also be the action of memory. When action is born of memory, it brings about conflict." *(from Krishnamurti & David Bohm: The Future of Humanity part 1 of 2)*
 
+> "There is no intelligence without compassion. Compassion can only be when there is love—which is completely free from all remembrances, personal jealousies, and all that kind of thing." *(from Krishnamurti & David Bohm: The Future of Humanity part 2 of 2 — YT:2Y0pPEgSjMQ)*
+
+> "Intelligence is the ability to perceive through perception directly. Intelligence perceives what is right and through attention there is contact." *(from Krishnamurti & David Bohm: The Future of Humanity part 2 of 2 — YT:2Y0pPEgSjMQ)*
+
+> "When there is that love, out of that comes compassion and there is intelligence. Intelligence operates when the brain is quiet." *(from Krishnamurti & David Bohm: The Future of Humanity part 2 of 2 — YT:2Y0pPEgSjMQ)*
+
 ---
 
 ## Related Themes

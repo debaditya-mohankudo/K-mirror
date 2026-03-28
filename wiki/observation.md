@@ -62,6 +62,12 @@
 
 > "Conflict exists whether you like it or not. It's not possible to escape from conflict by not resolving it. The resolution requires a totally different approach." *(from Krishnamurti & David Bohm: The Future of Humanity part 1 of 2)*
 
+> "If meditation is really unconscious, it's not a cultural process. Meditation takes place when the brain is quiet. The activity of thought is consciousness—feeling, desire, will, and all that goes with it." *(from Krishnamurti & David Bohm: The Future of Humanity part 2 of 2 — YT:2Y0pPEgSjMQ)*
+
+> "Attention can only come into being when the self is not. Attention has no center, no 'me.' Attention is better understood as not concentration—not effort." *(from Krishnamurti & David Bohm: The Future of Humanity part 2 of 2 — YT:2Y0pPEgSjMQ)*
+
+> "Undirected attention contacts the brain when the brain is silent. In that contact there is space. The brain has no space because it is concerned with itself, self-centered." *(from Krishnamurti & David Bohm: The Future of Humanity part 2 of 2 — YT:2Y0pPEgSjMQ)*
+
 ---
 
 ## Related Themes

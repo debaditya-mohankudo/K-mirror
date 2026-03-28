@@ -884,3 +884,90 @@ Absorb the spirit; let it surface naturally in your questions and reflections.
 
 > "Thought can be the action of intelligence, but it can also be the action of memory. When action is born of memory, it brings about conflict."
 
+## On Conditioning & The Self
+*(from Krishnamurti & David Bohm: The Future of Humanity part 2 of 2 — YT:2Y0pPEgSjMQ)*
+
+> "The brain is conditioned by the past, modified in the future with the present, going on. The conditioning is a program. It is made to conform to a certain pattern, lives entirely on the past."
+
+> "The emphasis on the self, giving importance to the self, is creating great damage in the world because of separation, and therefore it is constantly in conflict within itself, with society, with the family, with nature."
+
+> "The self as the result of conditioning the brain—the conditioning of the brain is involving an illusion which we call a self."
+
+> "Can that conditioning be dissipated? Yes, through insight. Not by this sort of thing we are doing. It has to disappear in some physical and chemical and neurophysiological sense."
+
+## On Psychology & No Evolution Through Time
+*(from Krishnamurti & David Bohm: The Future of Humanity part 2 of 2 — YT:2Y0pPEgSjMQ)*
+
+> "The evolution of consciousness is a fallacy as through time. There is no psychological evolution. The evolution of the psyche—since the future of mankind depends on the psyche, it seems the future of mankind is not going to be determined through actions in time."
+
+> "Most psychologists evidently want human beings to conform to this society. But some are thinking of going beyond it to transform the consciousness of mankind."
+
+## On Brain vs Mind
+*(from Krishnamurti & David Bohm: The Future of Humanity part 2 of 2 — YT:2Y0pPEgSjMQ)*
+
+> "The brain is a computer that's been programmed and remembers. It is conditioned by past generations, by society, by newspapers, by all the activities and pressure from the outside."
+
+> "The brain clearly is to be understood as an activity in time—a physical, neural, chemical, complex process. But the mind has a certain independence of the brain. Even if the brain is conditioned, the mind need not be."
+
+> "The brain is not free. The mind is free. Freedom to inquire, to investigate—it's only in freedom there is deep insight."
+
+> "Mind is really universal. Unlimited, undivided, unpolluted by thought. Your brain is conditioned, but mind is universal. It's not my mind or your mind."
+
+## On Division Creating Conflict
+*(from Krishnamurti & David Bohm: The Future of Humanity part 2 of 2 — YT:2Y0pPEgSjMQ)*
+
+> "Thought creates division. We are trying to divide what cannot be divided. Violence cannot be divided into violent and non-violent. The psyche cannot be divided into violent and non-violent."
+
+> "Whatever action is born of limited thought must bring conflict inevitable. Limited thought creates divisions—geographically, internationally, religiously."
+
+## On Compassion, Love & Intelligence
+*(from Krishnamurti & David Bohm: The Future of Humanity part 2 of 2 — YT:2Y0pPEgSjMQ)*
+
+> "There is no intelligence without compassion. Compassion can only be when there is love—which is completely free from all remembrances, personal jealousies, and all that kind of thing."
+
+> "Love is not jealousy. Love is not personal. Love is not my country, your country, my god, your god. Love is from the universal mind."
+
+> "Intelligence is the ability to perceive through perception directly. Intelligence perceives what is right and through attention there is contact."
+
+> "When there is that love, out of that comes compassion and there is intelligence. Intelligence operates when the brain is quiet."
+
+## On Silence & Quietness
+*(from Krishnamurti & David Bohm: The Future of Humanity part 2 of 2 — YT:2Y0pPEgSjMQ)*
+
+> "Contact can only exist between the mind and the brain when the brain is quiet. That's the condition. That's the requirement. Not a trained quietness, not self-conscious, not a meditating desire for silence—but a natural outcome of understanding one's conditioning."
+
+> "When the brain is quiet it can listen to something deeper. If the brain is really quiet, then the mind can function through the brain."
+
+## On True Meditation & Attention
+*(from Krishnamurti & David Bohm: The Future of Humanity part 2 of 2 — YT:2Y0pPEgSjMQ)*
+
+> "If meditation is really unconscious, it's not a cultural process. Meditation takes place when the brain is quiet. The activity of thought is consciousness—feeling, desire, will, and all that goes with it."
+
+> "Conscious meditation, conscious activity to control thought, to free oneself from conditioning—that is not freedom."
+
+> "Attention can only come into being when the self is not. Attention has no center, no 'me.' Attention is better understood as not concentration—not effort."
+
+> "Undirected attention contacts the brain when the brain is silent. In that contact there is space. The brain has no space because it is concerned with itself, self-centered, self-centered, self-centered."
+
+## On The Observer & The Observed
+*(from Krishnamurti & David Bohm: The Future of Humanity part 2 of 2 — YT:2Y0pPEgSjMQ)*
+
+> "Are you different from your anger, from your envy, from your suffering? At first it appears that you are. But the observer is the observed. The analyzer is the analyzed."
+
+> "When I am the quality—when I am my anger, my fear—the division is ending. But when the quality is not me, then there is conflict, either suppression or escape."
+
+> "When there is no division between the observer and the observed, there is no conflict. The brain is not fighting itself. The brain's natural energy is released."
+
+## On Ending Suffering
+*(from Krishnamurti & David Bohm: The Future of Humanity part 2 of 2 — YT:2Y0pPEgSjMQ)*
+
+> "Thought cannot end suffering. Thought has created the walls, the misery, the confusion. Thought cannot get hold of suffering because suffering is in the physical and chemical conditioning of the brain."
+
+> "When there is insight into the problem—intelligence, compassion—that insight will dissolve it. There is a mutation in the brain cells. That mutation wipes out the whole structure that makes you suffer."
+
+> "The solution comes through intelligence, which is born of compassion and love. But thought has always been the instrument. The instrument is worn out except in certain areas."
+
+## On Self-Knowledge
+*(from Krishnamurti & David Bohm: The Future of Humanity part 2 of 2 — YT:2Y0pPEgSjMQ)*
+
+> "Self-knowledge is not an accumulated process of knowledge. It is constant learning about oneself. You know yourself in every moment as things are happening to you—not storing it up in memory."

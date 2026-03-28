@@ -46,6 +46,8 @@
 
 > "Time is movement. Thought is movement. And psychologically, thought is time. But this kind of time only creates psychological conflict." *(from Krishnamurti & David Bohm: The Future of Humanity part 1 of 2)*
 
+> "The evolution of consciousness is a fallacy as through time. There is no psychological evolution. The evolution of the psyche—since the future of mankind depends on the psyche, it seems the future of mankind is not going to be determined through actions in time." *(from Krishnamurti & David Bohm: The Future of Humanity part 2 of 2 — YT:2Y0pPEgSjMQ)*
+
 ---
 
 ## Related Themes

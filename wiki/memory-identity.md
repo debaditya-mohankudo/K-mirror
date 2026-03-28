@@ -8,6 +8,10 @@
 
 > "One's whole life is a movement within the field of the known."
 
+> "The self as the result of conditioning the brain—the conditioning of the brain is involving an illusion which we call a self." *(from Krishnamurti & David Bohm: The Future of Humanity part 2 of 2 — YT:2Y0pPEgSjMQ)*
+
+> "Self-knowledge is not an accumulated process of knowledge. It is constant learning about oneself. You know yourself in every moment as things are happening to you—not storing it up in memory." *(from Krishnamurti & David Bohm: The Future of Humanity part 2 of 2 — YT:2Y0pPEgSjMQ)*
+
 ---
 
 ## Related Themes
