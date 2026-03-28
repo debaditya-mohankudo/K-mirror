@@ -971,3 +971,42 @@ Absorb the spirit; let it surface naturally in your questions and reflections.
 *(from Krishnamurti & David Bohm: The Future of Humanity part 2 of 2 — YT:2Y0pPEgSjMQ)*
 
 > "Self-knowledge is not an accumulated process of knowledge. It is constant learning about oneself. You know yourself in every moment as things are happening to you—not storing it up in memory."
+
+> "The whole structure of the me is put together by thought. The me is my consciousness, which is my name, form, all the various experiences." *(from J. Krishnamurti - Brockwood Park 1983, Conversation 1 with David Bohm — YT:CvL4uNA4U-k)*
+
+> "What is the me? The me is the whole movement which thought has brought about. It is not independent of my thinking." *(from J. Krishnamurti - Brockwood Park 1983, Conversation 1 with David Bohm — YT:CvL4uNA4U-k)*
+
+> "Thought has put all this together which is my consciousness: the reactions, the responses, memory, experience, knowledge, belief, dogma, ritual." *(from J. Krishnamurti - Brockwood Park 1983, Conversation 1 with David Bohm — YT:CvL4uNA4U-k)*
+
+> "Memory is the remembrance of things past, which is knowledge, and from that comes thought. Thought is time." *(from J. Krishnamurti - Brockwood Park 1983, Conversation 1 with David Bohm — YT:CvL4uNA4U-k)*
+
+---
+
+## On Psychological Evolution
+
+> "I don't think there is psychological evolution at all. I deny that I will be something, become better psychologically." *(from J. Krishnamurti - Brockwood Park 1983, Conversation 1 with David Bohm — YT:CvL4uNA4U-k)*
+
+> "Does transition need time? That cannot be done in time. Transcendence cannot happen in time." *(from J. Krishnamurti - Brockwood Park 1983, Conversation 1 with David Bohm — YT:CvL4uNA4U-k)*
+
+---
+
+> "In our consciousness basically we have the same ground on which we stand. All consciousness is one fundamentally." *(from J. Krishnamurti - Brockwood Park 1983, Conversation 1 with David Bohm — YT:CvL4uNA4U-k)*
+
+> "The sense of separateness is an illusion. It is all one. From the very beginning it is all one." *(from J. Krishnamurti - Brockwood Park 1983, Conversation 1 with David Bohm — YT:CvL4uNA4U-k)*
+
+---
+
+## On The Self & Division
+
+> "The me is a divisive entity because it is separative, it is concerned with itself. We and they, and so on." *(from J. Krishnamurti - Brockwood Park 1983, Conversation 1 with David Bohm — YT:CvL4uNA4U-k)*
+
+> "Anything that is limited must inevitably create conflict. The me is limited, therefore the me creates conflict." *(from J. Krishnamurti - Brockwood Park 1983, Conversation 1 with David Bohm — YT:CvL4uNA4U-k)*
+
+---
+
+## On The Future & Time
+
+> "Why are we concerned about the future? In some sense the whole future is now." *(from J. Krishnamurti - Brockwood Park 1983, Conversation 1 with David Bohm — YT:CvL4uNA4U-k)*
+
+> "To go from here to there needs time. To learn a language needs time. That is not the time we are talking about." *(from J. Krishnamurti - Brockwood Park 1983, Conversation 1 with David Bohm — YT:CvL4uNA4U-k)*
+
