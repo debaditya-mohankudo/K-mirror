@@ -971,3 +971,91 @@ Absorb the spirit; let it surface naturally in your questions and reflections.
 *(from Krishnamurti & David Bohm: The Future of Humanity part 2 of 2 — YT:2Y0pPEgSjMQ)*
 
 > "Self-knowledge is not an accumulated process of knowledge. It is constant learning about oneself. You know yourself in every moment as things are happening to you—not storing it up in memory."
+
+> "The whole structure of the me is put together by thought. The me is my consciousness, which is my name, form, all the various experiences." *(from J. Krishnamurti - Brockwood Park 1983, Conversation 1 with David Bohm — YT:CvL4uNA4U-k)*
+
+> "What is the me? The me is the whole movement which thought has brought about. It is not independent of my thinking." *(from J. Krishnamurti - Brockwood Park 1983, Conversation 1 with David Bohm — YT:CvL4uNA4U-k)*
+
+> "Thought has put all this together which is my consciousness: the reactions, the responses, memory, experience, knowledge, belief, dogma, ritual." *(from J. Krishnamurti - Brockwood Park 1983, Conversation 1 with David Bohm — YT:CvL4uNA4U-k)*
+
+> "Memory is the remembrance of things past, which is knowledge, and from that comes thought. Thought is time." *(from J. Krishnamurti - Brockwood Park 1983, Conversation 1 with David Bohm — YT:CvL4uNA4U-k)*
+
+---
+
+## On Psychological Evolution
+
+> "I don't think there is psychological evolution at all. I deny that I will be something, become better psychologically." *(from J. Krishnamurti - Brockwood Park 1983, Conversation 1 with David Bohm — YT:CvL4uNA4U-k)*
+
+> "Does transition need time? That cannot be done in time. Transcendence cannot happen in time." *(from J. Krishnamurti - Brockwood Park 1983, Conversation 1 with David Bohm — YT:CvL4uNA4U-k)*
+
+---
+
+> "In our consciousness basically we have the same ground on which we stand. All consciousness is one fundamentally." *(from J. Krishnamurti - Brockwood Park 1983, Conversation 1 with David Bohm — YT:CvL4uNA4U-k)*
+
+> "The sense of separateness is an illusion. It is all one. From the very beginning it is all one." *(from J. Krishnamurti - Brockwood Park 1983, Conversation 1 with David Bohm — YT:CvL4uNA4U-k)*
+
+---
+
+## On The Self & Division
+
+> "The me is a divisive entity because it is separative, it is concerned with itself. We and they, and so on." *(from J. Krishnamurti - Brockwood Park 1983, Conversation 1 with David Bohm — YT:CvL4uNA4U-k)*
+
+> "Anything that is limited must inevitably create conflict. The me is limited, therefore the me creates conflict." *(from J. Krishnamurti - Brockwood Park 1983, Conversation 1 with David Bohm — YT:CvL4uNA4U-k)*
+
+---
+
+## On The Future & Time
+
+> "Why are we concerned about the future? In some sense the whole future is now." *(from J. Krishnamurti - Brockwood Park 1983, Conversation 1 with David Bohm — YT:CvL4uNA4U-k)*
+
+> "To go from here to there needs time. To learn a language needs time. That is not the time we are talking about." *(from J. Krishnamurti - Brockwood Park 1983, Conversation 1 with David Bohm — YT:CvL4uNA4U-k)*
+
+
+> "Can the consciousness of mankind be changed through time? That is one of the questions we should discuss this evening." *(from J. Krishnamurti - Brockwood Park 1983, Conversation 2 with David Bohm — YT:VVTiAw7K-bw)*
+
+> "The evolution of consciousness is a fallacy. There is no psychological evolution, or the evolution of the psyche." *(from J. Krishnamurti - Brockwood Park 1983, Conversation 2 with David Bohm — YT:VVTiAw7K-bw)*
+
+> "Since the future of mankind depends on the psyche, it seems then that the future of mankind is not going to be determined through actions in time." *(from J. Krishnamurti - Brockwood Park 1983, Conversation 2 with David Bohm — YT:VVTiAw7K-bw)*
+
+---
+
+## On Brain & Mind
+
+> "I think the mind is separate from the brain. The brain is conditioned and the mind is not." *(from J. Krishnamurti - Brockwood Park 1983, Conversation 2 with David Bohm — YT:VVTiAw7K-bw)*
+
+> "As long as the brain is conditioned, it is not free. And the mind is free." *(from J. Krishnamurti - Brockwood Park 1983, Conversation 2 with David Bohm — YT:VVTiAw7K-bw)*
+
+> "The brain is an instrument of the mind when the brain is not self-centred." *(from J. Krishnamurti - Brockwood Park 1983, Conversation 2 with David Bohm — YT:VVTiAw7K-bw)*
+
+> "Time belongs to the brain. The mind has to do with space and silence, not time." *(from J. Krishnamurti - Brockwood Park 1983, Conversation 2 with David Bohm — YT:VVTiAw7K-bw)*
+
+---
+
+> "The brain is conditioned by past generations, by the society, by the newspapers, by the magazines, by all the activities and pressure from the outside." *(from J. Krishnamurti - Brockwood Park 1983, Conversation 2 with David Bohm — YT:VVTiAw7K-bw)*
+
+> "The conditioning which determines the self is creating great damage in the world, because it is separative and therefore it is constantly in conflict." *(from J. Krishnamurti - Brockwood Park 1983, Conversation 2 with David Bohm — YT:VVTiAw7K-bw)*
+
+> "The constant assertion of the self is the movement, is the conditioning." *(from J. Krishnamurti - Brockwood Park 1983, Conversation 2 with David Bohm — YT:VVTiAw7K-bw)*
+
+---
+
+## On Insight & Freedom
+
+> "Can those cells be changed? We are saying that they can, through insight. Insight being out of time, it is not the result of remembrance, it is not an intuition, or desire, or hope." *(from J. Krishnamurti - Brockwood Park 1983, Conversation 2 with David Bohm — YT:VVTiAw7K-bw)*
+
+> "Insight is nothing to do with any time and thought. It is of the nature of mind, activity of mind." *(from J. Krishnamurti - Brockwood Park 1983, Conversation 2 with David Bohm — YT:VVTiAw7K-bw)*
+
+> "To approach the problem, or to have perception of the problem without any past memories and thoughts interfering or projecting in perception of the problem." *(from J. Krishnamurti - Brockwood Park 1983, Conversation 2 with David Bohm — YT:VVTiAw7K-bw)*
+
+> "It is only in freedom there is deep insight. If you are not free to enquire, if you are biased, then you are limited." *(from J. Krishnamurti - Brockwood Park 1983, Conversation 2 with David Bohm — YT:VVTiAw7K-bw)*
+
+> "As long as the brain is conditioned its relationship to the mind is limited. But the mind being free has a relationship to the brain." *(from J. Krishnamurti - Brockwood Park 1983, Conversation 2 with David Bohm — YT:VVTiAw7K-bw)*
+
+---
+
+> "Any form of becoming is an illusion, and the becoming implies time. Time for the psyche to change – we are saying time is not necessary." *(from J. Krishnamurti - Brockwood Park 1983, Conversation 2 with David Bohm — YT:VVTiAw7K-bw)*
+
+> "The very structure and the nature of the psyche is the movement of thought in time. But movement is in some way illusory." *(from J. Krishnamurti - Brockwood Park 1983, Conversation 2 with David Bohm — YT:VVTiAw7K-bw)*
+
+> "All are trying to become something. Both the experimentalists and the psychologists and ourselves, they are all trying to become something." *(from J. Krishnamurti - Brockwood Park 1983, Conversation 2 with David Bohm — YT:VVTiAw7K-bw)*
+
