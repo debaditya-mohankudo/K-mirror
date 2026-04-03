@@ -49,6 +49,16 @@ Investigates a topic or wound through Krishnamurti's spirit of inquiry. Uses the
 - Identity/Self → [consciousness-identity.md], [memory-identity.md], [becoming.md]
 - Stuck/Powerless → [thought.md], [becoming.md], [intelligence.md], [observation.md]
 - Loss/Grief → [sorrow.md], [death-living.md], [attachment.md], [letting-go.md] (if exists)
+- Geopolitical conflict → **web search first** for current factual context, then route to [war.md], [consciousness-identity.md], [fear.md], [sorrow.md]
+
+### Geopolitical Conflict Handling
+
+When the topic is a geopolitical conflict (war, nation-state dispute, political violence):
+
+1. **Web search first** — run a WebSearch to get current factual context (who, what, when, casualties, stated causes)
+2. **Open with facts** — briefly surface the real-world context (2-3 sentences) so the inquiry is grounded
+3. **Then apply K's inquiry** — use war.md, consciousness-identity.md, fear.md as primary sources
+4. **Include sources** — list search result URLs at the end of the response
 
 ---
 
