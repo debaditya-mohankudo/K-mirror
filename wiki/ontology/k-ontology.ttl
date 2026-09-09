@@ -510,3 +510,5 @@ k:App_Instagram a k:Application ; k:themeFile "instagram.md" ;
     k:gloss "Comparison industrialised: pathway P2 driven by axiom A10." .
 k:App_War a k:Application ; k:themeFile "war.md" ;
     k:gloss "The safe observer: axiom A9 denied, pathway P4 fed by Escape." .
+k:App_Sex a k:Application ; k:themeFile "sex.md" ;
+    k:gloss "The last unborrowed door: pathway P2 loaded by a second-hand life, axiom A16 keeps the pursuit open." .

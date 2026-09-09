@@ -1940,6 +1940,21 @@
         "A3"
       ],
       "gloss": "The safe observer: A9 denied, division enjoyed as relief, Escape mistaken for information."
+    },
+    {
+      "file": "sex.md",
+      "label": "Sensation & Image: why sex has become so important",
+      "pathways": [
+        "P2",
+        "P5"
+      ],
+      "axioms": [
+        "A16",
+        "A8",
+        "A10",
+        "A9"
+      ],
+      "gloss": "The last unborrowed door. Everything else is second-hand, so the whole weight of a thwarted life loads onto the one act where thought briefly subsides; P2 then converts it into image and pursuit, and A16 guarantees the pursuit never closes."
     }
   ]
 }
