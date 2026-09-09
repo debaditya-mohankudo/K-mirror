@@ -56,6 +56,8 @@ k:Flowering               k:Affect                 k:Documentation
 
 The second is the one that carries weight: attention is not a *thing thought does*. If it were, A8 (below) would make ending impossible.
 
+**A topological reading (optional).** The three disjointness axioms make `k:Construct` behave like an *open set*: enlarging it — more knowledge, more data, a wider corpus — is union with more open sets, which stays open. It never acquires its boundary and never becomes `k:Actuality` (P1 runs in one direction and never converges inside the set). The boundary itself exists only against an outside; remove the separate self that draws the inside/outside line (A9) and the whole is *clopen*, its boundary empty. On that reading the ending is not the set closing (acquiring its boundary) but the interior/boundary distinction collapsing (A4). This restates A1 + A8 in another vocabulary and is formalised as A16; A17 carries the same reading down to `k:Self` (an open cover with no finite subcover). Neither adds a claim.
+
 ---
 
 ## 3. Classes
@@ -262,6 +264,10 @@ Enjoyment    isNot { Pleasure }
 **A5 — Psychological time is construct.** `Becoming operatesIn PsychologicalTime ∧ Construct(PsychologicalTime) → illusory(Becoming)`
 *"Any form of becoming is an illusion."* Hence: *"There is no psychological evolution."*
 
+> **Formal note (A5 · A17) — thought and psychological time.** Homomorphism understates it: on the psychological domain the two are *identical* — the movement of thought, seen as movement, is psychological time (K: *"thought is time"*). A structure-preserving correspondence does hold — chaining of thoughts ↔ composition of intervals · intentionality ("this should be that") ↔ the direction of becoming · the self as common origin, `WhatIs` vs `WhatShouldBe` ↔ now vs then · a thought as limit (A2) ↔ an interval as gap — under one metric, `Comparison` (A10). It weakens to a *restriction* (nothing collapsed, a part set aside) only once technical thought is included, which runs in chronological time (`k:PhysicalNecessity`, `ofThought: false`). Positing "two structures with a map between them" is itself the dividing move (A4: observer/observed, thinker/thought, time/thought are one); drawing the diagram is one more `k:Construct` (A13).
+>
+> **Corollary.** "Improving psychologically over time" presupposes a pre-laid atlas to advance along. There is none — the re-charting *is* the time — so the project is `k:Becoming` (A5, P3), not a route out of it. Gradualism is thought postponing the ending it fears (A7).
+
 **A6 — Fact over idea.** `actionable(x) ↔ isFactual(x)`
 *"You can deal with the fact… but you cannot possibly do something about an idea."* Corollary: pursuing an ideal (non-violence, humility, enlightenment) is action on a non-fact, and by A2–A3 manufactures the conflict it meant to end.
 
@@ -289,6 +295,14 @@ No term, no pathway, no axiom in this graph generates `k:Freedom`. This is not a
 
 **A15 — Depth of realization.** `depth(x) < profound → ofThought(x) ∧ ¬dissolves(x, ·)` for `x ∈ { k:SeeingTheFalse, k:Insight }`
 Seeing the false and insight are not binary. They run a gradient: **verbal** agreement with the description, **intellectual** acceptance of the logic, **superficial** perception that does not hold, **profound** perception that alters the brain cells. Only the last has dissolving power; the first two are thought recognising its own description and, by A8, change nothing. This is the axiom behind K's repeated caution that the word is not the thing — and behind the fact that concluding *"thought is futile"* is itself a movement of thought, not the ending of it. *"The depth of that realisation… may be very superficial, or it may be profound. When it is profound it totally changes one's life."*
+
+**A16 — Enlargement does not close.** `Open(ofThought)` · `Construct ∪ Construct = Construct ≠ Actuality` · `∂(whole) = ∅` when there is no separate self
+A topological restatement of A1 + A8 — it asserts nothing new. The `ofThought` region is an open set: `Construct` joined with more `Construct` is still `Construct`, never `k:Actuality`. Completeness is not approached by accumulation — P1 runs in one direction and never converges inside the set. A boundary exists only against an outside (A2: a limit *is* a division); with no separate self drawing the inside/outside line (A9), the whole is clopen and its boundary is empty. The ending is therefore not the *closure* of the set (adding its boundary) but the collapse of the interior/boundary distinction itself (A4). Saying so is one more `k:Construct` (A13). *"One's whole life is a movement within the field of the known."* — [memory-identity](memory-identity.md)
+
+**A17 — The self is a non-compact cover.** `Self = ⋃_{i∈ℕ} Uᵢ`, each `Uᵢ` open · `Separateness → ` no finite subcover · chart-transition `Uᵢ → Uⱼ` = `Becoming` in `PsychologicalTime` · residue `X ∖ ⋃Uᵢ ≠ ∅` is not a chart
+Restates `k:Division` + `k:Separateness` + P4 in the vocabulary of A16, and like A16 adds no claim. The self is not one region but an *open cover* of consciousness by countably many personae — each an open patch (a `k:Image`) with no crisp edge, defended precisely because it cannot locate its own limit (A2). The cover has **no finite subcover**: the self cannot be reduced to a fixed handful of roles, and `k:FalseSecurity` is exactly the demand for that missing finite subcover — *"let me be only these few settled things."* Passing between patches needs transition maps, and that passage *is* `k:Becoming` running in `k:PsychologicalTime` (A5) — the restlessness between personalities is the self's mode of continuation, not an accident of it. The cover is **countable**: the personae are produced and traversed one at a time, so the enumeration is itself the becoming and never completes (A16). Where each patch is thin — nowhere dense, `k:SeeingTheFalse` at verbal or intellectual depth (A15) — the union is *meagre* and cannot exhaust a complete space; the residue it never reaches is not one more persona but what *profound* `k:SeeingTheFalse` attends to. `ofThought(this) = true` (A13). *"There is no security in isolation. This process of isolation is fragmentation."* — [security-aloneness](security-aloneness.md)
+
+> **Formal note (A17 · A5).** The "passage between charts" above is the movement A5 identifies with psychological time: `Uᵢ → Uⱼ` = `k:Becoming` = an interval of psychological time. The self as open cover and psychological time are one structure under two descriptions — the atlas is not laid out *in* time; its re-charting *is* time.
 
 ---
 
@@ -384,7 +398,7 @@ jq -r '.pathways[] | select(.id == "P3") | .steps | join(" → ")' k-ontology.js
 jq -r '.terms[] | select(.themeFile == "fear.md") | "\(.id): \(.gloss)"' k-ontology.json
 ```
 
-Structure of `k-ontology.json`: `terms` (77 nodes, each with `broader`, `gloss`, `ofThought`, `evidence`, `themeFile`), `relationTypes` (19 typed properties), `relations` (112 subject–predicate–object edges, most carrying their evidence quote), `axioms` (A1–A15), `scales` (`realizationDepth`), `pathways` (P1–P7), `themes`, `applications`.
+Structure of `k-ontology.json`: `terms` (77 nodes, each with `broader`, `gloss`, `ofThought`, `evidence`, `themeFile`), `relationTypes` (19 typed properties), `relations` (112 subject–predicate–object edges, most carrying their evidence quote), `axioms` (A1–A17), `scales` (`realizationDepth`), `pathways` (P1–P7), `themes`, `applications`.
 
 
 For `/k-mirror` facilitation: the `pathways` give a turn's *direction*, the `isNot` edges give a way to question a definition without asserting one, and `ofThought` is the fastest test of whether a proposed exit is really an exit — if the answer is `true`, A8 says it is the problem wearing a new coat.

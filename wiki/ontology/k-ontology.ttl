@@ -20,6 +20,7 @@ this ontology is itself of thought, therefore limited, and can end nothing.""" .
 
 k:gloss           a owl:DatatypeProperty ; rdfs:range xsd:string .
 k:themeFile       a owl:DatatypeProperty ; rdfs:range xsd:string .
+k:note            a owl:DatatypeProperty ; rdfs:range xsd:string .
 k:evidence        a owl:DatatypeProperty ; rdfs:range xsd:string ;
                   rdfs:comment "Verbatim quote from the wiki supporting this node." .
 k:ofThought       a owl:DatatypeProperty ; rdfs:range xsd:boolean ;
@@ -402,7 +403,8 @@ k:A4 a k:Axiom ; rdfs:label "Non-duality" ;
     k:evidence "Both are the same, it is a trick played by thought." .
 k:A5 a k:Axiom ; rdfs:label "Psychological time is a construct" ;
     k:gloss "Becoming runs in psychological time; psychological time is made by thought; therefore becoming is illusory." ;
-    k:evidence "Any form of becoming is an illusion, and the becoming implies time." .
+    k:evidence "Any form of becoming is an illusion, and the becoming implies time." ;
+    k:note "Thought and psychological time are not two structures joined by a homomorphism; on the psychological domain they are identical (thought is time). A structure-preserving correspondence does hold: chaining of thoughts to composition of intervals, intentionality to the direction of becoming, the self as common origin measuring WhatIs against WhatShouldBe to now measured against then, a thought as limit (A2) to an interval as gap, with the single metric Comparison (A10) on both sides. But identity is the stronger reading: the movement of thought seen as movement is psychological time. The correspondence weakens to a mere restriction (nothing collapsed, a part set aside) only when technical thought is included, which runs in chronological time (PhysicalNecessity, ofThought false). Positing two structures with a map between them is itself the dividing move (A4), and drawing the diagram is one more Construct (A13). Corollary: 'improving psychologically over time' presupposes a pre-laid atlas to advance along; there is none - the re-charting is the time - so the project is Becoming (A5, P3), not a route out of it, and gradualism is thought postponing the ending it fears (A7)." .
 k:A6 a k:Axiom ; rdfs:label "Fact over idea" ;
     k:gloss "Only a fact can be acted on. An ideal can only be pursued, and pursuit is division." ;
     k:evidence "You can deal with the fact, you can do something about the fact, but you cannot possibly do something about an idea." .
@@ -435,6 +437,15 @@ k:A14 a k:Axiom ; rdfs:label "Freedom is not a node you arrive at" ;
 k:A15 a k:Axiom ; rdfs:label "Depth of realization" ;
     k:gloss "Seeing the false and insight admit a gradient from verbal agreement to profound perception. Only profound realization alters the brain cells; verbal and intellectual degrees are thought recognising a description, and by A8 dissolve nothing. This is why agreeing that thought is futile does not end thought." ;
     k:evidence "The depth of that realisation, which may be very superficial, or it may be profound. When it is profound it totally changes one's life." .
+
+k:A16 a k:Axiom ; rdfs:label "Enlargement does not close" ;
+    k:gloss "A topological restatement of A1 and A8, asserting nothing new. The ofThought region is an open set: Construct joined with more Construct is still Construct, never Actuality. Completeness is not approached by accumulation (pathway P1 runs in one direction and never converges inside the set). A boundary exists only against an outside (A2: a limit is a division); with no separate self drawing the inside/outside line (A9) the whole is clopen and its boundary is empty. The ending is therefore not the closure of the set — adding its boundary — but the collapse of the interior/boundary distinction itself (A4). Saying so is one more Construct (A13)." ;
+    k:evidence "One's whole life is a movement within the field of the known." .
+
+k:A17 a k:Axiom ; rdfs:label "The self is a non-compact cover" ;
+    k:gloss "Restates Division, Separateness and pathway P4 in the vocabulary of A16, and like A16 asserts nothing new. The self is not one region but an open cover of consciousness by countably many personae, each an open patch (an Image) with no crisp edge, defended precisely because it cannot locate its own limit (A2). The cover has no finite subcover: the self cannot be reduced to a fixed handful of roles, and FalseSecurity is exactly the demand for that missing finite subcover. Moving between patches requires transition maps, and that movement is Becoming running in PsychologicalTime (A5); the restlessness between personalities is the self's mode of continuation, not an accident of it. The cover is countable: the personae are produced and traversed one at a time, so the enumeration is itself the becoming and never completes (A16). Where each patch is thin (nowhere dense: SeeingTheFalse at verbal or intellectual depth, A15) the union is meagre and cannot exhaust a complete space; the residue it never reaches is not one more persona but what profound SeeingTheFalse attends to. This ontology is of thought (A13)." ;
+    k:evidence "There is no security in isolation. This process of isolation is fragmentation." ;
+    k:note "The passage between charts in A17 is the movement A5 identifies with psychological time: chart-transition U_i to U_j = Becoming = an interval of psychological time. The self as open cover and psychological time are one structure under two descriptions; the atlas is not laid out in time, its re-charting is time." .
 
 #################################################################
 #  Pathways

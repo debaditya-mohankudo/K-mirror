@@ -17,7 +17,7 @@
       "terms": 77,
       "relationTypes": 19,
       "relations": 112,
-      "axioms": 15,
+      "axioms": 17,
       "scales": 1,
       "pathways": 7,
       "themes": 16
@@ -1561,7 +1561,8 @@
       "label": "Psychological time is a construct",
       "formal": "operatesIn(Becoming, PsychologicalTime) & Construct(PsychologicalTime) -> illusory(Becoming)",
       "gloss": "Becoming runs in psychological time; psychological time is made by thought; therefore there is no psychological evolution.",
-      "evidence": "Any form of becoming is an illusion, and the becoming implies time."
+      "evidence": "Any form of becoming is an illusion, and the becoming implies time.",
+      "note": "Thought and psychological time are not two structures joined by a homomorphism; on the psychological domain they are identical (K: 'thought is time'). A structure-preserving correspondence does hold - chaining of thoughts <-> composition of intervals; intentionality ('this should be that') <-> the direction of becoming; the self as common origin measuring WhatIs against WhatShouldBe <-> now measured against then; a thought as limit (A2) <-> an interval as gap - with the single metric Comparison (A10) on both sides. But identity is the stronger and correct reading: the movement of thought, seen as movement, is psychological time. The correspondence weakens to a mere restriction - nothing collapsed, a part set aside - only when technical thought is included, which runs in chronological time (PhysicalNecessity, ofThought:false). Positing 'two structures with a map between them' is itself the dividing move (A4: observer/observed, thinker/thought, time/thought are one), and drawing the diagram is one more Construct (A13). Corollary: 'improving psychologically over time' presupposes a pre-laid atlas to advance along; there is none - the re-charting is the time - so the project is Becoming (A5, P3), not a route out of it, and gradualism is thought postponing the ending it fears (A7)."
     },
     {
       "id": "A6",
@@ -1632,6 +1633,21 @@
       "formal": "depth(x) < profound -> ofThought(x) & not dissolves(x, _)   [x in {SeeingTheFalse, Insight}]",
       "gloss": "Seeing the false and insight admit a gradient from verbal agreement to profound perception. Only profound realization alters the brain cells; verbal and intellectual degrees are thought recognising a description, and by A8 dissolve nothing. This is why agreeing that thought is futile does not end thought.",
       "evidence": "The depth of that realisation, which may be very superficial, or it may be profound. When it is profound it totally changes one's life."
+    },
+    {
+      "id": "A16",
+      "label": "Enlargement does not close",
+      "formal": "Open(ofThought) ; Construct ∪ Construct = Construct ≠ Actuality ; ∂(whole)=∅ when ¬SeparateSelf",
+      "gloss": "A topological restatement of A1 + A8; asserts nothing new. The ofThought region is an open set: Construct joined with more Construct is still Construct, never Actuality. Completeness is not approached by accumulation - P1 runs in one direction and never converges inside the set. A boundary exists only against an outside (A2: a limit is a division); with no separate self drawing the inside/outside line (A9), the whole is clopen and its boundary is empty. The ending is therefore not the closure of the set (adding its boundary) but the collapse of the interior/boundary distinction itself (A4). Saying so is one more Construct (A13).",
+      "evidence": "One's whole life is a movement within the field of the known."
+    },
+    {
+      "id": "A17",
+      "label": "The self is a non-compact cover",
+      "formal": "Self = ⋃_{i∈ℕ} U_i, each U_i open ; Separateness -> no finite subcover (¬compact) ; chart-transition U_i->U_j = Becoming in PsychologicalTime ; countable -> personae enumerated one at a time ; residue X\\⋃U_i ≠ ∅ is not a chart (A12)",
+      "gloss": "Restates k:Division + k:Separateness + pathway P4 in the vocabulary of A16, and like A16 asserts nothing new. The self is not one region but an open cover of consciousness by countably many personae - each an open patch (a k:Image) with no crisp edge, defended precisely because it cannot locate its own limit (A2). The cover has no finite subcover: the self cannot be reduced to a fixed handful of roles, and k:FalseSecurity is exactly the demand for that missing finite subcover - 'let me be only these few settled things'. Moving between patches requires transition maps, and that movement is k:Becoming running in k:PsychologicalTime (A5); the restlessness between personalities is the self's mode of continuation, not an accident of it. The cover is countable - the personae are produced and traversed one at a time - so the enumeration is itself the becoming and never completes (A16). Where each patch is thin (nowhere dense: k:SeeingTheFalse at verbal or intellectual depth, A15) the union is meagre and cannot exhaust a complete space; the residue it never reaches is not one more persona but what profound k:SeeingTheFalse attends to. ofThought(this) = true (A13).",
+      "evidence": "There is no security in isolation. This process of isolation is fragmentation.",
+      "note": "The 'passage between charts' of A17 is the same movement A5 identifies with psychological time: chart-transition U_i -> U_j = Becoming = an interval of psychological time. The self as open cover and psychological time are therefore one structure under two descriptions - the atlas is not laid out in time; its re-charting is time."
     }
   ],
   "pathways": [
