@@ -1,0 +1,1929 @@
+{
+  "@context": {
+    "@vocab": "https://k-mirror.local/ontology/k#",
+    "id": "@id",
+    "label": "rdfs:label"
+  },
+  "ontology": {
+    "id": "https://k-mirror.local/ontology/k",
+    "title": "K-Ontology - the psychological structure described by J. Krishnamurti",
+    "version": "1.0.0",
+    "source": "K-Mirror wiki (wiki/*.md)",
+    "spec": "wiki/ONTOLOGY.md",
+    "turtle": "wiki/ontology/k-ontology.ttl",
+    "note": "A map of the mechanism, not a path. The mechanism is modelled positively; what lies outside it appears only by negation (axiom A12). By axiom A13 this file is itself of thought, therefore limited, and can end nothing.",
+    "masterPartition": "ofThought: true = a movement of thought (Construct, Movement, Affect); false = not of thought (Actuality, Perceiving, Flowering).",
+    "counts": {
+      "terms": 77,
+      "relationTypes": 19,
+      "relations": 112,
+      "axioms": 15,
+      "scales": 1,
+      "pathways": 7,
+      "themes": 16
+    }
+  },
+  "disjointWith": [
+    [
+      "Actuality",
+      "Construct"
+    ],
+    [
+      "Perceiving",
+      "Movement"
+    ],
+    [
+      "Flowering",
+      "Construct"
+    ]
+  ],
+  "scales": [
+    {
+      "id": "realizationDepth",
+      "kind": "orderedGradient",
+      "note": "How deeply a perception has landed. The same act of seeing occurs at any of these degrees; only 'profound' has any dissolving power (axiom A15). Applies to k:SeeingTheFalse and k:Insight.",
+      "steps": [
+        {
+          "value": "verbal",
+          "gloss": "Agreement with the description. The word taken for the thing; nothing is actually perceived. Still a movement of thought.",
+          "evidence": "The word is not the thing; the description is not the described."
+        },
+        {
+          "value": "intellectual",
+          "gloss": "The logic is followed and accepted as a conclusion. Conviction, not perception; no action follows from it.",
+          "evidence": "Verbal agreement or intellectual acceptance is not seeing."
+        },
+        {
+          "value": "superficial",
+          "gloss": "Actual perception, but partial or momentary - a glimpse that does not hold.",
+          "evidence": "The depth of that realisation may be very superficial."
+        },
+        {
+          "value": "profound",
+          "gloss": "Total, non-verbal perception that alters the brain cells and changes the life. The only degree at which the dissolves and givesRiseTo edges fire.",
+          "evidence": "When it is profound it totally changes one's life."
+        }
+      ]
+    }
+  ],
+  "terms": [
+    {
+      "id": "Entity",
+      "label": "Entity",
+      "broader": null,
+      "gloss": "Root of the ontology."
+    },
+    {
+      "id": "Actuality",
+      "label": "Actuality",
+      "broader": "Entity",
+      "gloss": "What is the case prior to interpretation.",
+      "ofThought": false
+    },
+    {
+      "id": "Perceiving",
+      "label": "Perceiving",
+      "broader": "Entity",
+      "gloss": "Capacities that are not activities of thought.",
+      "ofThought": false,
+      "requiresTime": false
+    },
+    {
+      "id": "Flowering",
+      "label": "Flowering",
+      "broader": "Entity",
+      "gloss": "What is there when the mechanism ends. Defined only by negation.",
+      "ofThought": false
+    },
+    {
+      "id": "Construct",
+      "label": "Construct",
+      "broader": "Entity",
+      "gloss": "Anything thought has put together.",
+      "ofThought": true
+    },
+    {
+      "id": "Movement",
+      "label": "Movement",
+      "broader": "Entity",
+      "gloss": "A process running in psychological time.",
+      "ofThought": true,
+      "requiresTime": true
+    },
+    {
+      "id": "Affect",
+      "label": "Affect",
+      "broader": "Entity",
+      "gloss": "A psychological state the mechanism produces.",
+      "ofThought": true
+    },
+    {
+      "id": "Ground",
+      "label": "Ground",
+      "broader": "Entity",
+      "gloss": "The substrate in which all of it occurs."
+    },
+    {
+      "id": "Documentation",
+      "label": "Documentation",
+      "broader": "Entity",
+      "gloss": "The wiki's own layer: themes, quotes, sources, pathways, axioms."
+    },
+    {
+      "id": "Fact",
+      "label": "Fact",
+      "broader": "Actuality",
+      "gloss": "What is actually going on, as against the idea of it.",
+      "ofThought": false,
+      "isFactual": true,
+      "evidence": "The fact is what is going on, what is happening.",
+      "themeFile": "thought.md"
+    },
+    {
+      "id": "WhatIs",
+      "label": "WhatIs",
+      "broader": "Actuality",
+      "gloss": "The present state, not moved away from.",
+      "ofThought": false,
+      "isFactual": true,
+      "evidence": "'What is' is so.",
+      "themeFile": "becoming.md"
+    },
+    {
+      "id": "Sensation",
+      "label": "Sensation",
+      "broader": "Actuality",
+      "gloss": "Sense response prior to thought's image.",
+      "ofThought": false,
+      "evidence": "If there was no thought there would be only sensation.",
+      "themeFile": "desire.md"
+    },
+    {
+      "id": "TheNow",
+      "label": "TheNow",
+      "broader": "Actuality",
+      "gloss": "The present, which contains past and future.",
+      "ofThought": false,
+      "evidence": "All time, the past, the present and the future, is contained in the now.",
+      "themeFile": "thought.md"
+    },
+    {
+      "id": "ChronologicalTime",
+      "label": "ChronologicalTime",
+      "broader": "Actuality",
+      "gloss": "Clock time. Real, and not the subject of the inquiry.",
+      "ofThought": false,
+      "themeFile": "becoming.md"
+    },
+    {
+      "id": "PhysicalNecessity",
+      "label": "PhysicalNecessity",
+      "broader": "Actuality",
+      "gloss": "Legitimate knowledge and skill: language, carpentry, getting from here to there.",
+      "ofThought": false,
+      "evidence": "To learn a language needs time. That is not the time we are talking about.",
+      "themeFile": "becoming.md"
+    },
+    {
+      "id": "Image",
+      "label": "Image",
+      "broader": "Construct",
+      "gloss": "The picture thought makes of a person, thing or state.",
+      "ofThought": true,
+      "evidence": "Thought creates the image, and at that moment desire is born.",
+      "themeFile": "desire.md"
+    },
+    {
+      "id": "Ideal",
+      "label": "Ideal",
+      "broader": "Construct",
+      "gloss": "What should be. The opposite thought invents; always non-fact.",
+      "ofThought": true,
+      "isFactual": false,
+      "evidence": "Thought has created the opposite, which is non-fact.",
+      "themeFile": "becoming.md"
+    },
+    {
+      "id": "Self",
+      "label": "Self",
+      "broader": "Construct",
+      "gloss": "Me, ego - and equally the observer, thinker, controller, analyser, experiencer.",
+      "ofThought": true,
+      "isDivisive": true,
+      "evidence": "The me is a series of conclusions: I believe, I am convinced, I have faith.",
+      "themeFile": "memory-identity.md"
+    },
+    {
+      "id": "Memory",
+      "label": "Memory",
+      "broader": "Construct",
+      "gloss": "Remembrance of things past, held in the brain cells.",
+      "ofThought": true,
+      "evidence": "We are nothing but memory, and it is to that memory that we are attached.",
+      "themeFile": "memory-identity.md"
+    },
+    {
+      "id": "Knowledge",
+      "label": "Knowledge",
+      "broader": "Construct",
+      "gloss": "The outcome of experience. Always incomplete.",
+      "ofThought": true,
+      "evidence": "Knowledge always lives within the shadow of ignorance.",
+      "themeFile": "thought.md"
+    },
+    {
+      "id": "PsychologicalTime",
+      "label": "PsychologicalTime",
+      "broader": "Construct",
+      "gloss": "Tomorrow as inward achievement. Thought as time.",
+      "ofThought": true,
+      "isFactual": false,
+      "evidence": "Moving away from 'what is' to 'what might be' - that is psychological time.",
+      "themeFile": "becoming.md"
+    },
+    {
+      "id": "Belief",
+      "label": "Belief",
+      "broader": "Construct",
+      "gloss": "A conclusion held for security, which then forbids examination.",
+      "ofThought": true,
+      "evidence": "That attachment not only prevents further examination, but I am frightened to examine.",
+      "themeFile": "attachment.md"
+    },
+    {
+      "id": "Conditioning",
+      "label": "Conditioning",
+      "broader": "Construct",
+      "gloss": "The program: nationality, religion, culture, generations of outside pressure.",
+      "ofThought": true,
+      "isDivisive": true,
+      "evidence": "The constant assertion of the self is the movement, is the conditioning.",
+      "themeFile": "consciousness-identity.md"
+    },
+    {
+      "id": "Division",
+      "label": "Division",
+      "broader": "Construct",
+      "gloss": "Any inward split: me and you, observer and observed, fact and ideal.",
+      "ofThought": true,
+      "isDivisive": true,
+      "evidence": "Where there is division there must be conflict.",
+      "themeFile": "controller.md"
+    },
+    {
+      "id": "Illusion",
+      "label": "Illusion",
+      "broader": "Construct",
+      "gloss": "What is taken as real and is not. Separateness above all.",
+      "ofThought": true,
+      "isFactual": false,
+      "evidence": "The sense of separateness is an illusion. It is all one.",
+      "themeFile": "consciousness-identity.md"
+    },
+    {
+      "id": "Abstraction",
+      "label": "Abstraction",
+      "broader": "Construct",
+      "gloss": "The idea of the fact. The word taken for the thing.",
+      "ofThought": true,
+      "isFactual": false,
+      "evidence": "The word 'suffering' is different from the actual suffering.",
+      "themeFile": "observation.md"
+    },
+    {
+      "id": "Observer",
+      "label": "Observer",
+      "broader": "Self",
+      "gloss": "The one who looks - and is what is looked at.",
+      "ofThought": true,
+      "evidence": "The observer is the observed.",
+      "themeFile": "controller.md"
+    },
+    {
+      "id": "Thinker",
+      "label": "Thinker",
+      "broader": "Self",
+      "gloss": "The one who thinks - and is the thought.",
+      "ofThought": true,
+      "evidence": "The thinker is the thought.",
+      "themeFile": "controller.md"
+    },
+    {
+      "id": "Controller",
+      "label": "Controller",
+      "broader": "Self",
+      "gloss": "The one who controls - and is the controlled.",
+      "ofThought": true,
+      "evidence": "The controller is the controlled.",
+      "themeFile": "controller.md"
+    },
+    {
+      "id": "Analyser",
+      "label": "Analyser",
+      "broader": "Self",
+      "gloss": "The past examining the present - and is what it examines.",
+      "ofThought": true,
+      "evidence": "The analyser is the analysed.",
+      "themeFile": "observation.md"
+    },
+    {
+      "id": "Observed",
+      "label": "Observed",
+      "broader": "Construct",
+      "gloss": "What is looked at - which is the looker.",
+      "ofThought": true,
+      "themeFile": "controller.md"
+    },
+    {
+      "id": "Controlled",
+      "label": "Controlled",
+      "broader": "Construct",
+      "gloss": "What is controlled - which is the controller.",
+      "ofThought": true,
+      "themeFile": "controller.md"
+    },
+    {
+      "id": "Analysed",
+      "label": "Analysed",
+      "broader": "Construct",
+      "gloss": "What is analysed - which is the analyser.",
+      "ofThought": true,
+      "themeFile": "observation.md"
+    },
+    {
+      "id": "Corruption",
+      "label": "Corruption",
+      "broader": "Affect",
+      "gloss": "What attachment invariably brings.",
+      "ofThought": true,
+      "evidence": "Where there is attachment there is corruption.",
+      "themeFile": "attachment.md"
+    },
+    {
+      "id": "Thought",
+      "label": "Thought",
+      "broader": "Movement",
+      "gloss": "The response of memory. A material process.",
+      "ofThought": true,
+      "evidence": "Thought is the response of memory.",
+      "themeFile": "thought.md"
+    },
+    {
+      "id": "Desire",
+      "label": "Desire",
+      "broader": "Movement",
+      "gloss": "Sensation plus the image thought makes of it.",
+      "ofThought": true,
+      "evidence": "Where there is sensation and the operation of the senses, thought creates the image, and at that moment desire is born.",
+      "themeFile": "desire.md"
+    },
+    {
+      "id": "Will",
+      "label": "Will",
+      "broader": "Movement",
+      "gloss": "Desire hardened into direction. 'I will become that.'",
+      "ofThought": true,
+      "evidence": "Will is the essence of desire. This action of will is part of our violence.",
+      "themeFile": "desire.md"
+    },
+    {
+      "id": "Becoming",
+      "label": "Becoming",
+      "broader": "Movement",
+      "gloss": "The movement from what is toward what should be.",
+      "ofThought": true,
+      "evidence": "This movement of becoming is the movement of thought in time.",
+      "themeFile": "becoming.md"
+    },
+    {
+      "id": "Comparison",
+      "label": "Comparison",
+      "broader": "Movement",
+      "gloss": "Measuring oneself against an image.",
+      "ofThought": true,
+      "evidence": "Comparison is the movement of thought.",
+      "themeFile": "becoming.md"
+    },
+    {
+      "id": "Control",
+      "label": "Control",
+      "broader": "Movement",
+      "gloss": "One fragment attempting to master another it invented.",
+      "ofThought": true,
+      "evidence": "When there is control, there are two entities: the one who is controlling, controlling that which he himself has created.",
+      "themeFile": "controller.md"
+    },
+    {
+      "id": "Analysis",
+      "label": "Analysis",
+      "broader": "Movement",
+      "gloss": "The past examining the present, and so maintaining the split.",
+      "ofThought": true,
+      "evidence": "Analysis implies an analyser, the analyser is the past, and he is examining the present.",
+      "themeFile": "observation.md"
+    },
+    {
+      "id": "Attachment",
+      "label": "Attachment",
+      "broader": "Movement",
+      "gloss": "Clinging to an image, a person, a belief, the known.",
+      "ofThought": true,
+      "evidence": "Where there is attachment I recognise, observe there is corruption.",
+      "themeFile": "attachment.md"
+    },
+    {
+      "id": "Escape",
+      "label": "Escape",
+      "broader": "Movement",
+      "gloss": "Amusement, worship, entertainment, news, the scroll.",
+      "ofThought": true,
+      "evidence": "We live with it, become accustomed to it, or escape from it - through amusement, through worship.",
+      "themeFile": "fear.md"
+    },
+    {
+      "id": "Conflict",
+      "label": "Conflict",
+      "broader": "Movement",
+      "gloss": "The friction of any inward division.",
+      "ofThought": true,
+      "producesConflict": true,
+      "evidence": "Conflict exists only when there is division.",
+      "themeFile": "controller.md"
+    },
+    {
+      "id": "Violence",
+      "label": "Violence",
+      "broader": "Movement",
+      "gloss": "Conflict expressed - and conflict as such.",
+      "ofThought": true,
+      "evidence": "Conflict itself is violence.",
+      "themeFile": "thought.md"
+    },
+    {
+      "id": "Continuity",
+      "label": "Continuity",
+      "broader": "Movement",
+      "gloss": "Trading one pattern for another and calling it change.",
+      "ofThought": true,
+      "evidence": "I give up this pattern and take on another pattern.",
+      "themeFile": "death-living.md"
+    },
+    {
+      "id": "Fear",
+      "label": "Fear",
+      "broader": "Affect",
+      "gloss": "Thought projecting loss forward. Fear is time.",
+      "ofThought": true,
+      "evidence": "If I am to die now, immediately, there is no fear. But I want to live another ten years - so fear is time.",
+      "themeFile": "fear.md"
+    },
+    {
+      "id": "Sorrow",
+      "label": "Sorrow",
+      "broader": "Affect",
+      "gloss": "Not private. The common lot, long preceding the loss that reveals it.",
+      "ofThought": true,
+      "evidence": "Sorrow is not yours or mine, it is sorrow.",
+      "themeFile": "sorrow.md"
+    },
+    {
+      "id": "Pleasure",
+      "label": "Pleasure",
+      "broader": "Affect",
+      "gloss": "Enjoyment turned into memory and then pursued.",
+      "ofThought": true,
+      "evidence": "Remembered beauty is not beauty.",
+      "themeFile": "desire.md"
+    },
+    {
+      "id": "Loneliness",
+      "label": "Loneliness",
+      "broader": "Affect",
+      "gloss": "The isolation the self's own activity manufactures.",
+      "ofThought": true,
+      "evidence": "We are attached because we are lonely - deep abiding loneliness which is suffocating.",
+      "themeFile": "attachment.md"
+    },
+    {
+      "id": "Jealousy",
+      "label": "Jealousy",
+      "broader": "Affect",
+      "gloss": "What appears exactly where attention is absent.",
+      "ofThought": true,
+      "evidence": "Where there is complete attention, there is no jealousy.",
+      "themeFile": "observation.md"
+    },
+    {
+      "id": "FalseSecurity",
+      "label": "FalseSecurity",
+      "broader": "Affect",
+      "gloss": "Safety sought in a house, a wife, a nation, a god, a belief.",
+      "ofThought": true,
+      "isFactual": false,
+      "evidence": "You are all externalising, giving me security in things in which there is no security.",
+      "themeFile": "security-aloneness.md"
+    },
+    {
+      "id": "Disorder",
+      "label": "Disorder",
+      "broader": "Affect",
+      "gloss": "The self's intrinsic output.",
+      "ofThought": true,
+      "evidence": "No structure of the self can make order.",
+      "themeFile": "consciousness-identity.md"
+    },
+    {
+      "id": "Observation",
+      "label": "Observation",
+      "broader": "Perceiving",
+      "gloss": "Seeing without the translator, the word, the motive or the direction.",
+      "ofThought": false,
+      "requiresTime": false,
+      "evidence": "Learn the art of observing - not translating what you observe, but just to observe.",
+      "themeFile": "observation.md"
+    },
+    {
+      "id": "Attention",
+      "label": "Attention",
+      "broader": "Perceiving",
+      "gloss": "Whole attention. No centre, no me; not concentration, not effort.",
+      "ofThought": false,
+      "requiresTime": false,
+      "evidence": "Attention can only come into being when the self is not.",
+      "themeFile": "observation.md"
+    },
+    {
+      "id": "Insight",
+      "label": "Insight",
+      "broader": "Perceiving",
+      "gloss": "Immediate perception, out of time, which alters the brain cells.",
+      "ofThought": false,
+      "requiresTime": false,
+      "evidence": "Insight being out of time, it is not the result of remembrance, it is not an intuition, or desire, or hope.",
+      "realizationDepth": {
+        "gradient": [
+          "verbal",
+          "intellectual",
+          "superficial",
+          "profound"
+        ],
+        "operativeAt": "profound",
+        "note": "The same perception occurs at any depth; only at 'profound' do its dissolves / givesRiseTo edges actually fire (A15). Verbal and intellectual degrees are still of thought (A8) and end nothing."
+      },
+      "themeFile": "observation.md"
+    },
+    {
+      "id": "SeeingTheFalse",
+      "label": "SeeingTheFalse",
+      "broader": "Perceiving",
+      "gloss": "Perceiving the false as false - which is already the discovery of truth.",
+      "ofThought": false,
+      "requiresTime": false,
+      "evidence": "To see the false as the false - which means you have already discovered what is true.",
+      "realizationDepth": {
+        "gradient": [
+          "verbal",
+          "intellectual",
+          "superficial",
+          "profound"
+        ],
+        "operativeAt": "profound",
+        "note": "The same perception occurs at any depth; only at 'profound' do its dissolves / givesRiseTo edges actually fire (A15). Verbal and intellectual degrees are still of thought (A8) and end nothing."
+      },
+      "themeFile": "seeing-false.md"
+    },
+    {
+      "id": "SelfKnowing",
+      "label": "SelfKnowing",
+      "broader": "Perceiving",
+      "gloss": "Learning about oneself moment to moment, without accumulating.",
+      "ofThought": false,
+      "requiresTime": false,
+      "evidence": "Self-knowledge is not an accumulated process of knowledge. It is constant learning about oneself.",
+      "themeFile": "memory-identity.md"
+    },
+    {
+      "id": "Doubt",
+      "label": "Doubt",
+      "broader": "Perceiving",
+      "gloss": "The seed, allowed to flower - including doubt of one's own structure.",
+      "ofThought": false,
+      "evidence": "Doubt your experiences, doubt your illusions, doubt the very structure of your thinking.",
+      "themeFile": "seeing-false.md"
+    },
+    {
+      "id": "Love",
+      "label": "Love",
+      "broader": "Flowering",
+      "gloss": "Defined only by what it is not.",
+      "ofThought": false,
+      "evidence": "Love is not knowledge. Love is not remembrance. Love is not desire or pleasure.",
+      "themeFile": "love.md"
+    },
+    {
+      "id": "Compassion",
+      "label": "Compassion",
+      "broader": "Flowering",
+      "gloss": "The passion that is there when sorrow ends.",
+      "ofThought": false,
+      "evidence": "The ending of sorrow is passion, not lust. And that is part of love.",
+      "themeFile": "sorrow.md"
+    },
+    {
+      "id": "Intelligence",
+      "label": "Intelligence",
+      "broader": "Flowering",
+      "gloss": "May use thought; is not made of it. Free of the program.",
+      "ofThought": false,
+      "evidence": "Intelligence can use thought, but intelligence itself is free from memory and knowledge.",
+      "themeFile": "intelligence.md"
+    },
+    {
+      "id": "Freedom",
+      "label": "Freedom",
+      "broader": "Flowering",
+      "gloss": "Ungraphed by design (A14). Zero incoming creates/givesRiseTo/opensInto/dissolves edges; the one edge it touches (Insight arisesFrom Freedom) runs Freedom -> Insight, never the reverse.",
+      "ofThought": false,
+      "evidence": "It is only in freedom there is deep insight.",
+      "themeFile": "observation.md",
+      "unreachable": true
+    },
+    {
+      "id": "Order",
+      "label": "Order",
+      "broader": "Flowering",
+      "gloss": "Not arrangement. The absence of the self that disorders.",
+      "ofThought": false,
+      "evidence": "Until we have established right relationship between us - which is order - how can I find that which is supreme order?",
+      "themeFile": "relationship.md"
+    },
+    {
+      "id": "Aloneness",
+      "label": "Aloneness",
+      "broader": "Flowering",
+      "gloss": "All-one. Whole, not fragmented.",
+      "ofThought": false,
+      "evidence": "The word 'alone' means all one - together, whole, not fragmented.",
+      "themeFile": "security-aloneness.md"
+    },
+    {
+      "id": "PsychologicalDeath",
+      "label": "PsychologicalDeath",
+      "broader": "Flowering",
+      "gloss": "Ending the content of consciousness while living.",
+      "ofThought": false,
+      "evidence": "That consciousness with its content can be ended while I am living.",
+      "themeFile": "death-living.md"
+    },
+    {
+      "id": "TrueSecurity",
+      "label": "TrueSecurity",
+      "broader": "Flowering",
+      "gloss": "In intelligence only. Unavailable to the individual as individual.",
+      "ofThought": false,
+      "evidence": "There is security only in intelligence. Individual can never have that security.",
+      "themeFile": "security-aloneness.md"
+    },
+    {
+      "id": "Mutation",
+      "label": "Mutation",
+      "broader": "Flowering",
+      "gloss": "Actual change in the brain cells through insight.",
+      "ofThought": false,
+      "evidence": "There is a mutation in the brain cells. That mutation wipes out the whole structure that makes you suffer.",
+      "themeFile": "sorrow.md"
+    },
+    {
+      "id": "Silence",
+      "label": "Silence",
+      "broader": "Flowering",
+      "gloss": "The quiet brain in which intelligence operates.",
+      "ofThought": false,
+      "evidence": "Intelligence operates when the brain is quiet.",
+      "themeFile": "intelligence.md"
+    },
+    {
+      "id": "Energy",
+      "label": "Energy",
+      "broader": "Flowering",
+      "gloss": "What is released when nothing moves away from what is.",
+      "ofThought": false,
+      "evidence": "Moving away from 'what is' is wastage of energy.",
+      "themeFile": "becoming.md"
+    },
+    {
+      "id": "Brain",
+      "label": "Brain",
+      "broader": "Ground",
+      "gloss": "Conditioned, material, a million years old - and not yours.",
+      "evidence": "Your brain has grown through a million years - it is not your brain, it is the common brain of man.",
+      "themeFile": "consciousness-identity.md"
+    },
+    {
+      "id": "Consciousness",
+      "label": "Consciousness",
+      "broader": "Ground",
+      "gloss": "Identical with its content; common to mankind.",
+      "evidence": "The content of our consciousness is the common ground of all humanity.",
+      "themeFile": "consciousness-identity.md"
+    },
+    {
+      "id": "Mind",
+      "label": "Mind",
+      "broader": "Ground",
+      "gloss": "Unconditioned. Has a relation to the brain; not the reverse.",
+      "evidence": "The mind being free has a relationship to the brain.",
+      "themeFile": "observation.md"
+    },
+    {
+      "id": "Psyche",
+      "label": "Psyche",
+      "broader": "Ground",
+      "gloss": "What has no evolution.",
+      "evidence": "The evolution of consciousness is a fallacy. There is no psychological evolution.",
+      "themeFile": "becoming.md"
+    },
+    {
+      "id": "Humanity",
+      "label": "Humanity",
+      "broader": "Ground",
+      "gloss": "You, actually.",
+      "evidence": "Each one of us is actually the rest of humankind.",
+      "themeFile": "consciousness-identity.md"
+    },
+    {
+      "id": "Relationship",
+      "label": "Relationship",
+      "broader": "Ground",
+      "gloss": "Where all of this is testable. Usually two images.",
+      "evidence": "Relationship is between these two images. These images have been put together by thought.",
+      "themeFile": "relationship.md"
+    },
+    {
+      "id": "Society",
+      "label": "Society",
+      "broader": "Ground",
+      "gloss": "The self, externalised.",
+      "evidence": "I am society. I am the world.",
+      "themeFile": "consciousness-identity.md"
+    }
+  ],
+  "relationTypes": [
+    {
+      "id": "arisesFrom",
+      "label": "arises from",
+      "inverse": "givesRiseTo",
+      "gloss": "x is born of y."
+    },
+    {
+      "id": "givesRiseTo",
+      "label": "gives rise to",
+      "inverse": "arisesFrom",
+      "gloss": "x produces y."
+    },
+    {
+      "id": "isResponseOf",
+      "label": "is the response of",
+      "broader": "arisesFrom",
+      "gloss": "x is y responding."
+    },
+    {
+      "id": "creates",
+      "label": "creates",
+      "inverse": "isCreatedBy",
+      "gloss": "x puts y together."
+    },
+    {
+      "id": "projects",
+      "label": "projects",
+      "broader": "creates",
+      "gloss": "x throws y forward in time."
+    },
+    {
+      "id": "sustains",
+      "label": "sustains",
+      "gloss": "x keeps y alive."
+    },
+    {
+      "id": "presupposes",
+      "label": "presupposes",
+      "gloss": "x cannot exist without y."
+    },
+    {
+      "id": "implies",
+      "label": "implies",
+      "transitive": true,
+      "gloss": "Entailment. K's 'therefore'."
+    },
+    {
+      "id": "seeks",
+      "label": "seeks",
+      "gloss": "Motive edge."
+    },
+    {
+      "id": "escapesInto",
+      "label": "escapes into",
+      "gloss": "Avoidance edge."
+    },
+    {
+      "id": "isIdenticalWith",
+      "label": "is identical with",
+      "symmetric": true,
+      "gloss": "Denies an assumed psychological duality. The strongest claim in the model: where the pair collapses, the division and so the conflict is gone."
+    },
+    {
+      "id": "isNot",
+      "label": "is not",
+      "symmetric": true,
+      "gloss": "Negative definition. The only way Flowering terms are defined (axiom A12)."
+    },
+    {
+      "id": "obscures",
+      "label": "obscures",
+      "gloss": "x prevents the seeing of y."
+    },
+    {
+      "id": "isLimitedBy",
+      "label": "is limited by",
+      "gloss": "x is bounded by y, and so is partial."
+    },
+    {
+      "id": "dissolves",
+      "label": "dissolves",
+      "gloss": "x ends y - without effort and without time. By A8 no term with ofThought=true may appear as subject."
+    },
+    {
+      "id": "opensInto",
+      "label": "opens into",
+      "gloss": "x, complete, is already y."
+    },
+    {
+      "id": "operatesIn",
+      "label": "operates in",
+      "gloss": "Temporal mode of x."
+    },
+    {
+      "id": "commonTo",
+      "label": "common to",
+      "gloss": "x belongs to the whole, not to a person."
+    },
+    {
+      "id": "anchors",
+      "label": "anchors",
+      "gloss": "Theme -> the terms it evidences."
+    }
+  ],
+  "relations": [
+    {
+      "s": "Thought",
+      "p": "isResponseOf",
+      "o": "Memory",
+      "evidence": "Thought is the response of memory."
+    },
+    {
+      "s": "Thought",
+      "p": "isLimitedBy",
+      "o": "Knowledge",
+      "evidence": "Thought is limited because knowledge is limited."
+    },
+    {
+      "s": "Thought",
+      "p": "creates",
+      "o": "Image"
+    },
+    {
+      "s": "Thought",
+      "p": "creates",
+      "o": "Self",
+      "evidence": "Thought has created the 'me'."
+    },
+    {
+      "s": "Thought",
+      "p": "creates",
+      "o": "PsychologicalTime"
+    },
+    {
+      "s": "Thought",
+      "p": "creates",
+      "o": "Ideal",
+      "evidence": "Thought has created the opposite, which is non-fact."
+    },
+    {
+      "s": "Thought",
+      "p": "creates",
+      "o": "Division"
+    },
+    {
+      "s": "Thought",
+      "p": "isIdenticalWith",
+      "o": "PsychologicalTime",
+      "evidence": "Memory is the remembrance of things past, which is knowledge, and from that comes thought. Thought is time."
+    },
+    {
+      "s": "Thought",
+      "p": "operatesIn",
+      "o": "PsychologicalTime"
+    },
+    {
+      "s": "Knowledge",
+      "p": "arisesFrom",
+      "o": "Memory"
+    },
+    {
+      "s": "Memory",
+      "p": "arisesFrom",
+      "o": "Knowledge",
+      "evidence": "The source of thought is memory, which is knowledge, which is the outcome of experience."
+    },
+    {
+      "s": "Desire",
+      "p": "arisesFrom",
+      "o": "Sensation",
+      "evidence": "The beginning of desire begins with sensation, sensory responses."
+    },
+    {
+      "s": "Desire",
+      "p": "arisesFrom",
+      "o": "Image",
+      "evidence": "Then thought creates the image, at that moment begins desire."
+    },
+    {
+      "s": "Desire",
+      "p": "givesRiseTo",
+      "o": "Pleasure",
+      "evidence": "Where there is desire, with its image created by thought, there must be the pursuit of pleasure."
+    },
+    {
+      "s": "Will",
+      "p": "arisesFrom",
+      "o": "Desire",
+      "evidence": "Will is the essence of desire."
+    },
+    {
+      "s": "Will",
+      "p": "implies",
+      "o": "Violence",
+      "evidence": "This action of will is part of our violence."
+    },
+    {
+      "s": "Pleasure",
+      "p": "arisesFrom",
+      "o": "Memory",
+      "evidence": "That memory becomes the pleasure."
+    },
+    {
+      "s": "Pleasure",
+      "p": "givesRiseTo",
+      "o": "Fear",
+      "evidence": "Pleasure invariably goes with fear."
+    },
+    {
+      "s": "Becoming",
+      "p": "arisesFrom",
+      "o": "Desire",
+      "evidence": "The desire to become is endlessly seeking."
+    },
+    {
+      "s": "Becoming",
+      "p": "presupposes",
+      "o": "Division",
+      "evidence": "Becoming implies duality, and where there is duality there must be conflict."
+    },
+    {
+      "s": "Becoming",
+      "p": "presupposes",
+      "o": "PsychologicalTime",
+      "evidence": "Any form of becoming is an illusion, and the becoming implies time."
+    },
+    {
+      "s": "Becoming",
+      "p": "operatesIn",
+      "o": "PsychologicalTime"
+    },
+    {
+      "s": "Becoming",
+      "p": "implies",
+      "o": "Conflict"
+    },
+    {
+      "s": "Comparison",
+      "p": "sustains",
+      "o": "Self"
+    },
+    {
+      "s": "Comparison",
+      "p": "implies",
+      "o": "Becoming",
+      "evidence": "Comparison is the movement of thought."
+    },
+    {
+      "s": "Ideal",
+      "p": "obscures",
+      "o": "Fact",
+      "evidence": "We pursue the idea and not the fact."
+    },
+    {
+      "s": "Control",
+      "p": "presupposes",
+      "o": "Division",
+      "evidence": "When there is control, there are two entities."
+    },
+    {
+      "s": "Control",
+      "p": "implies",
+      "o": "Conflict"
+    },
+    {
+      "s": "Analysis",
+      "p": "obscures",
+      "o": "Observation",
+      "evidence": "Analysis prevents clear observation."
+    },
+    {
+      "s": "Analysis",
+      "p": "sustains",
+      "o": "Division",
+      "evidence": "Analysis maintains this division constantly."
+    },
+    {
+      "s": "Abstraction",
+      "p": "obscures",
+      "o": "Fact",
+      "evidence": "The word 'suffering' is different from the actual suffering."
+    },
+    {
+      "s": "Observer",
+      "p": "isIdenticalWith",
+      "o": "Observed",
+      "evidence": "The observer is the observed."
+    },
+    {
+      "s": "Thinker",
+      "p": "isIdenticalWith",
+      "o": "Thought",
+      "evidence": "The thinker is the thought."
+    },
+    {
+      "s": "Controller",
+      "p": "isIdenticalWith",
+      "o": "Controlled",
+      "evidence": "The controller is the controlled."
+    },
+    {
+      "s": "Analyser",
+      "p": "isIdenticalWith",
+      "o": "Analysed",
+      "evidence": "The analyser is the analysed."
+    },
+    {
+      "s": "Self",
+      "p": "isIdenticalWith",
+      "o": "Violence",
+      "evidence": "Violence is not separate from me. When you are angry, is anger different from you?"
+    },
+    {
+      "s": "Self",
+      "p": "isIdenticalWith",
+      "o": "Consciousness",
+      "evidence": "The whole structure of the me is put together by thought. The me is my consciousness."
+    },
+    {
+      "s": "Self",
+      "p": "isIdenticalWith",
+      "o": "Humanity",
+      "evidence": "You are the world, and the world is you."
+    },
+    {
+      "s": "Self",
+      "p": "isIdenticalWith",
+      "o": "Society",
+      "evidence": "I am society. I am the world."
+    },
+    {
+      "s": "Consciousness",
+      "p": "isIdenticalWith",
+      "o": "Conditioning",
+      "evidence": "This consciousness is made up of its content."
+    },
+    {
+      "s": "Conflict",
+      "p": "isIdenticalWith",
+      "o": "Violence",
+      "evidence": "Conflict itself is violence."
+    },
+    {
+      "s": "Fear",
+      "p": "isIdenticalWith",
+      "o": "PsychologicalTime",
+      "evidence": "So fear is time."
+    },
+    {
+      "s": "PsychologicalDeath",
+      "p": "isIdenticalWith",
+      "o": "WhatIs",
+      "evidence": "Death is not separate from living."
+    },
+    {
+      "s": "Self",
+      "p": "arisesFrom",
+      "o": "Memory",
+      "evidence": "The you, the ego, the me, is altogether memory."
+    },
+    {
+      "s": "Self",
+      "p": "arisesFrom",
+      "o": "Conditioning",
+      "evidence": "The self as the result of conditioning the brain."
+    },
+    {
+      "s": "Self",
+      "p": "givesRiseTo",
+      "o": "Division",
+      "evidence": "The me is a divisive entity because it is separative."
+    },
+    {
+      "s": "Self",
+      "p": "givesRiseTo",
+      "o": "Disorder",
+      "evidence": "The very nature of the self must intrinsically bring disorder."
+    },
+    {
+      "s": "Self",
+      "p": "givesRiseTo",
+      "o": "Loneliness"
+    },
+    {
+      "s": "Self",
+      "p": "seeks",
+      "o": "FalseSecurity",
+      "evidence": "I define myself in the interest of security."
+    },
+    {
+      "s": "FalseSecurity",
+      "p": "givesRiseTo",
+      "o": "Division",
+      "evidence": "We thought there was security in the family, the tribe, nationalism. But the very division creates insecurity."
+    },
+    {
+      "s": "Illusion",
+      "p": "sustains",
+      "o": "Self",
+      "evidence": "The sense of separateness is an illusion."
+    },
+    {
+      "s": "Attachment",
+      "p": "arisesFrom",
+      "o": "Loneliness",
+      "evidence": "We are attached because we are lonely."
+    },
+    {
+      "s": "Attachment",
+      "p": "arisesFrom",
+      "o": "Image",
+      "evidence": "The other is a memory - I am attached to that, to the name, to the form."
+    },
+    {
+      "s": "Attachment",
+      "p": "seeks",
+      "o": "FalseSecurity"
+    },
+    {
+      "s": "Attachment",
+      "p": "givesRiseTo",
+      "o": "Fear"
+    },
+    {
+      "s": "Attachment",
+      "p": "givesRiseTo",
+      "o": "Corruption",
+      "evidence": "Where there is attachment I recognise, observe there is corruption."
+    },
+    {
+      "s": "Attachment",
+      "p": "givesRiseTo",
+      "o": "Sorrow",
+      "evidence": "Sorrow may be the indication that dependence, attachment is corruption."
+    },
+    {
+      "s": "Fear",
+      "p": "arisesFrom",
+      "o": "Thought",
+      "evidence": "Fear is the movement of thought and time."
+    },
+    {
+      "s": "Fear",
+      "p": "escapesInto",
+      "o": "Escape"
+    },
+    {
+      "s": "Fear",
+      "p": "sustains",
+      "o": "Attachment",
+      "evidence": "Fear drives clinging to the known."
+    },
+    {
+      "s": "Sorrow",
+      "p": "arisesFrom",
+      "o": "Attachment"
+    },
+    {
+      "s": "Sorrow",
+      "p": "commonTo",
+      "o": "Humanity",
+      "evidence": "Sorrow is not yours or mine, it is sorrow."
+    },
+    {
+      "s": "Escape",
+      "p": "sustains",
+      "o": "Continuity"
+    },
+    {
+      "s": "Conflict",
+      "p": "arisesFrom",
+      "o": "Division",
+      "evidence": "Conflict exists only when there is division."
+    },
+    {
+      "s": "Division",
+      "p": "implies",
+      "o": "Conflict",
+      "evidence": "Where there is division there must be conflict."
+    },
+    {
+      "s": "Relationship",
+      "p": "arisesFrom",
+      "o": "Image",
+      "evidence": "Our relationship is only based on two images."
+    },
+    {
+      "s": "Image",
+      "p": "obscures",
+      "o": "Love",
+      "evidence": "Where there is that image created by thought there can be no love."
+    },
+    {
+      "s": "Image",
+      "p": "obscures",
+      "o": "Relationship",
+      "evidence": "Is that image not preventing the extraordinary flowering of love?"
+    },
+    {
+      "s": "Consciousness",
+      "p": "commonTo",
+      "o": "Humanity",
+      "evidence": "Your consciousness is the consciousness of mankind."
+    },
+    {
+      "s": "Brain",
+      "p": "commonTo",
+      "o": "Humanity",
+      "evidence": "It is not your brain, it is the common brain of man."
+    },
+    {
+      "s": "Brain",
+      "p": "arisesFrom",
+      "o": "Conditioning",
+      "evidence": "The brain is conditioned by past generations, by the society."
+    },
+    {
+      "s": "Observation",
+      "p": "operatesIn",
+      "o": "TheNow",
+      "evidence": "Pure observation exists only in the now."
+    },
+    {
+      "s": "Observation",
+      "p": "dissolves",
+      "o": "Division",
+      "evidence": "When there is pure observation, the fact is not."
+    },
+    {
+      "s": "Observation",
+      "p": "dissolves",
+      "o": "Ideal",
+      "evidence": "When there is no pursuit of non-violence of any kind, then the whole attention is on the fact."
+    },
+    {
+      "s": "Attention",
+      "p": "isNot",
+      "o": "Control",
+      "evidence": "Attention has no center, no 'me.' Attention is not concentration - not effort."
+    },
+    {
+      "s": "Attention",
+      "p": "dissolves",
+      "o": "Sorrow",
+      "evidence": "When there is that complete attention all that goes, disappears."
+    },
+    {
+      "s": "Attention",
+      "p": "dissolves",
+      "o": "Loneliness",
+      "evidence": "Attention is like a fire."
+    },
+    {
+      "s": "Attention",
+      "p": "dissolves",
+      "o": "Jealousy",
+      "evidence": "Where there is complete attention, there is no jealousy."
+    },
+    {
+      "s": "Insight",
+      "p": "isNot",
+      "o": "Memory",
+      "evidence": "Insight is not the result of remembrance."
+    },
+    {
+      "s": "Insight",
+      "p": "isNot",
+      "o": "Desire"
+    },
+    {
+      "s": "Insight",
+      "p": "givesRiseTo",
+      "o": "Mutation",
+      "evidence": "There is a mutation in the brain cells."
+    },
+    {
+      "s": "Insight",
+      "p": "dissolves",
+      "o": "Conflict",
+      "evidence": "When there is insight into the problem that insight will dissolve it."
+    },
+    {
+      "s": "Insight",
+      "p": "arisesFrom",
+      "o": "Freedom",
+      "evidence": "It is only in freedom there is deep insight."
+    },
+    {
+      "s": "SeeingTheFalse",
+      "p": "dissolves",
+      "o": "Illusion",
+      "evidence": "The very seeing of the fact is the ending."
+    },
+    {
+      "s": "SeeingTheFalse",
+      "p": "opensInto",
+      "o": "Intelligence",
+      "evidence": "That perception is the beginning of intelligence."
+    },
+    {
+      "s": "SelfKnowing",
+      "p": "isNot",
+      "o": "Knowledge",
+      "evidence": "Self-knowledge is not an accumulated process of knowledge."
+    },
+    {
+      "s": "Doubt",
+      "p": "dissolves",
+      "o": "Belief",
+      "evidence": "Doubt your beliefs - so that the mind becomes free of all self-imposed illusions."
+    },
+    {
+      "s": "PsychologicalDeath",
+      "p": "dissolves",
+      "o": "Attachment",
+      "evidence": "Can we end voluntarily, easily, without any effort, that form of attachment?"
+    },
+    {
+      "s": "PsychologicalDeath",
+      "p": "dissolves",
+      "o": "Memory",
+      "evidence": "Death means the ending of that memory."
+    },
+    {
+      "s": "PsychologicalDeath",
+      "p": "isNot",
+      "o": "Continuity",
+      "evidence": "Is there ever an ending to anything in our life? Or is there a constant continuity of the same thing in different directions?"
+    },
+    {
+      "s": "Love",
+      "p": "isNot",
+      "o": "Desire",
+      "evidence": "Desire is not love."
+    },
+    {
+      "s": "Love",
+      "p": "isNot",
+      "o": "Pleasure",
+      "evidence": "The pursuit of pleasure - that pleasure is not love."
+    },
+    {
+      "s": "Love",
+      "p": "isNot",
+      "o": "Memory",
+      "evidence": "Love is not remembrance."
+    },
+    {
+      "s": "Love",
+      "p": "isNot",
+      "o": "Knowledge",
+      "evidence": "Love is not knowledge."
+    },
+    {
+      "s": "Love",
+      "p": "isNot",
+      "o": "Attachment",
+      "evidence": "Love is not attachment."
+    },
+    {
+      "s": "Love",
+      "p": "isNot",
+      "o": "Jealousy",
+      "evidence": "Love is not jealousy. Love is not personal."
+    },
+    {
+      "s": "Love",
+      "p": "isNot",
+      "o": "Image",
+      "evidence": "Where there is that image created by thought there can be no love."
+    },
+    {
+      "s": "Love",
+      "p": "isNot",
+      "o": "PsychologicalTime",
+      "evidence": "Love is not a slave to time."
+    },
+    {
+      "s": "Love",
+      "p": "opensInto",
+      "o": "Compassion",
+      "evidence": "Where there is love there is compassion."
+    },
+    {
+      "s": "Compassion",
+      "p": "arisesFrom",
+      "o": "Love"
+    },
+    {
+      "s": "Compassion",
+      "p": "opensInto",
+      "o": "Intelligence",
+      "evidence": "Where there is this extraordinary passion of compassion there is intelligence."
+    },
+    {
+      "s": "Compassion",
+      "p": "arisesFrom",
+      "o": "Sorrow",
+      "evidence": "The ending of sorrow is the beginning of wisdom and therefore intelligence."
+    },
+    {
+      "s": "Intelligence",
+      "p": "isNot",
+      "o": "Thought",
+      "evidence": "Intelligence is not the activity of cunning thought."
+    },
+    {
+      "s": "Intelligence",
+      "p": "isNot",
+      "o": "Knowledge",
+      "evidence": "Intelligence itself is free from memory and knowledge."
+    },
+    {
+      "s": "Intelligence",
+      "p": "isNot",
+      "o": "Conditioning",
+      "evidence": "There is an intelligence which is free of the program."
+    },
+    {
+      "s": "Intelligence",
+      "p": "opensInto",
+      "o": "TrueSecurity",
+      "evidence": "There is security only in intelligence."
+    },
+    {
+      "s": "Intelligence",
+      "p": "arisesFrom",
+      "o": "Silence",
+      "evidence": "Intelligence operates when the brain is quiet."
+    },
+    {
+      "s": "Aloneness",
+      "p": "isNot",
+      "o": "Loneliness",
+      "evidence": "The word 'alone' means all one."
+    },
+    {
+      "s": "TrueSecurity",
+      "p": "isNot",
+      "o": "FalseSecurity"
+    },
+    {
+      "s": "Order",
+      "p": "isNot",
+      "o": "Control"
+    },
+    {
+      "s": "Order",
+      "p": "arisesFrom",
+      "o": "Intelligence"
+    },
+    {
+      "s": "Energy",
+      "p": "arisesFrom",
+      "o": "Observation",
+      "evidence": "Observation is total attention of 'what is', which is the observation of complete energy."
+    }
+  ],
+  "axioms": [
+    {
+      "id": "A1",
+      "label": "Limitation",
+      "formal": "ofThought(x) -> limited(x)",
+      "gloss": "Whatever is of thought is limited, because knowledge is always incomplete.",
+      "evidence": "Thought is limited because knowledge is limited."
+    },
+    {
+      "id": "A2",
+      "label": "Division",
+      "formal": "limited(x) -> creates(x, Division)",
+      "gloss": "Whatever is limited defines a boundary, and so creates division.",
+      "evidence": "If I define myself as limited, I am concerned with myself - that creates conflict."
+    },
+    {
+      "id": "A3",
+      "label": "Conflict",
+      "formal": "Division -> Conflict; Conflict = Violence",
+      "gloss": "Division entails conflict, and conflict is itself violence. A private quarrel and a war are the same phenomenon at different scales.",
+      "evidence": "Where there is division there must be conflict. Conflict itself is violence."
+    },
+    {
+      "id": "A4",
+      "label": "Non-duality",
+      "formal": "pair(a,b) produced by thought -> isIdenticalWith(a,b)",
+      "gloss": "Every pair thought produces - observer/observed, controller/controlled, analyser/analysed - is one thing.",
+      "evidence": "Both are the same, it is a trick played by thought."
+    },
+    {
+      "id": "A5",
+      "label": "Psychological time is a construct",
+      "formal": "operatesIn(Becoming, PsychologicalTime) & Construct(PsychologicalTime) -> illusory(Becoming)",
+      "gloss": "Becoming runs in psychological time; psychological time is made by thought; therefore there is no psychological evolution.",
+      "evidence": "Any form of becoming is an illusion, and the becoming implies time."
+    },
+    {
+      "id": "A6",
+      "label": "Fact over idea",
+      "formal": "actionable(x) <-> isFactual(x)",
+      "gloss": "Only a fact can be acted on. An ideal can only be pursued, and pursuit is division - so pursuing non-violence manufactures the conflict it meant to end.",
+      "evidence": "You can deal with the fact, but you cannot possibly do something about an idea."
+    },
+    {
+      "id": "A7",
+      "label": "Immediacy",
+      "formal": "Perceiving(x) -> not requiresTime(x)",
+      "gloss": "Perception requires no time; therefore the ending is now, and gradualism is only more becoming.",
+      "evidence": "Perception does not require time."
+    },
+    {
+      "id": "A8",
+      "label": "Thought cannot undo itself",
+      "formal": "not exists x ( ofThought(x) & dissolves(x, y) & Construct(y) )",
+      "gloss": "Nothing of thought can dissolve what thought has constructed. This is why Perceiving must be disjoint from Movement: if attention were an activity of thought, nothing could ever end.",
+      "evidence": "Thought, creating the problem, thought then tries to solve the problem. So it is caught in the same old process."
+    },
+    {
+      "id": "A9",
+      "label": "Commonality",
+      "formal": "commonTo(Consciousness, Humanity) -> Illusion(SeparateSelf)",
+      "gloss": "Consciousness is common; the separate self is an illusion; private remedy for a private self is a category error.",
+      "evidence": "Your consciousness is the consciousness of mankind, psychologically."
+    },
+    {
+      "id": "A10",
+      "label": "Measurement",
+      "formal": "Comparison -> Becoming -> Duality -> Conflict",
+      "gloss": "The full chain, from a single glance at someone else's life.",
+      "evidence": "Comparison is the movement of thought."
+    },
+    {
+      "id": "A11",
+      "label": "Attachment and corruption",
+      "formal": "Attachment -> Corruption & Fear & Sorrow",
+      "gloss": "Attachment entails corruption, fear and sorrow.",
+      "evidence": "Where there is attachment I recognise, observe there is corruption."
+    },
+    {
+      "id": "A12",
+      "label": "Negation is the only positive",
+      "formal": "Flowering(x) -> defined only by isNot edges",
+      "gloss": "Flowering terms carry no positive predicate; they are defined by what they are not, and by what dissolves in their presence.",
+      "evidence": "Love is not knowledge. Love is not remembrance. Love is not desire or pleasure."
+    },
+    {
+      "id": "A13",
+      "label": "Reflexive caution",
+      "formal": "ofThought(this ontology) = true",
+      "gloss": "This ontology is of thought, therefore limited (A1), therefore it can end nothing (A8). Its only legitimate use is as an object of SeeingTheFalse - checked against your own observation, then dropped.",
+      "evidence": "There is no teacher, nor disciple. There is only learning, not learning what someone has to inform you, but learning in action."
+    },
+    {
+      "id": "A14",
+      "label": "Freedom is not a node you arrive at",
+      "formal": "not exists x ( creates(x,Freedom) or givesRiseTo(x,Freedom) or opensInto(x,Freedom) or dissolves(x,Freedom) or arisesFrom(Freedom,x) )",
+      "gloss": "No term, pathway, or axiom generates Freedom. Not an omission — the one place the model refuses to complete itself. Every other Flowering term still sits in a chain (Love opensInto Compassion opensInto Intelligence); Freedom is where the diagram simply declines the edge. What dissolves obstructs it; nothing constructs it. It is what remains, or is seen, when every drawable node has been drawn and the drawing itself is recognized as one more Construct and let go.",
+      "evidence": "It is only in freedom there is deep insight. If you are not free to enquire, if you are biased, then you are limited."
+    },
+    {
+      "id": "A15",
+      "label": "Depth of realization",
+      "formal": "depth(x) < profound -> ofThought(x) & not dissolves(x, _)   [x in {SeeingTheFalse, Insight}]",
+      "gloss": "Seeing the false and insight admit a gradient from verbal agreement to profound perception. Only profound realization alters the brain cells; verbal and intellectual degrees are thought recognising a description, and by A8 dissolve nothing. This is why agreeing that thought is futile does not end thought.",
+      "evidence": "The depth of that realisation, which may be very superficial, or it may be profound. When it is profound it totally changes one's life."
+    }
+  ],
+  "pathways": [
+    {
+      "id": "P1",
+      "label": "The cycle of the known",
+      "themeFile": "thought.md",
+      "steps": [
+        "Experience",
+        "Knowledge",
+        "Memory",
+        "Thought",
+        "Action",
+        "Experience"
+      ],
+      "gloss": "Not stages: one unitary movement, always in the same direction."
+    },
+    {
+      "id": "P2",
+      "label": "The desire chain",
+      "themeFile": "desire.md",
+      "steps": [
+        "Perception",
+        "Contact",
+        "Sensation",
+        "Thought creates Image",
+        "Desire",
+        "Will",
+        "Pursuit of pleasure",
+        "[thwarted]",
+        "Fear | Antagonism | Violence"
+      ],
+      "gloss": "The mechanism behind wanting.",
+      "exitAt": "Thought creates Image - sensation is not the problem; sensation plus image is."
+    },
+    {
+      "id": "P3",
+      "label": "The becoming chain",
+      "themeFile": "becoming.md",
+      "steps": [
+        "WhatIs",
+        "Thought projects WhatShouldBe",
+        "PsychologicalTime",
+        "Division (fact vs ideal)",
+        "Conflict",
+        "Disorder"
+      ],
+      "gloss": "The mechanism behind self-improvement.",
+      "exitAt": "The second arrow. If there is no movement away from what is, there is no psychological time at all."
+    },
+    {
+      "id": "P4",
+      "label": "The self and its security",
+      "themeFile": "security-aloneness.md",
+      "steps": [
+        "Conditioning",
+        "Memory",
+        "Self",
+        "Separateness",
+        "Isolation",
+        "Loneliness",
+        "Attachment",
+        "FalseSecurity",
+        "Fear",
+        "Division"
+      ],
+      "gloss": "A closed loop: the search for security produces the insecurity it flees."
+    },
+    {
+      "id": "P5",
+      "label": "The relationship chain",
+      "themeFile": "relationship.md",
+      "steps": [
+        "You",
+        "Image of the other",
+        "Image of you",
+        "The other"
+      ],
+      "gloss": "The images relate; the people do not. Two railway lines running parallel."
+    },
+    {
+      "id": "P6",
+      "label": "The sorrow chain",
+      "themeFile": "sorrow.md",
+      "steps": [
+        "Self-centred activity",
+        "Isolation",
+        "Attachment",
+        "Loss",
+        "Sorrow",
+        "Escape",
+        "Continuity"
+      ],
+      "gloss": "Sorrow is not at the moment of losing somebody - it began long ago."
+    },
+    {
+      "id": "P7",
+      "label": "The ending",
+      "themeFile": "observation.md",
+      "steps": [
+        "SeeingTheFalse",
+        "Attention",
+        "Insight",
+        "Mutation",
+        "Ending of sorrow",
+        "Compassion",
+        "Intelligence",
+        "Order",
+        "Action without motive"
+      ],
+      "gloss": "No method, no practice, no stages, no time. Every arrow here is simultaneity, not sequence - the one structural difference from P1-P6."
+    }
+  ],
+  "themes": [
+    {
+      "file": "thought.md",
+      "label": "Thought",
+      "anchors": [
+        "Thought",
+        "Knowledge",
+        "Memory"
+      ],
+      "region": "Movement / Construct"
+    },
+    {
+      "file": "desire.md",
+      "label": "Desire",
+      "anchors": [
+        "Desire",
+        "Will",
+        "Pleasure"
+      ],
+      "region": "Movement / Affect"
+    },
+    {
+      "file": "becoming.md",
+      "label": "Becoming",
+      "anchors": [
+        "Becoming",
+        "Ideal",
+        "PsychologicalTime"
+      ],
+      "region": "Movement / Construct"
+    },
+    {
+      "file": "controller.md",
+      "label": "Controller & Controlled",
+      "anchors": [
+        "Control",
+        "Division",
+        "Controller"
+      ],
+      "region": "Movement / identity axioms"
+    },
+    {
+      "file": "consciousness-identity.md",
+      "label": "Consciousness & Identity",
+      "anchors": [
+        "Consciousness",
+        "Humanity",
+        "Illusion"
+      ],
+      "region": "Ground"
+    },
+    {
+      "file": "memory-identity.md",
+      "label": "Memory & Identity",
+      "anchors": [
+        "Memory",
+        "Self",
+        "SelfKnowing"
+      ],
+      "region": "Construct / Perceiving"
+    },
+    {
+      "file": "observation.md",
+      "label": "Observation",
+      "anchors": [
+        "Observation",
+        "Attention",
+        "Insight",
+        "Analysis"
+      ],
+      "region": "Perceiving"
+    },
+    {
+      "file": "fear.md",
+      "label": "Fear",
+      "anchors": [
+        "Fear",
+        "PsychologicalTime"
+      ],
+      "region": "Affect"
+    },
+    {
+      "file": "attachment.md",
+      "label": "Attachment",
+      "anchors": [
+        "Attachment",
+        "Loneliness"
+      ],
+      "region": "Movement / Affect"
+    },
+    {
+      "file": "sorrow.md",
+      "label": "Sorrow",
+      "anchors": [
+        "Sorrow",
+        "Compassion"
+      ],
+      "region": "Affect / Flowering"
+    },
+    {
+      "file": "death-living.md",
+      "label": "Death & Living",
+      "anchors": [
+        "PsychologicalDeath",
+        "Continuity"
+      ],
+      "region": "Flowering"
+    },
+    {
+      "file": "security-aloneness.md",
+      "label": "Security & Aloneness",
+      "anchors": [
+        "FalseSecurity",
+        "TrueSecurity",
+        "Aloneness"
+      ],
+      "region": "Affect / Flowering"
+    },
+    {
+      "file": "love.md",
+      "label": "Love",
+      "anchors": [
+        "Love"
+      ],
+      "region": "Flowering (isNot cluster)"
+    },
+    {
+      "file": "intelligence.md",
+      "label": "Intelligence",
+      "anchors": [
+        "Intelligence"
+      ],
+      "region": "Flowering"
+    },
+    {
+      "file": "seeing-false.md",
+      "label": "Seeing the False",
+      "anchors": [
+        "SeeingTheFalse",
+        "Doubt"
+      ],
+      "region": "Perceiving"
+    },
+    {
+      "file": "relationship.md",
+      "label": "Relationship",
+      "anchors": [
+        "Relationship",
+        "Image"
+      ],
+      "region": "Ground / Construct"
+    }
+  ],
+  "applications": [
+    {
+      "file": "instagram.md",
+      "label": "Image & Becoming: the Instagram trap",
+      "pathways": [
+        "P2",
+        "P3"
+      ],
+      "axioms": [
+        "A10",
+        "A6"
+      ],
+      "gloss": "Comparison industrialised. Each scroll is an invitation to measure, and the misery itself feeds the self."
+    },
+    {
+      "file": "war.md",
+      "label": "War & spectacle",
+      "pathways": [
+        "P4",
+        "P6"
+      ],
+      "axioms": [
+        "A9",
+        "A3"
+      ],
+      "gloss": "The safe observer: A9 denied, division enjoyed as relief, Escape mistaken for information."
+    }
+  ]
+}

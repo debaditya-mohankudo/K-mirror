@@ -1,0 +1,501 @@
+@prefix k:    <https://k-mirror.local/ontology/k#> .
+@prefix owl:  <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:  <http://www.w3.org/2001/XMLSchema#> .
+@prefix dct:  <http://purl.org/dc/terms/> .
+
+<https://k-mirror.local/ontology/k>
+    a owl:Ontology ;
+    dct:title "K-Ontology — the psychological structure described by J. Krishnamurti" ;
+    dct:source "K-Mirror wiki (wiki/*.md)" ;
+    rdfs:comment """A map of the mechanism, not a path. The mechanism (thought, desire,
+becoming, division, conflict) is modelled positively; what lies outside it (love,
+intelligence, insight) appears only by negation. See wiki/ONTOLOGY.md axiom A13:
+this ontology is itself of thought, therefore limited, and can end nothing.""" .
+
+#################################################################
+#  Annotation / data properties
+#################################################################
+
+k:gloss           a owl:DatatypeProperty ; rdfs:range xsd:string .
+k:themeFile       a owl:DatatypeProperty ; rdfs:range xsd:string .
+k:evidence        a owl:DatatypeProperty ; rdfs:range xsd:string ;
+                  rdfs:comment "Verbatim quote from the wiki supporting this node." .
+k:ofThought       a owl:DatatypeProperty ; rdfs:range xsd:boolean ;
+                  rdfs:comment "Master partition: is this a movement of thought?" .
+k:requiresTime    a owl:DatatypeProperty ; rdfs:range xsd:boolean .
+k:isFactual       a owl:DatatypeProperty ; rdfs:range xsd:boolean .
+k:producesConflict a owl:DatatypeProperty ; rdfs:range xsd:boolean .
+k:isDivisive      a owl:DatatypeProperty ; rdfs:range xsd:boolean .
+k:realizationDepth a owl:DatatypeProperty ; rdfs:range xsd:string ;
+                  rdfs:comment "Depth to which a perception has landed: verbal < intellectual < superficial < profound. Only profound has dissolving power (axiom A15). Applies to k:SeeingTheFalse and k:Insight." .
+k:operativeAt     a owl:DatatypeProperty ; rdfs:range xsd:string ;
+                  rdfs:comment "The realizationDepth degree at or above which this capacity's dissolves / givesRiseTo edges actually fire." .
+
+#################################################################
+#  Object properties
+#################################################################
+
+k:arisesFrom    a owl:ObjectProperty ; rdfs:label "arises from" ; owl:inverseOf k:givesRiseTo .
+k:givesRiseTo   a owl:ObjectProperty ; rdfs:label "gives rise to" .
+k:isResponseOf  a owl:ObjectProperty ; rdfs:subPropertyOf k:arisesFrom ; rdfs:label "is the response of" .
+k:creates       a owl:ObjectProperty ; rdfs:label "creates" ; owl:inverseOf k:isCreatedBy .
+k:isCreatedBy   a owl:ObjectProperty ; rdfs:label "is created by" .
+k:projects      a owl:ObjectProperty ; rdfs:subPropertyOf k:creates ; rdfs:label "projects" .
+k:sustains      a owl:ObjectProperty ; rdfs:label "sustains" .
+k:presupposes   a owl:ObjectProperty ; rdfs:label "presupposes" .
+k:implies       a owl:ObjectProperty , owl:TransitiveProperty ; rdfs:label "implies" .
+k:seeks         a owl:ObjectProperty ; rdfs:label "seeks" .
+k:escapesInto   a owl:ObjectProperty ; rdfs:label "escapes into" .
+
+k:isIdenticalWith a owl:ObjectProperty , owl:SymmetricProperty ;
+    rdfs:label "is identical with" ;
+    rdfs:comment "Denies an assumed psychological duality. Strongest claim in the model: where the pair collapses, the division and therefore the conflict is gone." .
+
+k:isNot a owl:ObjectProperty , owl:SymmetricProperty ;
+    rdfs:label "is not" ;
+    rdfs:comment "Negative definition. The only way Flowering nodes are defined." .
+
+k:obscures      a owl:ObjectProperty ; rdfs:label "obscures" .
+k:isLimitedBy   a owl:ObjectProperty ; rdfs:label "is limited by" .
+k:dissolves     a owl:ObjectProperty ; rdfs:label "dissolves" ;
+    rdfs:comment "Ends without effort and without time. By axiom A8 nothing of thought may appear in the domain of this property." ;
+    rdfs:domain [ a owl:Class ; owl:unionOf ( k:Perceiving k:Flowering ) ] .
+k:opensInto     a owl:ObjectProperty ; rdfs:label "opens into" .
+k:operatesIn    a owl:ObjectProperty ; rdfs:label "operates in" .
+k:commonTo      a owl:ObjectProperty ; rdfs:label "common to" .
+
+k:evidencedBy   a owl:ObjectProperty ; rdfs:range k:Quote .
+k:documentedIn  a owl:ObjectProperty ; rdfs:range k:Theme .
+k:hasQuote      a owl:ObjectProperty ; rdfs:domain k:Theme ; rdfs:range k:Quote .
+k:relatedTheme  a owl:ObjectProperty , owl:SymmetricProperty ; rdfs:domain k:Theme ; rdfs:range k:Theme .
+k:fromSource    a owl:ObjectProperty ; rdfs:domain k:Quote ; rdfs:range k:Source .
+k:routesTo      a owl:ObjectProperty ; rdfs:domain k:InquiryPath ; rdfs:range k:Theme .
+k:anchors       a owl:ObjectProperty ; rdfs:domain k:Theme .
+
+#################################################################
+#  Upper classes
+#################################################################
+
+k:Entity a owl:Class ; rdfs:label "Entity" .
+
+k:Actuality a owl:Class ; rdfs:subClassOf k:Entity ; k:ofThought false ;
+    k:gloss "What is the case prior to interpretation." .
+k:Perceiving a owl:Class ; rdfs:subClassOf k:Entity ; k:ofThought false ; k:requiresTime false ;
+    k:gloss "Capacities that are not activities of thought." .
+k:Flowering a owl:Class ; rdfs:subClassOf k:Entity ; k:ofThought false ;
+    k:gloss "What is there when the mechanism ends. Defined only by negation." .
+k:Construct a owl:Class ; rdfs:subClassOf k:Entity ; k:ofThought true ;
+    k:gloss "Anything thought has put together." .
+k:Movement a owl:Class ; rdfs:subClassOf k:Entity ; k:ofThought true ; k:requiresTime true ;
+    k:gloss "A process running in psychological time." .
+k:Affect a owl:Class ; rdfs:subClassOf k:Entity ; k:ofThought true ;
+    k:gloss "A psychological state the mechanism produces." .
+k:Ground a owl:Class ; rdfs:subClassOf k:Entity ;
+    k:gloss "The substrate in which all of it occurs." .
+k:Documentation a owl:Class ; rdfs:subClassOf k:Entity ;
+    k:gloss "The wiki's own layer: themes, quotes, sources, inquiry paths." .
+
+[] a owl:AllDisjointClasses ; owl:members ( k:Actuality k:Construct ) .
+[] a owl:AllDisjointClasses ; owl:members ( k:Perceiving k:Movement ) .
+[] a owl:AllDisjointClasses ; owl:members ( k:Flowering k:Construct ) .
+
+#################################################################
+#  Actuality
+#################################################################
+
+k:Fact a owl:Class ; rdfs:subClassOf k:Actuality ; k:isFactual true ; k:themeFile "thought.md" ;
+    k:gloss "What is actually going on, as against the idea of it." ;
+    k:evidence "The fact is what is going on, what is happening." .
+k:WhatIs a owl:Class ; rdfs:subClassOf k:Actuality ; k:isFactual true ; k:themeFile "becoming.md" ;
+    k:gloss "The present state, not moved away from." ;
+    k:evidence "'What is' is so." .
+k:Sensation a owl:Class ; rdfs:subClassOf k:Actuality ; k:themeFile "desire.md" ;
+    k:gloss "Sense response prior to thought's image." ;
+    k:evidence "If there was no thought there would be only sensation." .
+k:TheNow a owl:Class ; rdfs:subClassOf k:Actuality ; k:themeFile "thought.md" ;
+    k:gloss "The present, which contains past and future." ;
+    k:evidence "All time, the past, the present and the future, is contained in the now." .
+k:ChronologicalTime a owl:Class ; rdfs:subClassOf k:Actuality ; k:themeFile "becoming.md" ;
+    k:gloss "Clock time. Real, and not the subject of the inquiry." .
+k:PhysicalNecessity a owl:Class ; rdfs:subClassOf k:Actuality ; k:themeFile "becoming.md" ;
+    k:gloss "Legitimate knowledge and skill: language, carpentry, getting from here to there." ;
+    k:evidence "To learn a language needs time. That is not the time we are talking about." .
+
+#################################################################
+#  Construct
+#################################################################
+
+k:Image a owl:Class ; rdfs:subClassOf k:Construct ; k:themeFile "desire.md" ;
+    k:gloss "The picture thought makes of a person, thing or state." ;
+    k:evidence "Thought creates the image, and at that moment desire is born." .
+k:Ideal a owl:Class ; rdfs:subClassOf k:Construct ; k:isFactual false ; k:themeFile "becoming.md" ;
+    k:gloss "What should be. The opposite thought invents; always non-fact." ;
+    k:evidence "Thought has created the opposite, which is non-fact." .
+k:Self a owl:Class ; rdfs:subClassOf k:Construct ; k:isDivisive true ; k:themeFile "memory-identity.md" ;
+    k:gloss "Me, ego — and equally the observer, thinker, controller, analyser, experiencer." ;
+    k:evidence "The me is a series of conclusions: I believe, I am convinced, I have faith." .
+k:Memory a owl:Class ; rdfs:subClassOf k:Construct ; k:themeFile "memory-identity.md" ;
+    k:gloss "Remembrance of things past, held in the brain cells." ;
+    k:evidence "We are nothing but memory, and it is to that memory that we are attached." .
+k:Knowledge a owl:Class ; rdfs:subClassOf k:Construct ; k:themeFile "thought.md" ;
+    k:gloss "The outcome of experience. Always incomplete." ;
+    k:evidence "Knowledge always lives within the shadow of ignorance." .
+k:PsychologicalTime a owl:Class ; rdfs:subClassOf k:Construct ; k:isFactual false ; k:themeFile "becoming.md" ;
+    k:gloss "Tomorrow as inward achievement. Thought as time." ;
+    k:evidence "Moving away from 'what is' to 'what might be' — that is psychological time." .
+k:Belief a owl:Class ; rdfs:subClassOf k:Construct ; k:themeFile "attachment.md" ;
+    k:gloss "A conclusion held for security, which then forbids examination." ;
+    k:evidence "That attachment not only prevents further examination, but I am frightened to examine." .
+k:Conditioning a owl:Class ; rdfs:subClassOf k:Construct ; k:isDivisive true ; k:themeFile "consciousness-identity.md" ;
+    k:gloss "The program: nationality, religion, culture, generations of outside pressure." ;
+    k:evidence "The constant assertion of the self is the movement, is the conditioning." .
+k:Division a owl:Class ; rdfs:subClassOf k:Construct ; k:isDivisive true ; k:themeFile "controller.md" ;
+    k:gloss "Any inward split: me and you, observer and observed, fact and ideal." ;
+    k:evidence "Where there is division there must be conflict." .
+k:Illusion a owl:Class ; rdfs:subClassOf k:Construct ; k:isFactual false ; k:themeFile "consciousness-identity.md" ;
+    k:gloss "What is taken as real and is not. Separateness above all." ;
+    k:evidence "The sense of separateness is an illusion. It is all one." .
+k:Abstraction a owl:Class ; rdfs:subClassOf k:Construct ; k:isFactual false ; k:themeFile "observation.md" ;
+    k:gloss "The idea of the fact. The word taken for the thing." ;
+    k:evidence "The word 'suffering' is different from the actual suffering." .
+
+#################################################################
+#  Movement
+#################################################################
+
+k:Thought a owl:Class ; rdfs:subClassOf k:Movement ; k:themeFile "thought.md" ;
+    k:gloss "The response of memory. A material process." ;
+    k:evidence "Thought is the response of memory." ;
+    k:isResponseOf k:Memory ;
+    k:isLimitedBy k:Knowledge ;
+    k:creates k:Image , k:Self , k:PsychologicalTime , k:Division , k:Ideal ;
+    k:isIdenticalWith k:PsychologicalTime ;
+    k:operatesIn k:PsychologicalTime .
+k:Desire a owl:Class ; rdfs:subClassOf k:Movement ; k:themeFile "desire.md" ;
+    k:gloss "Sensation plus the image thought makes of it." ;
+    k:evidence "Where there is sensation and the operation of the senses, thought creates the image, and at that moment desire is born." ;
+    k:arisesFrom k:Sensation , k:Image .
+k:Will a owl:Class ; rdfs:subClassOf k:Movement ; k:themeFile "desire.md" ;
+    k:gloss "Desire hardened into direction. 'I will become that.'" ;
+    k:evidence "Will is the essence of desire. This action of will is part of our violence." ;
+    k:arisesFrom k:Desire ; k:implies k:Violence .
+k:Becoming a owl:Class ; rdfs:subClassOf k:Movement ; k:themeFile "becoming.md" ;
+    k:gloss "The movement from what is toward what should be." ;
+    k:evidence "This movement of becoming is the movement of thought in time." ;
+    k:arisesFrom k:Desire ; k:presupposes k:Division , k:PsychologicalTime ;
+    k:operatesIn k:PsychologicalTime ; k:implies k:Conflict .
+k:Comparison a owl:Class ; rdfs:subClassOf k:Movement ; k:themeFile "becoming.md" ;
+    k:gloss "Measuring oneself against an image." ;
+    k:evidence "Comparison is the movement of thought." ;
+    k:sustains k:Self ; k:implies k:Becoming .
+k:Control a owl:Class ; rdfs:subClassOf k:Movement ; k:themeFile "controller.md" ;
+    k:gloss "One fragment attempting to master another it invented." ;
+    k:evidence "When there is control, there are two entities: the one who is controlling, controlling that which he himself has created." ;
+    k:presupposes k:Division ; k:implies k:Conflict .
+k:Analysis a owl:Class ; rdfs:subClassOf k:Movement ; k:themeFile "observation.md" ;
+    k:gloss "The past examining the present, and so maintaining the split." ;
+    k:evidence "Analysis implies an analyser, the analyser is the past, and he is examining the present." ;
+    k:obscures k:Observation ; k:sustains k:Division .
+k:Attachment a owl:Class ; rdfs:subClassOf k:Movement ; k:themeFile "attachment.md" ;
+    k:gloss "Clinging to an image, a person, a belief, the known." ;
+    k:evidence "Where there is attachment I recognise, observe there is corruption." ;
+    k:arisesFrom k:Loneliness ; k:givesRiseTo k:Fear , k:Sorrow ; k:seeks k:FalseSecurity .
+k:Escape a owl:Class ; rdfs:subClassOf k:Movement ; k:themeFile "fear.md" ;
+    k:gloss "Amusement, worship, entertainment, news, the scroll." ;
+    k:evidence "We live with it, become accustomed to it, or escape from it — through amusement, through worship." ;
+    k:sustains k:Continuity .
+k:Conflict a owl:Class ; rdfs:subClassOf k:Movement ; k:producesConflict true ; k:themeFile "controller.md" ;
+    k:gloss "The friction of any inward division." ;
+    k:evidence "Conflict exists only when there is division." ;
+    k:arisesFrom k:Division ; k:isIdenticalWith k:Violence .
+k:Violence a owl:Class ; rdfs:subClassOf k:Movement ; k:themeFile "thought.md" ;
+    k:gloss "Conflict expressed — and conflict as such." ;
+    k:evidence "Conflict itself is violence." .
+k:Continuity a owl:Class ; rdfs:subClassOf k:Movement ; k:themeFile "death-living.md" ;
+    k:gloss "Trading one pattern for another and calling it change." ;
+    k:evidence "I give up this pattern and take on another pattern." .
+
+#################################################################
+#  Affect
+#################################################################
+
+k:Fear a owl:Class ; rdfs:subClassOf k:Affect ; k:themeFile "fear.md" ;
+    k:gloss "Thought projecting loss forward. Fear is time." ;
+    k:evidence "If I am to die now, immediately, there is no fear. But I want to live another ten years — so fear is time." ;
+    k:isIdenticalWith k:PsychologicalTime ; k:arisesFrom k:Thought ; k:escapesInto k:Escape .
+k:Sorrow a owl:Class ; rdfs:subClassOf k:Affect ; k:themeFile "sorrow.md" ;
+    k:gloss "Not private. The common lot, long preceding the loss that reveals it." ;
+    k:evidence "Sorrow is not yours or mine, it is sorrow." ;
+    k:arisesFrom k:Attachment ; k:commonTo k:Humanity .
+k:Pleasure a owl:Class ; rdfs:subClassOf k:Affect ; k:themeFile "desire.md" ;
+    k:gloss "Enjoyment turned into memory and then pursued." ;
+    k:evidence "Remembered beauty is not beauty." ;
+    k:arisesFrom k:Memory ; k:givesRiseTo k:Fear .
+k:Loneliness a owl:Class ; rdfs:subClassOf k:Affect ; k:themeFile "attachment.md" ;
+    k:gloss "The isolation the self's own activity manufactures." ;
+    k:evidence "We are attached because we are lonely — deep abiding loneliness which is suffocating." ;
+    k:arisesFrom k:Self .
+k:Jealousy a owl:Class ; rdfs:subClassOf k:Affect ; k:themeFile "observation.md" ;
+    k:gloss "What appears exactly where attention is absent." ;
+    k:evidence "Where there is complete attention, there is no jealousy." .
+k:FalseSecurity a owl:Class ; rdfs:subClassOf k:Affect ; k:isFactual false ; k:themeFile "security-aloneness.md" ;
+    k:gloss "Safety sought in a house, a wife, a nation, a god, a belief." ;
+    k:evidence "You are all externalising, giving me security in things in which there is no security." ;
+    k:givesRiseTo k:Division .
+k:Disorder a owl:Class ; rdfs:subClassOf k:Affect ; k:themeFile "consciousness-identity.md" ;
+    k:gloss "The self's intrinsic output." ;
+    k:evidence "No structure of the self can make order." ;
+    k:arisesFrom k:Self .
+
+#################################################################
+#  Perceiving
+#################################################################
+
+k:Observation a owl:Class ; rdfs:subClassOf k:Perceiving ; k:themeFile "observation.md" ;
+    k:gloss "Seeing without the translator, the word, the motive or the direction." ;
+    k:evidence "Learn the art of observing — not translating what you observe, but just to observe." ;
+    k:operatesIn k:TheNow ; k:dissolves k:Division .
+k:Attention a owl:Class ; rdfs:subClassOf k:Perceiving ; k:themeFile "observation.md" ;
+    k:gloss "Whole attention. No centre, no me; not concentration, not effort." ;
+    k:evidence "Attention can only come into being when the self is not." ;
+    k:isNot k:Control ; k:dissolves k:Sorrow , k:Loneliness , k:Jealousy .
+k:Insight a owl:Class ; rdfs:subClassOf k:Perceiving ; k:themeFile "observation.md" ;
+    k:gloss "Immediate perception, out of time, which alters the brain cells." ;
+    k:evidence "Insight being out of time, it is not the result of remembrance, it is not an intuition, or desire, or hope." ;
+    k:realizationDepth "verbal" , "intellectual" , "superficial" , "profound" ; k:operativeAt "profound" ;
+    k:isNot k:Memory , k:Desire ; k:givesRiseTo k:Mutation ; k:dissolves k:Conflict .
+k:SeeingTheFalse a owl:Class ; rdfs:subClassOf k:Perceiving ; k:themeFile "seeing-false.md" ;
+    k:gloss "Perceiving the false as false — which is already the discovery of truth." ;
+    k:evidence "To see the false as the false — which means you have already discovered what is true." ;
+    k:realizationDepth "verbal" , "intellectual" , "superficial" , "profound" ; k:operativeAt "profound" ;
+    k:dissolves k:Illusion ; k:opensInto k:Intelligence .
+k:SelfKnowing a owl:Class ; rdfs:subClassOf k:Perceiving ; k:themeFile "memory-identity.md" ;
+    k:gloss "Learning about oneself moment to moment, without accumulating." ;
+    k:evidence "Self-knowledge is not an accumulated process of knowledge. It is constant learning about oneself." ;
+    k:isNot k:Knowledge .
+k:Doubt a owl:Class ; rdfs:subClassOf k:Perceiving ; k:themeFile "seeing-false.md" ;
+    k:gloss "The seed, allowed to flower — including doubt of one's own structure." ;
+    k:evidence "Doubt your experiences, doubt your illusions, doubt the very structure of your thinking." .
+
+#################################################################
+#  Flowering — defined by negation
+#################################################################
+
+k:Love a owl:Class ; rdfs:subClassOf k:Flowering ; k:themeFile "love.md" ;
+    k:gloss "Defined only by what it is not." ;
+    k:evidence "Love is not knowledge. Love is not remembrance. Love is not desire or pleasure." ;
+    k:isNot k:Desire , k:Pleasure , k:Memory , k:Knowledge , k:Attachment , k:Jealousy , k:Image , k:PsychologicalTime ;
+    k:opensInto k:Compassion .
+k:Compassion a owl:Class ; rdfs:subClassOf k:Flowering ; k:themeFile "sorrow.md" ;
+    k:gloss "The passion that is there when sorrow ends." ;
+    k:evidence "The ending of sorrow is passion, not lust. And that is part of love." ;
+    k:arisesFrom k:Love ; k:opensInto k:Intelligence .
+k:Intelligence a owl:Class ; rdfs:subClassOf k:Flowering ; k:themeFile "intelligence.md" ;
+    k:gloss "May use thought; is not made of it. Free of the program." ;
+    k:evidence "Intelligence can use thought, but intelligence itself is free from memory and knowledge." ;
+    k:isNot k:Thought , k:Knowledge , k:Conditioning ;
+    k:arisesFrom k:SeeingTheFalse , k:Compassion ; k:opensInto k:TrueSecurity .
+k:Freedom a owl:Class ; rdfs:subClassOf k:Flowering ; k:themeFile "observation.md" ;
+    k:gloss "Ungraphed by design (axiom A14). No creates/givesRiseTo/opensInto/dissolves edge targets this class anywhere in the ontology." ;
+    k:evidence "It is only in freedom there is deep insight. If you are not free to enquire, if you are biased, then you are limited." ;
+    k:unreachable true .
+
+k:unreachable a owl:DatatypeProperty ; rdfs:range xsd:boolean ;
+    rdfs:comment "True only for k:Freedom. Marks a term the ontology deliberately does not generate via any path." .
+k:Order a owl:Class ; rdfs:subClassOf k:Flowering ; k:themeFile "relationship.md" ;
+    k:gloss "Not arrangement. The absence of the self that disorders." ;
+    k:evidence "Until we have established right relationship between us — which is order — how can I find that which is supreme order?" ;
+    k:isNot k:Control .
+k:Aloneness a owl:Class ; rdfs:subClassOf k:Flowering ; k:themeFile "security-aloneness.md" ;
+    k:gloss "All-one. Whole, not fragmented." ;
+    k:evidence "The word 'alone' means all one — together, whole, not fragmented." ;
+    k:isNot k:Loneliness .
+k:PsychologicalDeath a owl:Class ; rdfs:subClassOf k:Flowering ; k:themeFile "death-living.md" ;
+    k:gloss "Ending the content of consciousness while living." ;
+    k:evidence "That consciousness with its content can be ended while I am living." ;
+    k:isNot k:Continuity ; k:dissolves k:Attachment .
+k:TrueSecurity a owl:Class ; rdfs:subClassOf k:Flowering ; k:themeFile "security-aloneness.md" ;
+    k:gloss "In intelligence only. Unavailable to the individual as individual." ;
+    k:evidence "There is security only in intelligence. Individual can never have that security." ;
+    k:isNot k:FalseSecurity .
+k:Mutation a owl:Class ; rdfs:subClassOf k:Flowering ; k:themeFile "sorrow.md" ;
+    k:gloss "Actual change in the brain cells through insight." ;
+    k:evidence "There is a mutation in the brain cells. That mutation wipes out the whole structure that makes you suffer." .
+k:Silence a owl:Class ; rdfs:subClassOf k:Flowering ; k:themeFile "intelligence.md" ;
+    k:gloss "The quiet brain in which intelligence operates." ;
+    k:evidence "Intelligence operates when the brain is quiet." .
+k:Energy a owl:Class ; rdfs:subClassOf k:Flowering ; k:themeFile "becoming.md" ;
+    k:gloss "What is released when nothing moves away from what is." ;
+    k:evidence "Moving away from 'what is' is wastage of energy." .
+
+#################################################################
+#  Ground
+#################################################################
+
+k:Brain a owl:Class ; rdfs:subClassOf k:Ground ; k:themeFile "consciousness-identity.md" ;
+    k:gloss "Conditioned, material, a million years old — and not yours." ;
+    k:evidence "Your brain has grown through a million years — it is not your brain, it is the common brain of man." ;
+    k:commonTo k:Humanity .
+k:Consciousness a owl:Class ; rdfs:subClassOf k:Ground ; k:themeFile "consciousness-identity.md" ;
+    k:gloss "Identical with its content; common to mankind." ;
+    k:evidence "The content of our consciousness is the common ground of all humanity." ;
+    k:commonTo k:Humanity .
+k:Mind a owl:Class ; rdfs:subClassOf k:Ground ; k:themeFile "observation.md" ;
+    k:gloss "Unconditioned. Has a relation to the brain; not the reverse." ;
+    k:evidence "As long as the brain is conditioned its relationship to the mind is limited. But the mind being free has a relationship to the brain." .
+k:Psyche a owl:Class ; rdfs:subClassOf k:Ground ; k:themeFile "becoming.md" ;
+    k:gloss "What has no evolution." ;
+    k:evidence "The evolution of consciousness is a fallacy. There is no psychological evolution." .
+k:Humanity a owl:Class ; rdfs:subClassOf k:Ground ; k:themeFile "consciousness-identity.md" ;
+    k:gloss "You, actually." ;
+    k:evidence "Each one of us is actually the rest of humankind." ;
+    k:isIdenticalWith k:Self .
+k:Relationship a owl:Class ; rdfs:subClassOf k:Ground ; k:themeFile "relationship.md" ;
+    k:gloss "Where all of this is testable. Usually two images." ;
+    k:evidence "Relationship is between these two images. These images have been put together by thought." .
+k:Society a owl:Class ; rdfs:subClassOf k:Ground ; k:themeFile "consciousness-identity.md" ;
+    k:gloss "The self, externalised." ;
+    k:evidence "I am society. I am the world." ;
+    k:isIdenticalWith k:Self .
+
+#################################################################
+#  Self: the identity collapses (A4)
+#################################################################
+
+k:Self
+    k:isIdenticalWith k:Observer , k:Thinker , k:Controller , k:Analyser , k:Consciousness ;
+    k:arisesFrom k:Memory , k:Conditioning ;
+    k:seeks k:FalseSecurity ;
+    k:givesRiseTo k:Division , k:Disorder , k:Loneliness .
+
+k:Observer a owl:Class ; rdfs:subClassOf k:Self ; k:isIdenticalWith k:Observed ;
+    k:evidence "The observer is the observed." ; k:themeFile "controller.md" .
+k:Observed a owl:Class ; rdfs:subClassOf k:Construct .
+k:Thinker a owl:Class ; rdfs:subClassOf k:Self ; k:isIdenticalWith k:Thought ;
+    k:evidence "The thinker is the thought." ; k:themeFile "controller.md" .
+k:Controller a owl:Class ; rdfs:subClassOf k:Self ; k:isIdenticalWith k:Controlled ;
+    k:evidence "The controller is the controlled." ; k:themeFile "controller.md" .
+k:Controlled a owl:Class ; rdfs:subClassOf k:Construct .
+k:Analyser a owl:Class ; rdfs:subClassOf k:Self ; k:isIdenticalWith k:Analysed ;
+    k:evidence "The analyser is the analysed. That is an obvious fact." ; k:themeFile "observation.md" .
+k:Analysed a owl:Class ; rdfs:subClassOf k:Construct .
+
+#################################################################
+#  Axioms (reified so they can be cited and traced)
+#################################################################
+
+k:Axiom a owl:Class ; rdfs:subClassOf k:Documentation .
+
+k:A1 a k:Axiom ; rdfs:label "Limitation" ;
+    k:gloss "Whatever is of thought is limited, because knowledge is always incomplete." ;
+    k:evidence "Thought is limited because knowledge is limited." .
+k:A2 a k:Axiom ; rdfs:label "Division" ;
+    k:gloss "Whatever is limited defines a boundary, and so creates division." ;
+    k:evidence "If I define myself as limited, I am concerned with myself — that creates conflict." .
+k:A3 a k:Axiom ; rdfs:label "Conflict" ;
+    k:gloss "Division entails conflict; and conflict is itself violence." ;
+    k:evidence "Where there is division there must be conflict. Conflict itself is violence." .
+k:A4 a k:Axiom ; rdfs:label "Non-duality" ;
+    k:gloss "Every pair thought produces — observer/observed, controller/controlled — is one thing." ;
+    k:evidence "Both are the same, it is a trick played by thought." .
+k:A5 a k:Axiom ; rdfs:label "Psychological time is a construct" ;
+    k:gloss "Becoming runs in psychological time; psychological time is made by thought; therefore becoming is illusory." ;
+    k:evidence "Any form of becoming is an illusion, and the becoming implies time." .
+k:A6 a k:Axiom ; rdfs:label "Fact over idea" ;
+    k:gloss "Only a fact can be acted on. An ideal can only be pursued, and pursuit is division." ;
+    k:evidence "You can deal with the fact, you can do something about the fact, but you cannot possibly do something about an idea." .
+k:A7 a k:Axiom ; rdfs:label "Immediacy" ;
+    k:gloss "Perception requires no time; therefore the ending is now, and gradualism is more becoming." ;
+    k:evidence "Perception does not require time." .
+k:A8 a k:Axiom ; rdfs:label "Thought cannot undo itself" ;
+    k:gloss "Nothing of thought can dissolve what thought has constructed. This is why Perceiving is disjoint from Movement." ;
+    k:evidence "Thought, creating the problem, thought then tries to solve the problem. So it is caught in the same old process." .
+k:A9 a k:Axiom ; rdfs:label "Commonality" ;
+    k:gloss "Consciousness is common to humanity; the separate self is therefore an illusion, and private remedy a category error." ;
+    k:evidence "Your consciousness is the consciousness of mankind, psychologically." .
+k:A10 a k:Axiom ; rdfs:label "Measurement" ;
+    k:gloss "Comparison produces becoming, becoming duality, duality conflict." ;
+    k:evidence "Comparison is the movement of thought." .
+k:A11 a k:Axiom ; rdfs:label "Attachment and corruption" ;
+    k:gloss "Attachment entails corruption, fear and sorrow." ;
+    k:evidence "Where there is attachment I recognise, observe there is corruption." .
+k:A12 a k:Axiom ; rdfs:label "Negation is the only positive" ;
+    k:gloss "Flowering nodes carry no positive predicate; they are defined by isNot edges and by what dissolves in their presence." ;
+    k:evidence "Love is not knowledge. Love is not remembrance. Love is not desire or pleasure." .
+k:A13 a k:Axiom ; rdfs:label "Reflexive caution" ;
+    k:gloss "This ontology is of thought, therefore limited (A1), therefore it can end nothing (A8). Its only use is as an object of SeeingTheFalse." ;
+    k:evidence "There is no teacher, nor disciple. There is only learning, not learning what someone has to inform you, but learning in action." .
+
+k:A14 a k:Axiom ; rdfs:label "Freedom is not a node you arrive at" ;
+    k:gloss "No term, pathway or axiom in this graph generates k:Freedom via creates, givesRiseTo, opensInto or dissolves, nor does k:Freedom arise from anything. Not an omission: the one place the model refuses to complete itself. What dissolves obstructs it; nothing constructs it. It is what remains, or is seen, when every drawable node has been drawn and the drawing itself is recognized as one more Construct and let go." ;
+    k:evidence "It is only in freedom there is deep insight. If you are not free to enquire, if you are biased, then you are limited." .
+
+k:A15 a k:Axiom ; rdfs:label "Depth of realization" ;
+    k:gloss "Seeing the false and insight admit a gradient from verbal agreement to profound perception. Only profound realization alters the brain cells; verbal and intellectual degrees are thought recognising a description, and by A8 dissolve nothing. This is why agreeing that thought is futile does not end thought." ;
+    k:evidence "The depth of that realisation, which may be very superficial, or it may be profound. When it is profound it totally changes one's life." .
+
+#################################################################
+#  Pathways
+#################################################################
+
+k:Pathway a owl:Class ; rdfs:subClassOf k:Documentation .
+k:hasStep a owl:ObjectProperty ; rdfs:domain k:Pathway .
+k:steps a owl:DatatypeProperty ; rdfs:domain k:Pathway ; rdfs:range xsd:string .
+k:exitAt a owl:DatatypeProperty ; rdfs:domain k:Pathway ; rdfs:range xsd:string .
+
+k:P1 a k:Pathway ; rdfs:label "The cycle of the known" ; k:themeFile "thought.md" ;
+    k:steps "Experience → Knowledge → Memory → Thought → Action → Experience" ;
+    k:gloss "Not stages: one unitary movement, always in the same direction." .
+k:P2 a k:Pathway ; rdfs:label "The desire chain" ; k:themeFile "desire.md" ;
+    k:steps "Perception → Contact → Sensation → Thought creates Image → Desire → Will → Pursuit of pleasure → [thwarted] → Fear | Antagonism | Violence" ;
+    k:exitAt "Thought creates Image — sensation is not the problem; sensation plus image is." .
+k:P3 a k:Pathway ; rdfs:label "The becoming chain" ; k:themeFile "becoming.md" ;
+    k:steps "WhatIs → Thought projects WhatShouldBe → PsychologicalTime → Division → Conflict → Disorder" ;
+    k:exitAt "The second arrow. If there is no movement away from what is, there is no psychological time at all." .
+k:P4 a k:Pathway ; rdfs:label "The self and its security" ; k:themeFile "security-aloneness.md" ;
+    k:steps "Conditioning → Memory → Self → Separateness → Isolation → Loneliness → Attachment → FalseSecurity → Fear → Division" ;
+    k:gloss "A closed loop: the search for security produces the insecurity it flees." .
+k:P5 a k:Pathway ; rdfs:label "The relationship chain" ; k:themeFile "relationship.md" ;
+    k:steps "You → Image of the other ← Image of you ← The other" ;
+    k:gloss "The images relate; the people do not. Two railway lines running parallel." .
+k:P6 a k:Pathway ; rdfs:label "The sorrow chain" ; k:themeFile "sorrow.md" ;
+    k:steps "Self-centred activity → Isolation → Attachment → Loss → Sorrow → Escape → Continuity" ;
+    k:gloss "Sorrow is not at the moment of losing somebody — it began long ago." .
+k:P7 a k:Pathway ; rdfs:label "The ending" ; k:themeFile "observation.md" ;
+    k:steps "SeeingTheFalse → Attention → Insight → Mutation → Ending of sorrow → Compassion → Intelligence → Order → Action without motive" ;
+    k:gloss "No method, no practice, no stages, no time. Every arrow here is simultaneity, not sequence — the one structural difference from P1–P6." .
+
+#################################################################
+#  Documentation layer
+#################################################################
+
+k:Theme a owl:Class ; rdfs:subClassOf k:Documentation .
+k:Quote a owl:Class ; rdfs:subClassOf k:Documentation .
+k:Source a owl:Class ; rdfs:subClassOf k:Documentation .
+k:InquiryPath a owl:Class ; rdfs:subClassOf k:Documentation .
+k:Application a owl:Class ; rdfs:subClassOf k:Documentation ;
+    k:gloss "A contemporary situation traced through existing pathways." .
+
+k:Theme_Thought a k:Theme ; k:themeFile "thought.md" ; k:anchors k:Thought , k:Knowledge , k:Memory .
+k:Theme_Desire a k:Theme ; k:themeFile "desire.md" ; k:anchors k:Desire , k:Will , k:Pleasure .
+k:Theme_Becoming a k:Theme ; k:themeFile "becoming.md" ; k:anchors k:Becoming , k:Ideal , k:PsychologicalTime .
+k:Theme_Controller a k:Theme ; k:themeFile "controller.md" ; k:anchors k:Control , k:Division , k:Controller .
+k:Theme_ConsciousnessIdentity a k:Theme ; k:themeFile "consciousness-identity.md" ; k:anchors k:Consciousness , k:Humanity , k:Illusion .
+k:Theme_MemoryIdentity a k:Theme ; k:themeFile "memory-identity.md" ; k:anchors k:Memory , k:Self , k:SelfKnowing .
+k:Theme_Observation a k:Theme ; k:themeFile "observation.md" ; k:anchors k:Observation , k:Attention , k:Insight , k:Analysis .
+k:Theme_Fear a k:Theme ; k:themeFile "fear.md" ; k:anchors k:Fear , k:PsychologicalTime .
+k:Theme_Attachment a k:Theme ; k:themeFile "attachment.md" ; k:anchors k:Attachment , k:Loneliness .
+k:Theme_Sorrow a k:Theme ; k:themeFile "sorrow.md" ; k:anchors k:Sorrow , k:Compassion .
+k:Theme_DeathLiving a k:Theme ; k:themeFile "death-living.md" ; k:anchors k:PsychologicalDeath , k:Continuity .
+k:Theme_SecurityAloneness a k:Theme ; k:themeFile "security-aloneness.md" ; k:anchors k:FalseSecurity , k:TrueSecurity , k:Aloneness .
+k:Theme_Love a k:Theme ; k:themeFile "love.md" ; k:anchors k:Love .
+k:Theme_Intelligence a k:Theme ; k:themeFile "intelligence.md" ; k:anchors k:Intelligence .
+k:Theme_SeeingFalse a k:Theme ; k:themeFile "seeing-false.md" ; k:anchors k:SeeingTheFalse , k:Doubt .
+k:Theme_Relationship a k:Theme ; k:themeFile "relationship.md" ; k:anchors k:Relationship , k:Image .
+
+k:App_Instagram a k:Application ; k:themeFile "instagram.md" ;
+    k:gloss "Comparison industrialised: pathway P2 driven by axiom A10." .
+k:App_War a k:Application ; k:themeFile "war.md" ;
+    k:gloss "The safe observer: axiom A9 denied, pathway P4 fed by Escape." .

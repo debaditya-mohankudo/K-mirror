@@ -28,6 +28,8 @@ Each theme file contains curated quotes, cross-references to related themes, and
 
 **Transcripts Library** — [wiki/transcripts/](wiki/transcripts/) stores full talk transcripts organized by location and year, with an [INDEX](wiki/transcripts/INDEX.md) for easy reference.
 
+**Ontology** — [wiki/ONTOLOGY.md](wiki/ONTOLOGY.md) is the prose spec; [`wiki/ontology/`](wiki/ontology/) holds the machine-readable serializations ([`k-ontology.json`](wiki/ontology/k-ontology.json) node/edge graph, [`k-ontology.ttl`](wiki/ontology/k-ontology.ttl) OWL/Turtle). A formal map of the mechanism K describes — memory → thought → image → desire → becoming → division → conflict — modelled positively, with love/insight/intelligence present only by negation. Derived from the theme files; axiom A13 flags it as itself "of thought" and to be dropped after use.
+
 ## Facilitation Notes
 
 - **The quote pool exists to diversify inquiry.** Each session should draw from multiple principles across turns — fear, desire, identity, attachment, becoming, observation, the controller, relationship, sorrow. The theme files in `wiki/` contain curated quotes organized by principle; avoid repeating the same angle (e.g. time/future). Let each turn approach the same wound from a different direction.
