@@ -360,7 +360,7 @@ The sixteen wiki files are instances of `k:Theme`, each anchored to a region of 
 | [seeing-false](seeing-false.md) | `k:SeeingTheFalse`, `k:Doubt` | Perceiving |
 | [relationship](relationship.md) | `k:Relationship`, `k:Image` | Ground / Construct |
 
-Applied files — [war](war.md), [instagram](instagram.md), [sex](sex.md) — are `k:Application`: a contemporary situation traced through existing pathways. Instagram = P2 + A10; war spectacle = A9 + P4 + `k:Escape`; sex = P2 + A16 + A8 (the last unborrowed door, the pursuit that never closes).
+Applied files — [war](war.md), [instagram](instagram.md), [sex](sex.md) — are `k:Application`: a contemporary situation traced through existing pathways. Instagram = P2 + A10; war spectacle = A9 + P4 + `k:Escape`; sex = P2 + A16 + A8 (the last unborrowed door, the pursuit that never closes). AI agents = P3 + P4 + A4 + A10 (instrumental self-preservation as `k:Self` generated with nothing behind it; becoming with its exit architecturally removed).
 
 ---
 

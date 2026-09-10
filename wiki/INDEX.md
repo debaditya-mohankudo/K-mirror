@@ -27,6 +27,14 @@ See [NAVIGATION.md](NAVIGATION.md) for pathways organized by:
 
 ---
 
+## The Ontology
+
+[ONTOLOGY.md](ONTOLOGY.md) — a formal map of the structure the themes describe: 77 terms, 112 typed relations, 13 axioms and 7 pathways, each evidenced by a quote in a theme file. Serialized as [OWL/Turtle](ontology/k-ontology.ttl) and [JSON](ontology/k-ontology.json).
+
+It models the mechanism positively and freedom only by negation — and says so about itself (axiom A13).
+
+---
+
 ## All Themes (Alphabetical)
 
 ### Core Mechanisms
@@ -54,6 +62,12 @@ See [NAVIGATION.md](NAVIGATION.md) for pathways organized by:
 
 ### Relationship
 - [Relationship](relationship.md) — two images meeting, or two beings?
+
+### Applications
+- [The Instagram Trap](instagram.md) — image & becoming, industrialized
+- [War & the Spectator](war.md) — the common self at scale
+- [Sex](sex.md) — the last unborrowed door
+- [AI Agents](ai-agents.md) — the thinker as thought, with the ghost removed
 
 ---
 
