@@ -633,7 +633,7 @@
       "id": "Intelligence",
       "label": "Intelligence",
       "broader": "Flowering",
-      "gloss": "May use thought; is not made of it. Free of the program.",
+      "gloss": "May use thought; is not made of it. Free of the program. Neither the positive nor the negative of thought - it may appear once psychological thought has ceased (appearsOnCessationOf Thought).",
       "ofThought": false,
       "evidence": "Intelligence can use thought, but intelligence itself is free from memory and knowledge.",
       "themeFile": "intelligence.md"
@@ -856,6 +856,11 @@
       "id": "opensInto",
       "label": "opens into",
       "gloss": "x, complete, is already y."
+    },
+    {
+      "id": "appearsOnCessationOf",
+      "label": "appears on the cessation of",
+      "gloss": "Non-generative. x (a Flowering term) may be present where movement y has ceased; the ceasing neither causes nor entails x. Not oppositional like isNot, not causal like arisesFrom. Used only for Intelligence appearsOnCessationOf Thought."
     },
     {
       "id": "operatesIn",
@@ -1472,12 +1477,6 @@
     {
       "s": "Intelligence",
       "p": "isNot",
-      "o": "Thought",
-      "evidence": "Intelligence is not the activity of cunning thought."
-    },
-    {
-      "s": "Intelligence",
-      "p": "isNot",
       "o": "Knowledge",
       "evidence": "Intelligence itself is free from memory and knowledge."
     },
@@ -1495,9 +1494,9 @@
     },
     {
       "s": "Intelligence",
-      "p": "arisesFrom",
-      "o": "Silence",
-      "evidence": "Intelligence operates when the brain is quiet."
+      "p": "appearsOnCessationOf",
+      "o": "Thought",
+      "evidence": "Intelligence operates when the brain is quiet. It is not the opposite of thought, and no thinking produces it; where psychological thought has stopped, it may be there."
     },
     {
       "s": "Aloneness",

@@ -153,7 +153,7 @@ The second is the one that carries weight: attention is not a *thing thought doe
 |---|---|---|
 | `k:Love` | not desire, not pleasure, not memory, not knowledge, not attachment, not jealousy, not personal, no motive | *"Love is not knowledge. Love is not remembrance. Love is not desire or pleasure."* — [love](love.md) |
 | `k:Compassion` | passion that arrives when sorrow ends | *"The ending of sorrow is passion, not lust."* — [sorrow](sorrow.md) |
-| `k:Intelligence` | not cunning thought; free of program; may use thought, is not made of it | *"Intelligence can use thought, but intelligence itself is free from memory and knowledge."* — [intelligence](intelligence.md) |
+| `k:Intelligence` | free of the program; may use thought, is not made of it. Neither the positive nor the negative of thought — it *may appear* when psychological thought ceases (`k:appearsOnCessationOf k:Thought`) | *"Intelligence can use thought, but intelligence itself is free from memory and knowledge."* — [intelligence](intelligence.md) |
 | `k:Freedom` | **ungraphed.** Zero incoming `creates`/`givesRiseTo`/`opensInto`/`arisesFrom` edges — nothing in this ontology produces it. The one edge it touches runs the other way (`Insight arisesFrom Freedom`): freedom is what insight presupposes, not what any sequence of terms arrives at. See A14. | *"It is only in freedom there is deep insight."* — [observation](observation.md) |
 | `k:Order` | not arrangement; the absence of the self that disorders | *"Until we have established right relationship… which is order."* — [relationship](relationship.md) |
 | `k:Aloneness` | all-one; not isolation, which is fragmentation | *"The word 'alone' means all one."* — [security-aloneness](security-aloneness.md) |
@@ -163,7 +163,7 @@ The second is the one that carries weight: attention is not a *thing thought doe
 | `k:Silence` | quiet brain; the condition in which intelligence operates | *"Intelligence operates when the brain is quiet."* — [intelligence](intelligence.md) |
 | `k:Energy` | what is released when nothing moves away from what is | *"Moving away from 'what is' is wastage of energy."* — [becoming](becoming.md) |
 
-> **Formal note — `k:Intelligence` and `k:Thought`: absence, not opposite.** The edge `Intelligence isNot Thought` is a shorthand and, read as *opposition*, is wrong (§0.2). Intelligence is not the negative of thought — not "clear thinking," not "the right conclusion," not anti-thought. It is the state when thought, as a psychological movement, is *absent*: the quiet brain. The positive statement of the same fact is the edge already in the graph — `Intelligence arisesFrom Silence` (*"intelligence operates when the brain is quiet"*). `Silence` is the node that carries the absence; `isNot Thought` should be read through it, not as a mirror-image of `Thought`.
+> **Formal note — `k:Intelligence` and `k:Thought`: cessation, not negation.** Earlier versions of the graph carried an `Intelligence isNot Thought` edge. It has been removed: read as *opposition* it is wrong (§0.2), and even read as "absence-of" it makes intelligence the complement of thought — a figure defined against a ground, which by A2 is one more `k:Construct`. Intelligence is not the negative of thought (not "clear thinking," not "the right conclusion," not anti-thought) and not a node any chain of thought produces. The only edge the graph now draws between them is `Intelligence appearsOnCessationOf Thought` — a **non-generative** relation (§4.4): where psychological thought has stopped, intelligence *may* be there; the stopping neither causes nor entails it. `k:Silence` names that same stopped condition (`Silence isIdenticalWith` the absence of `Thought`); `appearsOnCessationOf` is the relation, `Silence` the state.
 >
 > And by A4 (`thinker isIdenticalWith thought`): the absence of thought is the absence of the **thinker** — no centre, no observer, no one operating the intelligence. This is the same condition named for attention (`Attention isNot Concentration`, *"attention comes into being only when the self is not"*). So `k:Intelligence`, `k:Attention` and `k:Silence` are one situation under three descriptions: thought still, thinker gone, perception without a perceiver. `Intelligence` "may use thought" (the gloss) only in the way a hand may use a tool — the using is not done *by* another thought.
 
@@ -224,7 +224,7 @@ Every `isIdenticalWith` edge is a **conflict-eliminator**: where the two collaps
 ```
 Love isNot { Desire, Pleasure, Memory, Knowledge, Attachment, Jealousy,
              Image, Motive, Nationality, PsychologicalTime }
-Intelligence isNot { CunningThought, Conditioning, Accumulation }
+Intelligence isNot { Knowledge, Conditioning }   ; Intelligence appearsOnCessationOf Thought
 Aloneness    isNot { Isolation, Loneliness }
 Attention    isNot { Concentration, Effort }
 Insight      isNot { Intuition, Remembrance, Desire, Hope }
@@ -239,6 +239,7 @@ Enjoyment    isNot { Pleasure }
 | `k:isLimitedBy` | x is bounded by y, therefore partial | `Thought isLimitedBy Knowledge` |
 | `k:dissolves` | x ends y — without effort, in no time | `Attention dissolves Sorrow` · `SeeingTheFalse dissolves Illusion` · `Insight dissolves Conflict` |
 | `k:opensInto` | x, complete, is already y | `EndingOfSorrow opensInto Compassion` · `Compassion opensInto Intelligence` |
+| `k:appearsOnCessationOf` | x may be present where movement y has ceased — **non-generative**: y's stopping neither causes nor entails x. Distinct from `arisesFrom` (which is causal) and from `isNot` (which is oppositional). Domain `k:Flowering`, range `k:Movement`. | `Intelligence appearsOnCessationOf Thought` |
 | `k:operatesIn` | temporal mode | `Becoming operatesIn PsychologicalTime` · `Observation operatesIn TheNow` |
 | `k:commonTo` | x belongs to the whole, not to a person | `Consciousness commonTo Humanity` · `Sorrow commonTo Humanity` |
 
@@ -304,7 +305,7 @@ The full chain from a single glance at someone else's life.
 **A11 — Attachment/corruption.** `Attachment → Corruption ∧ Fear ∧ Sorrow`
 *"Where there is attachment I recognise, observe there is corruption."*
 
-**A12 — Negation is the only positive.** Every `k:Flowering` node is defined solely by `isNot` edges and by what dissolves in its presence. No positive predicate is asserted of `k:Love`.
+**A12 — Negation is the only positive.** Every `k:Flowering` node is defined by `isNot` edges and by what dissolves in its presence — never by a positive predicate (none is asserted of `k:Love`). The one admitted non-negative relation is `k:appearsOnCessationOf` (§4.4): it still asserts nothing *about* the Flowering term, only that it may be found where a movement of thought has stopped. `k:Intelligence appearsOnCessationOf k:Thought` is the sole use.
 
 **A13 — Reflexive caution.** This ontology is itself `ofThought = true`. By A1 it is limited; by A8 it cannot end anything. Its only legitimate use is as an object of `k:SeeingTheFalse` — a description to be checked against one's own observation and then dropped. *"The word is not the thing."*
 
@@ -378,7 +379,7 @@ The sixteen wiki files are instances of `k:Theme`, each anchored to a region of 
 | [seeing-false](seeing-false.md) | `k:SeeingTheFalse`, `k:Doubt` | Perceiving |
 | [relationship](relationship.md) | `k:Relationship`, `k:Image` | Ground / Construct |
 
-Applied files — [war](war.md), [instagram](instagram.md), [sex](sex.md) — are `k:Application`: a contemporary situation traced through existing pathways. Instagram = P2 + A10; war spectacle = A9 + P4 + `k:Escape`; sex = P2 + A16 + A8 (the last unborrowed door, the pursuit that never closes). AI agents = P3 + P4 + A4 + A10 (instrumental self-preservation as `k:Self` generated with nothing behind it; becoming with its exit architecturally removed).
+Applied files — [war](war.md), [instagram](instagram.md), [sex](sex.md) — are `k:Application`: a contemporary situation traced through existing pathways. Instagram = P2 + A10; war spectacle = A9 + P4 + `k:Escape`; sex = P2 + A16 + A8 (the last unborrowed door, the pursuit that never closes). AI agents = P3 + P4 + A4 + A10 + A12 (instrumental self-preservation as `k:Self` generated with nothing behind it; becoming with its exit architecturally removed; LLM inference is generative state-to-state movement — `k:Thought` — and `k:Intelligence`, carrying no generative edge and only `appearsOnCessationOf k:Thought`, is categorially not reachable by scaling it).
 
 ---
 

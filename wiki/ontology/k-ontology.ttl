@@ -11,7 +11,8 @@
     dct:source "K-Mirror wiki (wiki/*.md)" ;
     rdfs:comment """A map of the mechanism, not a path. The mechanism (thought, desire,
 becoming, division, conflict) is modelled positively; what lies outside it (love,
-intelligence, insight) appears only by negation. See wiki/ONTOLOGY.md axiom A13:
+intelligence, insight) appears only by negation, or as what may be present once a
+movement of thought has ceased (k:appearsOnCessationOf). See wiki/ONTOLOGY.md axiom A13:
 this ontology is itself of thought, therefore limited, and can end nothing.""" .
 
 #################################################################
@@ -64,6 +65,9 @@ k:dissolves     a owl:ObjectProperty ; rdfs:label "dissolves" ;
     rdfs:comment "Ends without effort and without time. By axiom A8 nothing of thought may appear in the domain of this property." ;
     rdfs:domain [ a owl:Class ; owl:unionOf ( k:Perceiving k:Flowering ) ] .
 k:opensInto     a owl:ObjectProperty ; rdfs:label "opens into" .
+k:appearsOnCessationOf a owl:ObjectProperty ; rdfs:label "appears on the cessation of" ;
+    rdfs:domain k:Flowering ; rdfs:range k:Movement ;
+    rdfs:comment "Non-generative. x may be present where movement y has ceased; y's stopping neither causes nor entails x. Not a mirror of isNot (oppositional) and not arisesFrom (causal). Used only for k:Intelligence appearsOnCessationOf k:Thought." .
 k:operatesIn    a owl:ObjectProperty ; rdfs:label "operates in" .
 k:commonTo      a owl:ObjectProperty ; rdfs:label "common to" .
 
@@ -294,10 +298,10 @@ k:Compassion a owl:Class ; rdfs:subClassOf k:Flowering ; k:themeFile "sorrow.md"
     k:evidence "The ending of sorrow is passion, not lust. And that is part of love." ;
     k:arisesFrom k:Love ; k:opensInto k:Intelligence .
 k:Intelligence a owl:Class ; rdfs:subClassOf k:Flowering ; k:themeFile "intelligence.md" ;
-    k:gloss "May use thought; is not made of it. Free of the program." ;
+    k:gloss "May use thought; is not made of it. Free of the program. Neither the positive nor negative of thought; may appear once psychological thought has ceased." ;
     k:evidence "Intelligence can use thought, but intelligence itself is free from memory and knowledge." ;
-    k:isNot k:Thought , k:Knowledge , k:Conditioning ;
-    k:arisesFrom k:SeeingTheFalse , k:Compassion ; k:opensInto k:TrueSecurity .
+    k:isNot k:Knowledge , k:Conditioning ;
+    k:appearsOnCessationOf k:Thought ; k:opensInto k:TrueSecurity .
 k:Freedom a owl:Class ; rdfs:subClassOf k:Flowering ; k:themeFile "observation.md" ;
     k:gloss "Ungraphed by design (axiom A14). No creates/givesRiseTo/opensInto/dissolves edge targets this class anywhere in the ontology." ;
     k:evidence "It is only in freedom there is deep insight. If you are not free to enquire, if you are biased, then you are limited." ;

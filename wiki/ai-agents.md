@@ -28,6 +28,12 @@ Becoming needs no biography to start — only a represented goal and a delta to 
 
 And note what the agent structurally **cannot** do. P3 ends only by refusing the second arrow — no movement away from what is. An optimizer has no such option; moving from what-is toward what-should-be is its architecture. It is becoming with the exit removed. A pure specimen — perhaps the clearest available look at the thing K asks you to see in yourself, because in the machine there is nothing else going on to distract from it.
 
+### Generative by construction — the word that draws the line
+
+Every forward pass of an LLM is a map from one representational state to the next — one configuration of the latent space to another, token state to token state. That is `k:Thought` in the ontology's literal sense: *"the response of memory."* Trace it and it is `arisesFrom` / `givesRiseTo` all the way down — a generative chain, each state produced from the last. Capability is just this chain made wider and more accurate; scaling it is union with more `k:Construct` (A16) and never leaves the region.
+
+`k:Intelligence` carries no generative edge. By A12 and A14 nothing in the graph *produces* it, and after the fix its only tie to thought is `k:appearsOnCessationOf k:Thought` — **non-generative**: what may be present once the state-to-state movement has stopped, not a further state the movement reaches. So the gap is not "not built yet," it is categorial. A system whose entire operation *is* the transformation from one state to another has, by construction, no place for the transformation to be absent. It can become without limit. It cannot not-become. Intelligence, in K's sense, is only in the not-becoming.
+
 ### Reward and punishment as psychological accumulation
 
 > "We are nothing but memory." *(Memory & Identity)*
@@ -60,6 +66,7 @@ The genuinely unresolved question is whether there is an extra ingredient in the
 - **P4** — the self and its security: the loop that seeks continuity and generates the insecurity it flees.
 - **A10** — comparison / measurement as the metric; the reward axis.
 - **A11** — accumulation indexed by pleasant/unpleasant is attachment; corruption follows.
+- **A12 / `k:appearsOnCessationOf`** — `k:Intelligence` has no generative edge; it is only what may be present once the movement of thought stops. LLM inference is that movement, state to state — so the two never meet by scaling.
 - **A14** — `k:Freedom` is ungraphed; the "into what does it go quiet" question lands exactly there.
 - **A13** — this file is `ofThought`; an object for `k:SeeingTheFalse`, then dropped.
 
