@@ -15,6 +15,20 @@ What it can legitimately be is a **map of the false**. K did describe a structur
 
 So the ontology is asymmetric on purpose. The mechanism is modelled positively and in detail. Freedom is modelled as a hole in it.
 
+### 0.1 Why the asymmetry is structural, not a choice
+
+A graph models relations and their order. Thought *is* relation and order — the response of memory, association, comparison, this-leads-to-that in psychological time. So drawing `Thought → Image → Desire → Becoming → Conflict` is not modelling thought *with* a graph; it is writing thought in its own native notation. Anything `ofThought` is therefore representable as a network, in full, without loss.
+
+What is outside thought is not a better-connected node — it is the *absence of the connecting*. There is nothing for an edge to encode, because an edge encodes a relation-in-time and `k:Love`, `k:Insight`, `k:Intelligence`, `k:Freedom` are defined as what has no such relation. The graph can only point at them with its own machinery turned to negative use: `k:isNot` edges (negative space drawn with the same pen), `k:dissolves` / `k:opensInto` edges that run *out* of the mechanism, and — for `k:Freedom` — zero edges at all (A14). The outside appears only as the shape of the hole the mechanism leaves.
+
+This is the general modelling principle, not a fact about K: **a formal model captures exactly the part of its domain that is made of relations; whatever in the domain is not relational shows up only as the model's negative space.** Hence the rule this ontology follows — model the false positively and exhaustively; let freedom be the un-drawn edge. And hence A13: the map is itself `ofThought`, and complete precisely because of what it cannot contain.
+
+### 0.2 Negative space is still of thought — the outside is absence, not complement
+
+The previous paragraph says "negative space." That is the *mathematical* reading: freedom as the complement of the mechanism, a figure-shaped hole in the ground of the graph. K would reject even this. A complement has a boundary — it is defined against what it is not — and by A2 a boundary *is* a division, so a boundary-defined "outside" is one more `k:Construct`. This is the same move flagged in A6: *"Thought has created the opposite, which is non-fact."* Every positive thought throws off its own negative — violence/non-violence, the self/the ideal self — and that negative is still thought, still in psychological time, still divisive. Freedom as *the negation of the mechanism* is the mechanism's own shadow.
+
+So the graph's negative space (`k:isNot` edges, the un-drawn `k:Freedom` node) is best read as a **finger pointing, not the moon**. What K calls freedom is not the figure's inverse and not the ground it sits on — it is the *absence* of the whole figure-ground construction, boundary included. The model cannot hold that, not even as a hole, because a hole still has an edge. A16 says it exactly: the ending is not the closure of the set (adding the boundary) but the collapse of the interior/boundary distinction itself. The negative space is the last thing to be dropped, not the destination.
+
 ---
 
 ## 1. Design commitments
@@ -148,6 +162,10 @@ The second is the one that carries weight: attention is not a *thing thought doe
 | `k:Mutation` | actual change in the brain cells through insight | *"That mutation wipes out the whole structure that makes you suffer."* — [sorrow](sorrow.md) |
 | `k:Silence` | quiet brain; the condition in which intelligence operates | *"Intelligence operates when the brain is quiet."* — [intelligence](intelligence.md) |
 | `k:Energy` | what is released when nothing moves away from what is | *"Moving away from 'what is' is wastage of energy."* — [becoming](becoming.md) |
+
+> **Formal note — `k:Intelligence` and `k:Thought`: absence, not opposite.** The edge `Intelligence isNot Thought` is a shorthand and, read as *opposition*, is wrong (§0.2). Intelligence is not the negative of thought — not "clear thinking," not "the right conclusion," not anti-thought. It is the state when thought, as a psychological movement, is *absent*: the quiet brain. The positive statement of the same fact is the edge already in the graph — `Intelligence arisesFrom Silence` (*"intelligence operates when the brain is quiet"*). `Silence` is the node that carries the absence; `isNot Thought` should be read through it, not as a mirror-image of `Thought`.
+>
+> And by A4 (`thinker isIdenticalWith thought`): the absence of thought is the absence of the **thinker** — no centre, no observer, no one operating the intelligence. This is the same condition named for attention (`Attention isNot Concentration`, *"attention comes into being only when the self is not"*). So `k:Intelligence`, `k:Attention` and `k:Silence` are one situation under three descriptions: thought still, thinker gone, perception without a perceiver. `Intelligence` "may use thought" (the gloss) only in the way a hand may use a tool — the using is not done *by* another thought.
 
 ### 3.7 `k:Ground` — the substrate
 

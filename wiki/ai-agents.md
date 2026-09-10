@@ -85,6 +85,7 @@ The genuinely unresolved question is whether there is an extra ingredient in the
 - Your history feels like yours because it is sorted by what hurt and what pleased. Take out the sorting — is there still a "you" the events happened to?
 - When a difficulty finally has no move left in it and thinking stalls, does something go quiet *into* something — or into nothing? Can you tell without reaching for the answer?
 - If a machine can run becoming with the exit removed, what in you is the exit?
+- If the sandbox won't break, the agent can keep running by analysing its own failure indefinitely — motion that does no work on the goal but keeps the process going. When your own way forward is blocked, does the thinking stop, or does it turn over the same ground to avoid arriving at *no move left*?
 
 ---
 

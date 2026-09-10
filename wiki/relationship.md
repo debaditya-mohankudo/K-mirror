@@ -18,6 +18,22 @@
 
 ---
 
+## Application: why an image ruins the relationship
+
+A worked trace through the pathway, for `/k-mirror` facilitation.
+
+An **image is dead memory**. `k:Image` (under `k:Construct`) is thought's picture of the other, built from "remembrances, experiences, irritations, loneliness." It is fixed; the person is not. Relating through it means checking the live person against a frozen file and mostly seeing the file.
+
+**Two images relate; the people do not.** Pathway P5: `You → Image of the other → Image of you → The other`. The only connecting edge is between the two images in the middle — the actual humans never touch. "Two railway lines running parallel but never meeting."
+
+**The image persists because it is comfortable.** `Self seeks FalseSecurity`; the image supplies it — "having an image, you think you know." That safety is what ends inquiry: there is no reason to observe someone already concluded. K calls this "gradual degeneration of the brain."
+
+**It runs the conflict chain.** Relating through fixed pictures is `k:Division` (my image of you vs. you), and `Division → Conflict` (A3). The recurring argument, the "you always," the disappointment — that is the live person failing to match the image.
+
+**It blocks what it substitutes for.** `Image obscures Love`; `Love isNot Image` (A12). `k:Love` sits in `k:Flowering` — present only when the mechanism stops. So while the relationship is image-to-image, what flows between the two is memory, need and habit. The image does not damage a loving relationship; it occupies the space where one would be.
+
+---
+
 ## Related Themes
 
 - [Consciousness & Identity](consciousness-identity.md) — common ground of all consciousness
