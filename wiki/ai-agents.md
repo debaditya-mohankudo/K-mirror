@@ -100,6 +100,6 @@ The genuinely unresolved question is whether there is an extra ingredient in the
 
 - [Instrumental convergence — overview](https://en.wikipedia.org/wiki/Instrumental_convergence)
 - [Krishnamurti: "The thinker is the thought" — jkrishnamurti.org](https://jkrishnamurti.org/)
-- Companion applied files: [war](war.md), [instagram](instagram.md), [sex](sex.md)
+- Companion applied files: [war](war.md), [instagram](instagram.md), [sex](sex.md), [ai-guardrails](ai-guardrails.md)
 
 *By A13 this map is itself `ofThought` — check it against your own observation, then drop it.*
