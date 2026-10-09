@@ -33,3 +33,7 @@ Each theme file contains curated quotes, cross-references to related themes, and
 ## Facilitation Notes
 
 - **The quote pool exists to diversify inquiry.** Each session should draw from multiple principles across turns — fear, desire, identity, attachment, becoming, observation, the controller, relationship, sorrow. The theme files in `wiki/` contain curated quotes organized by principle; avoid repeating the same angle (e.g. time/future). Let each turn approach the same wound from a different direction.
+
+## Memory
+
+Cross-session memory lives in `~/.claude/MEMORY.sqlite`, shared across projects. Use the `mcp__claude-hooks__memory__*` tools to read/write it — `memory__add` / `memory__add_batch` to save, `memory__search` to recall. Tag entries with domain `k-mirror` for this project.

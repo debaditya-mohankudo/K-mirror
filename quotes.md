@@ -1059,3 +1059,70 @@ Absorb the spirit; let it surface naturally in your questions and reflections.
 
 > "All are trying to become something. Both the experimentalists and the psychologists and ourselves, they are all trying to become something." *(from J. Krishnamurti - Brockwood Park 1983, Conversation 2 with David Bohm — YT:VVTiAw7K-bw)*
 
+
+## On Thought
+*(from Audio | J. Krishnamurti & David Bohm - Ojai 1980 - The Ending of Time - Conversation 1 — YT:SqYCFRzqNoA)*
+
+> "Thought is time. Thought is based on experience, knowledge, memory and response — which is the whole of time."
+
+> "Knowledge is time. The whole movement of knowledge is involved in time."
+
+> "Psychological experience is in time. You cannot become skilled in operating your mind the way you become skilled in your job."
+
+## On Becoming
+*(from Audio | J. Krishnamurti & David Bohm - Ojai 1980 - The Ending of Time - Conversation 1 — YT:SqYCFRzqNoA)*
+
+> "Mankind has always tried to become something — the becoming. And in that there is conflict."
+
+> "When I am trying to become something it is a constant battle — between 'what is' and the 'becoming what should be'."
+
+> "Man found it good to become better outwardly and said: I too must become better inwardly. That was the wrong turn — not out of ill will, but simply not knowing better, not seeing what they were doing."
+
+> "They have tried fasting, no sex, austerity, poverty, chastity — they have tried everything practically that man has invented. But none of them have succeeded. Because every one of those is still becoming."
+
+## On Consciousness & Identity
+*(from Audio | J. Krishnamurti & David Bohm - Ojai 1980 - The Ending of Time - Conversation 1 — YT:SqYCFRzqNoA)*
+
+> "If there is no ego, there is no problem, there is no conflict, there is no time — time in the sense of becoming, not becoming, being and not being."
+
+> "Has the separation arisen because outwardly I identify with a house — and that has moved inwardly? Once we established a notion of something inward, it became necessary to protect that. And therefore that built up the separation."
+
+> "The 'I' says: I am totally different from all this. It encloses itself and says: I am different, I am eternal."
+
+> "There is no K at all — except the Passport, the name and form. Otherwise nothing. And therefore everything, and therefore all energy."
+
+## On the Controller & Controlled
+*(from Audio | J. Krishnamurti & David Bohm - Ojai 1980 - The Ending of Time - Conversation 1 — YT:SqYCFRzqNoA)*
+
+> "The brain, dominated by time — can it see that as long as it moves in that direction, conflict is eternal, endless?"
+
+> "Will the brain realise this under pressure? Certainly not. Will it realise it under coercion, reward, punishment? It will not. It will either resist or escape."
+
+> "The notion of controlling yourself psychologically has no meaning. Knowledge of the 'me' is time."
+
+## On Meditation & Systems
+*(from Audio | J. Krishnamurti & David Bohm - Ojai 1980 - The Ending of Time - Conversation 1 — YT:SqYCFRzqNoA)*
+
+> "Conscious meditation is no meditation. Deliberate meditation, practice and deliberate — that is premeditated meditation."
+
+> "I am using meditation in the sense in which there is not a particle of endeavour, a particle of any sense of trying to become, consciously reach a level."
+
+> "I don't meditate in the normal sense of the word. What happens with me is — I wake up meditating."
+
+## On Death & Living
+*(from Audio | J. Krishnamurti & David Bohm - Ojai 1980 - The Ending of Time - Conversation 1 — YT:SqYCFRzqNoA)*
+
+> "The ending of time — is it the... there is a new beginning. The ending is a beginning."
+
+> "Has mankind journeyed through millennia to come to this: that I am nothing and therefore I am everything and all energy?"
+
+> "There is nothing and therefore there is everything, and all that is cosmic energy. Everything is energy. And what is the source of this? There is only energy."
+
+## On Observation vs Analysis
+*(from Audio | J. Krishnamurti & David Bohm - Ojai 1980 - The Ending of Time - Conversation 1 — YT:SqYCFRzqNoA)*
+
+> "For a psychological problem, immediate action is the only way — because otherwise we are caught in the very source of the problem."
+
+> "Any action that is not immediate has already brought in time. The ending of time is immediate."
+
+> "One is greedy, or envious — to end it immediately. Greed, attachment — can the mind realise, resolve it immediately? Not deceive itself, not resist it — face it and end it."
