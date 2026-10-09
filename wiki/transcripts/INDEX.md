@@ -13,6 +13,9 @@ Full text transcripts of Krishnamurti talks, organized by location and year. Use
 - [Talk 6: Ending of Sorrow, Love and Compassion](transcript_Saanen_1980_Talk6_Ending_of_Sorrow_Love_and_Compassion.txt)
 - [Talk 7: Is There Anything Sacred in Life?](transcript_Saanen_1980_Talk7_Is_There_Anything_Sacred_in_Life.txt)
 
+### Ojai, 1980
+- [Krishnamurti & Bohm: The Ending of Time, Conversation 1](transcript_K_Bohm_Ojai1980_Ending_of_Time_Conversation_1.txt)
+
 ### Amsterdam, 1981
 - [Talk 1: Consciousness — Common Ground](transcript_Amsterdam_1981_Talk1_Consciousness_Common_Ground.txt)
 - [Talk 2: Religious Mind, Factual Mind](transcript_Amsterdam_1981_Talk2_Religious_Mind_Factual_Mind.txt)
